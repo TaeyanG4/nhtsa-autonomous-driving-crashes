@@ -1,0 +1,6131 @@
+{
+  "generated_at": "2026-09-11T03:13:21.991336+00:00",
+  "catalog_observed_at": "2026-09-11T11:43:00+09:00",
+  "files": [
+    {
+      "key": "current_ads",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv",
+      "path": "data\\raw\\pilot\\current\\SGO-2021-01_Incident_Reports_ADS.csv",
+      "downloaded": false,
+      "bytes": 2373483,
+      "sha256": "4ed828b28104b54307a38baf786df7bc6313c768694a31ee4bbe022fb369fe21"
+    },
+    {
+      "key": "current_adas",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv",
+      "path": "data\\raw\\pilot\\current\\SGO-2021-01_Incident_Reports_ADAS.csv",
+      "downloaded": false,
+      "bytes": 1937320,
+      "sha256": "936d551fa80ee2d83dbe7205b27f262250deab0e1467bba05b00d4315bd48f16"
+    },
+    {
+      "key": "current_other",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv",
+      "path": "data\\raw\\pilot\\current\\SGO-2021-01_Incident_Reports_OTHER.csv",
+      "downloaded": false,
+      "bytes": 26931,
+      "sha256": "d64c1a2037acaa5d8b63152c81e5093e0e02a308d651643865ff703c1ce11733"
+    },
+    {
+      "key": "archive_ads",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_ADS.csv",
+      "path": "data\\raw\\pilot\\archive\\SGO-2021-01_Incident_Reports_ADS.csv",
+      "downloaded": false,
+      "bytes": 3943732,
+      "sha256": "cb2b38a21e2ce5c2337dfa0cffe8d6fce5e422cf93fe4c78942eec5cf72f41ba"
+    },
+    {
+      "key": "archive_adas",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_ADAS.csv",
+      "path": "data\\raw\\pilot\\archive\\SGO-2021-01_Incident_Reports_ADAS.csv",
+      "downloaded": false,
+      "bytes": 4092534,
+      "sha256": "99579d4c9add8f2fd0adfcff9199210fee8aaf9cbaf64347fd7adbb4446b6f5e"
+    },
+    {
+      "key": "archive_other",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_OTHER.csv",
+      "path": "data\\raw\\pilot\\archive\\SGO-2021-01_Incident_Reports_OTHER.csv",
+      "downloaded": false,
+      "bytes": 1155114,
+      "sha256": "2464171f22671aa52047ed2e32a3442801ac85d4409f692acea3bf8c6c250899"
+    },
+    {
+      "key": "current_dictionary",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf",
+      "path": "data\\raw\\pilot\\current\\SGO-2021-01_Data_Element_Definitions.pdf",
+      "downloaded": false,
+      "bytes": 528465,
+      "sha256": "2a2373cfc69e11965a51fcfefcc28a3ffb0020804238958711548f1009557d98"
+    },
+    {
+      "key": "archive_dictionary",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Data_Element_Definitions.pdf",
+      "path": "data\\raw\\pilot\\archive\\SGO-2021-01_Data_Element_Definitions.pdf",
+      "downloaded": false,
+      "bytes": 418733,
+      "sha256": "df7569df7b7259a9bd59e3335d6929c15e46619cf80aaee2a33a253e727dedbc"
+    }
+  ],
+  "csv_profiles": [
+    {
+      "key": "current_ads",
+      "regime": "third_amended_sgo",
+      "bucket": "ADS",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv",
+      "path": "data\\raw\\pilot\\current\\SGO-2021-01_Incident_Reports_ADS.csv",
+      "bytes": 2373483,
+      "sha256": "4ed828b28104b54307a38baf786df7bc6313c768694a31ee4bbe022fb369fe21",
+      "rows": 1365,
+      "columns": 116,
+      "column_names": [
+        "Report ID",
+        "Report Version",
+        "Reporting Entity",
+        "Report Type",
+        "Report Month",
+        "Report Year",
+        "Report Submission Date",
+        "VIN",
+        "VIN Decoded",
+        "Serial Number",
+        "Make",
+        "Make - Unknown",
+        "Model",
+        "Model - Unknown",
+        "Model Year",
+        "Model Year - Unknown",
+        "Same Vehicle ID",
+        "Driver / Operator Type",
+        "Automation Feature Version",
+        "Automation Feature Version CBI",
+        "Automation System Engaged?",
+        "Engagement Status",
+        "Operating Entity",
+        "Operating Entity - Unknown",
+        "Source - Complaint/Claim",
+        "Source - Telematics",
+        "Source - Law Enforcement",
+        "Source - Field Report",
+        "Source - Testing",
+        "Source - Media",
+        "Source - Internal Process Review",
+        "Source - NHTSA VOQ",
+        "Source - Other - See Narrative",
+        "Source - Other Entity",
+        "Source - State or Other Agency",
+        "Incident Date",
+        "Incident Date - Unknown",
+        "Incident Time (24:00)",
+        "Incident Time - Unknown",
+        "Same Incident ID",
+        "Latitude",
+        "Latitude - Unknown",
+        "Longitude",
+        "Longitude - Unknown",
+        "Address",
+        "Address - Unknown",
+        "City",
+        "City - Unknown",
+        "State",
+        "Zip Code",
+        "Zip Code - Unknown",
+        "Roadway Type",
+        "Roadway-Degraded Surface",
+        "Roadway-Missing/Degraded Marking",
+        "Roadway-No Unusual Conditions",
+        "Roadway-Other-See Narrative",
+        "Roadway-Traffic Incident",
+        "Roadway-Unknown",
+        "Roadway-Wet Surface Condition",
+        "Roadway-Work Zone",
+        "Weather - Clear",
+        "Weather - Snow",
+        "Weather - Cloudy",
+        "Weather - Partly Cloudy",
+        "Weather - Fog/Smoke/Haze",
+        "Weather - Rain",
+        "Weather - Severe Wind",
+        "Weather - Dust Storm",
+        "Weather - Severe Hurricane",
+        "Weather - Structure-Indoor",
+        "Weather - Unk - See Narrative",
+        "Crash With",
+        "Highest Injury Severity Alleged",
+        "CP Pre-Crash Movement",
+        "CP Contact Area - Rear Left",
+        "CP Contact Area - Left",
+        "CP Contact Area - Front Left",
+        "CP Contact Area - Rear",
+        "CP Contact Area - Top",
+        "CP Contact Area - Front",
+        "CP Contact Area - Rear Right",
+        "CP Contact Area - Right",
+        "CP Contact Area - Front Right",
+        "CP Contact Area - Bottom",
+        "CP Contact Area - Unknown",
+        "SV Pre-Crash Movement",
+        "Any Air Bags Deployed?",
+        "Was Any Vehicle Towed?",
+        "Were All Passengers Belted?",
+        "SV Precrash Speed (MPH)",
+        "SV Pre-crash Speed - Unknown",
+        "SV Contact Area - Rear Left",
+        "SV Contact Area - Left",
+        "SV Contact Area - Front Left",
+        "SV Contact Area - Rear",
+        "SV Contact Area - Top",
+        "SV Contact Area - Front",
+        "SV Contact Area - Rear Right",
+        "SV Contact Area - Right",
+        "SV Contact Area - Front Right",
+        "SV Contact Area - Bottom",
+        "SV Contact Area - Unknown",
+        "Data Availability - EDR",
+        "Data Availability - Police Rpt",
+        "Data Availability - Telematics",
+        "Data Availability - Complaints",
+        "Data Availability - Video",
+        "Data Availability - Other",
+        "Data Availability - No Data",
+        "Data Availability - Unknown",
+        "Investigating Agency",
+        "Investigating Agency - Unknown",
+        "Within ODD?",
+        "Within ODD? - CBI",
+        "Narrative",
+        "Narrative - CBI?"
+      ],
+      "date_range": {
+        "date_col": "Incident Date",
+        "min": "2025-04",
+        "max": "2026-07",
+        "valid_values": 1365,
+        "invalid_or_blank": 0
+      },
+      "report_id_col": "Report ID",
+      "report_version_col": "Report Version",
+      "same_incident_id_col": "Same Incident ID",
+      "same_vehicle_id_col": "Same Vehicle ID",
+      "exact_duplicate_rows": 0,
+      "report_versions": {
+        "unique_report_ids": 1324,
+        "rows_with_duplicate_report_id": 74,
+        "report_ids_with_multiple_versions": 33,
+        "max_report_version": 5,
+        "report_ids_where_row_count_differs_from_max_version": 0
+      },
+      "same_incident": {
+        "nonblank_rows": 1365,
+        "unique_nonblank": 1325,
+        "ids_with_multiple_rows": 31,
+        "rows_in_multirow_ids": 71
+      },
+      "narrative": {
+        "available_rows": 1365,
+        "available_pct": 100.0,
+        "median_chars_nonblank": 928.0,
+        "max_chars": 2182
+      },
+      "missingness": {
+        "Report ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Version": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Reporting Entity": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Month": {
+          "blank": 726,
+          "blank_pct": 53.187,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Year": {
+          "blank": 726,
+          "blank_pct": 53.187,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Submission Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN Decoded": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Serial Number": {
+          "blank": 312,
+          "blank_pct": 22.857,
+          "unknown": 0,
+          "redacted": 1052
+        },
+        "Make": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Make - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Vehicle ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Driver / Operator Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Automation Feature Version": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 51
+        },
+        "Automation Feature Version CBI": {
+          "blank": 1314,
+          "blank_pct": 96.264,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Automation System Engaged?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Engagement Status": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Complaint/Claim": {
+          "blank": 1357,
+          "blank_pct": 99.414,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Telematics": {
+          "blank": 153,
+          "blank_pct": 11.209,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Law Enforcement": {
+          "blank": 1360,
+          "blank_pct": 99.634,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Field Report": {
+          "blank": 1140,
+          "blank_pct": 83.516,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Testing": {
+          "blank": 1294,
+          "blank_pct": 94.799,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Media": {
+          "blank": 1364,
+          "blank_pct": 99.927,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Internal Process Review": {
+          "blank": 1357,
+          "blank_pct": 99.414,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - NHTSA VOQ": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other - See Narrative": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other Entity": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - State or Other Agency": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time (24:00)": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Incident ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Latitude": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 1365
+        },
+        "Latitude - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Longitude": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 1365
+        },
+        "Longitude - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Address": {
+          "blank": 202,
+          "blank_pct": 14.799,
+          "unknown": 0,
+          "redacted": 1163
+        },
+        "Address - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City": {
+          "blank": 3,
+          "blank_pct": 0.22,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State": {
+          "blank": 2,
+          "blank_pct": 0.147,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Zip Code": {
+          "blank": 202,
+          "blank_pct": 14.799,
+          "unknown": 0,
+          "redacted": 1163
+        },
+        "Zip Code - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1,
+          "redacted": 0
+        },
+        "Roadway-Degraded Surface": {
+          "blank": 1355,
+          "blank_pct": 99.267,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Missing/Degraded Marking": {
+          "blank": 1364,
+          "blank_pct": 99.927,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-No Unusual Conditions": {
+          "blank": 98,
+          "blank_pct": 7.179,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Other-See Narrative": {
+          "blank": 1336,
+          "blank_pct": 97.875,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Traffic Incident": {
+          "blank": 1360,
+          "blank_pct": 99.634,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Wet Surface Condition": {
+          "blank": 1332,
+          "blank_pct": 97.582,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Work Zone": {
+          "blank": 1338,
+          "blank_pct": 98.022,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Clear": {
+          "blank": 352,
+          "blank_pct": 25.788,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Snow": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Cloudy": {
+          "blank": 1178,
+          "blank_pct": 86.3,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Partly Cloudy": {
+          "blank": 1248,
+          "blank_pct": 91.429,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Fog/Smoke/Haze": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Rain": {
+          "blank": 1308,
+          "blank_pct": 95.824,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Wind": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Dust Storm": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Hurricane": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Structure-Indoor": {
+          "blank": 1363,
+          "blank_pct": 99.853,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Unk - See Narrative": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Crash With": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Highest Injury Severity Alleged": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 23,
+          "redacted": 0
+        },
+        "CP Pre-Crash Movement": {
+          "blank": 70,
+          "blank_pct": 5.128,
+          "unknown": 1,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Left": {
+          "blank": 1318,
+          "blank_pct": 96.557,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Left": {
+          "blank": 1251,
+          "blank_pct": 91.648,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Left": {
+          "blank": 1180,
+          "blank_pct": 86.447,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear": {
+          "blank": 1303,
+          "blank_pct": 95.458,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Top": {
+          "blank": 1364,
+          "blank_pct": 99.927,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front": {
+          "blank": 1215,
+          "blank_pct": 89.011,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Right": {
+          "blank": 1250,
+          "blank_pct": 91.575,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Right": {
+          "blank": 1201,
+          "blank_pct": 87.985,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Right": {
+          "blank": 986,
+          "blank_pct": 72.234,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Bottom": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Unknown": {
+          "blank": 1266,
+          "blank_pct": 92.747,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-Crash Movement": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1,
+          "redacted": 0
+        },
+        "Any Air Bags Deployed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Was Any Vehicle Towed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Were All Passengers Belted?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 10,
+          "redacted": 0
+        },
+        "SV Precrash Speed (MPH)": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-crash Speed - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Left": {
+          "blank": 1249,
+          "blank_pct": 91.502,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Left": {
+          "blank": 1234,
+          "blank_pct": 90.403,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Left": {
+          "blank": 1264,
+          "blank_pct": 92.601,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear": {
+          "blank": 1064,
+          "blank_pct": 77.949,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Top": {
+          "blank": 1358,
+          "blank_pct": 99.487,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front": {
+          "blank": 1225,
+          "blank_pct": 89.744,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Right": {
+          "blank": 1039,
+          "blank_pct": 76.117,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Right": {
+          "blank": 1262,
+          "blank_pct": 92.454,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Right": {
+          "blank": 1206,
+          "blank_pct": 88.352,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Bottom": {
+          "blank": 1303,
+          "blank_pct": 95.458,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Unknown": {
+          "blank": 1355,
+          "blank_pct": 99.267,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - EDR": {
+          "blank": 1360,
+          "blank_pct": 99.634,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Police Rpt": {
+          "blank": 1337,
+          "blank_pct": 97.949,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Telematics": {
+          "blank": 64,
+          "blank_pct": 4.689,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Complaints": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Video": {
+          "blank": 10,
+          "blank_pct": 0.733,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Other": {
+          "blank": 1315,
+          "blank_pct": 96.337,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - No Data": {
+          "blank": 1364,
+          "blank_pct": 99.927,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Unknown": {
+          "blank": 1365,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency": {
+          "blank": 17,
+          "blank_pct": 1.245,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency - Unknown": {
+          "blank": 1348,
+          "blank_pct": 98.755,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Within ODD?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 30
+        },
+        "Within ODD? - CBI": {
+          "blank": 1335,
+          "blank_pct": 97.802,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Narrative": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 1324
+        },
+        "Narrative - CBI?": {
+          "blank": 1340,
+          "blank_pct": 98.168,
+          "unknown": 0,
+          "redacted": 0
+        }
+      },
+      "parse_seconds": 0.18
+    },
+    {
+      "key": "current_adas",
+      "regime": "third_amended_sgo",
+      "bucket": "Level 2 ADAS",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv",
+      "path": "data\\raw\\pilot\\current\\SGO-2021-01_Incident_Reports_ADAS.csv",
+      "bytes": 1937320,
+      "sha256": "936d551fa80ee2d83dbe7205b27f262250deab0e1467bba05b00d4315bd48f16",
+      "rows": 2024,
+      "columns": 116,
+      "column_names": [
+        "Report ID",
+        "Report Version",
+        "Reporting Entity",
+        "Report Type",
+        "Report Month",
+        "Report Year",
+        "Report Submission Date",
+        "VIN",
+        "VIN Decoded",
+        "Serial Number",
+        "Make",
+        "Make - Unknown",
+        "Model",
+        "Model - Unknown",
+        "Model Year",
+        "Model Year - Unknown",
+        "Same Vehicle ID",
+        "Driver / Operator Type",
+        "Automation Feature Version",
+        "Automation Feature Version CBI",
+        "Automation System Engaged?",
+        "Engagement Status",
+        "Operating Entity",
+        "Operating Entity - Unknown",
+        "Source - Complaint/Claim",
+        "Source - Telematics",
+        "Source - Law Enforcement",
+        "Source - Field Report",
+        "Source - Testing",
+        "Source - Media",
+        "Source - Internal Process Review",
+        "Source - NHTSA VOQ",
+        "Source - Other - See Narrative",
+        "Source - Other Entity",
+        "Source - State or Other Agency",
+        "Incident Date",
+        "Incident Date - Unknown",
+        "Incident Time (24:00)",
+        "Incident Time - Unknown",
+        "Same Incident ID",
+        "Latitude",
+        "Latitude - Unknown",
+        "Longitude",
+        "Longitude - Unknown",
+        "Address",
+        "Address - Unknown",
+        "City",
+        "City - Unknown",
+        "State",
+        "Zip Code",
+        "Zip Code - Unknown",
+        "Roadway Type",
+        "Roadway-Degraded Surface",
+        "Roadway-Missing/Degraded Marking",
+        "Roadway-No Unusual Conditions",
+        "Roadway-Other-See Narrative",
+        "Roadway-Traffic Incident",
+        "Roadway-Unknown",
+        "Roadway-Wet Surface Condition",
+        "Roadway-Work Zone",
+        "Weather - Clear",
+        "Weather - Snow",
+        "Weather - Cloudy",
+        "Weather - Partly Cloudy",
+        "Weather - Fog/Smoke/Haze",
+        "Weather - Rain",
+        "Weather - Severe Wind",
+        "Weather - Dust Storm",
+        "Weather - Severe Hurricane",
+        "Weather - Structure-Indoor",
+        "Weather - Unk - See Narrative",
+        "Crash With",
+        "Highest Injury Severity Alleged",
+        "CP Pre-Crash Movement",
+        "CP Contact Area - Rear Left",
+        "CP Contact Area - Left",
+        "CP Contact Area - Front Left",
+        "CP Contact Area - Rear",
+        "CP Contact Area - Top",
+        "CP Contact Area - Front",
+        "CP Contact Area - Rear Right",
+        "CP Contact Area - Right",
+        "CP Contact Area - Front Right",
+        "CP Contact Area - Bottom",
+        "CP Contact Area - Unknown",
+        "SV Pre-Crash Movement",
+        "Any Air Bags Deployed?",
+        "Was Any Vehicle Towed?",
+        "Were All Passengers Belted?",
+        "SV Precrash Speed (MPH)",
+        "SV Pre-crash Speed - Unknown",
+        "SV Contact Area - Rear Left",
+        "SV Contact Area - Left",
+        "SV Contact Area - Front Left",
+        "SV Contact Area - Rear",
+        "SV Contact Area - Top",
+        "SV Contact Area - Front",
+        "SV Contact Area - Rear Right",
+        "SV Contact Area - Right",
+        "SV Contact Area - Front Right",
+        "SV Contact Area - Bottom",
+        "SV Contact Area - Unknown",
+        "Data Availability - EDR",
+        "Data Availability - Police Rpt",
+        "Data Availability - Telematics",
+        "Data Availability - Complaints",
+        "Data Availability - Video",
+        "Data Availability - Other",
+        "Data Availability - No Data",
+        "Data Availability - Unknown",
+        "Investigating Agency",
+        "Investigating Agency - Unknown",
+        "Within ODD?",
+        "Within ODD? - CBI",
+        "Narrative",
+        "Narrative - CBI?"
+      ],
+      "date_range": {
+        "date_col": "Incident Date",
+        "min": "2023-01",
+        "max": "2026-07",
+        "valid_values": 2023,
+        "invalid_or_blank": 1
+      },
+      "report_id_col": "Report ID",
+      "report_version_col": "Report Version",
+      "same_incident_id_col": "Same Incident ID",
+      "same_vehicle_id_col": "Same Vehicle ID",
+      "exact_duplicate_rows": 0,
+      "report_versions": {
+        "unique_report_ids": 1915,
+        "rows_with_duplicate_report_id": 204,
+        "report_ids_with_multiple_versions": 95,
+        "max_report_version": 5,
+        "report_ids_where_row_count_differs_from_max_version": 36
+      },
+      "same_incident": {
+        "nonblank_rows": 2023,
+        "unique_nonblank": 1914,
+        "ids_with_multiple_rows": 96,
+        "rows_in_multirow_ids": 205
+      },
+      "narrative": {
+        "available_rows": 2023,
+        "available_pct": 99.951,
+        "median_chars_nonblank": 57.0,
+        "max_chars": 3598
+      },
+      "missingness": {
+        "Report ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Version": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Reporting Entity": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Month": {
+          "blank": 2020,
+          "blank_pct": 99.802,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Year": {
+          "blank": 2020,
+          "blank_pct": 99.802,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Submission Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN Decoded": {
+          "blank": 1,
+          "blank_pct": 0.049,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Serial Number": {
+          "blank": 504,
+          "blank_pct": 24.901,
+          "unknown": 0,
+          "redacted": 1519
+        },
+        "Make": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Make - Unknown": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model - Unknown": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year - Unknown": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Vehicle ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Driver / Operator Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 3,
+          "redacted": 0
+        },
+        "Automation Feature Version": {
+          "blank": 65,
+          "blank_pct": 3.211,
+          "unknown": 8,
+          "redacted": 1710
+        },
+        "Automation Feature Version CBI": {
+          "blank": 249,
+          "blank_pct": 12.302,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Automation System Engaged?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 3,
+          "redacted": 0
+        },
+        "Engagement Status": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity": {
+          "blank": 1987,
+          "blank_pct": 98.172,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity - Unknown": {
+          "blank": 2020,
+          "blank_pct": 99.802,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Complaint/Claim": {
+          "blank": 1893,
+          "blank_pct": 93.528,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Telematics": {
+          "blank": 284,
+          "blank_pct": 14.032,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Law Enforcement": {
+          "blank": 2017,
+          "blank_pct": 99.654,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Field Report": {
+          "blank": 1983,
+          "blank_pct": 97.974,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Testing": {
+          "blank": 2009,
+          "blank_pct": 99.259,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Media": {
+          "blank": 1989,
+          "blank_pct": 98.271,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Internal Process Review": {
+          "blank": 2013,
+          "blank_pct": 99.457,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - NHTSA VOQ": {
+          "blank": 2015,
+          "blank_pct": 99.555,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other - See Narrative": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other Entity": {
+          "blank": 1933,
+          "blank_pct": 95.504,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - State or Other Agency": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date": {
+          "blank": 1,
+          "blank_pct": 0.049,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date - Unknown": {
+          "blank": 2023,
+          "blank_pct": 99.951,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time (24:00)": {
+          "blank": 11,
+          "blank_pct": 0.543,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time - Unknown": {
+          "blank": 2013,
+          "blank_pct": 99.457,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Incident ID": {
+          "blank": 1,
+          "blank_pct": 0.049,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Latitude": {
+          "blank": 121,
+          "blank_pct": 5.978,
+          "unknown": 0,
+          "redacted": 1903
+        },
+        "Latitude - Unknown": {
+          "blank": 1905,
+          "blank_pct": 94.121,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Longitude": {
+          "blank": 121,
+          "blank_pct": 5.978,
+          "unknown": 0,
+          "redacted": 1903
+        },
+        "Longitude - Unknown": {
+          "blank": 1905,
+          "blank_pct": 94.121,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Address": {
+          "blank": 303,
+          "blank_pct": 14.97,
+          "unknown": 0,
+          "redacted": 1721
+        },
+        "Address - Unknown": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City": {
+          "blank": 91,
+          "blank_pct": 4.496,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City - Unknown": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State": {
+          "blank": 35,
+          "blank_pct": 1.729,
+          "unknown": 7,
+          "redacted": 0
+        },
+        "Zip Code": {
+          "blank": 297,
+          "blank_pct": 14.674,
+          "unknown": 0,
+          "redacted": 1727
+        },
+        "Zip Code - Unknown": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 739,
+          "redacted": 0
+        },
+        "Roadway-Degraded Surface": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Missing/Degraded Marking": {
+          "blank": 2023,
+          "blank_pct": 99.951,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-No Unusual Conditions": {
+          "blank": 1284,
+          "blank_pct": 63.439,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Other-See Narrative": {
+          "blank": 1982,
+          "blank_pct": 97.925,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Traffic Incident": {
+          "blank": 1978,
+          "blank_pct": 97.727,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Unknown": {
+          "blank": 982,
+          "blank_pct": 48.518,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Wet Surface Condition": {
+          "blank": 1865,
+          "blank_pct": 92.144,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Work Zone": {
+          "blank": 2006,
+          "blank_pct": 99.111,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Clear": {
+          "blank": 1346,
+          "blank_pct": 66.502,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Snow": {
+          "blank": 2020,
+          "blank_pct": 99.802,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Cloudy": {
+          "blank": 1544,
+          "blank_pct": 76.285,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Partly Cloudy": {
+          "blank": 1976,
+          "blank_pct": 97.628,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Fog/Smoke/Haze": {
+          "blank": 2015,
+          "blank_pct": 99.555,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Rain": {
+          "blank": 1877,
+          "blank_pct": 92.737,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Wind": {
+          "blank": 2022,
+          "blank_pct": 99.901,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Dust Storm": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Hurricane": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Structure-Indoor": {
+          "blank": 2024,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Unk - See Narrative": {
+          "blank": 1254,
+          "blank_pct": 61.957,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Crash With": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1019,
+          "redacted": 0
+        },
+        "Highest Injury Severity Alleged": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1780,
+          "redacted": 0
+        },
+        "CP Pre-Crash Movement": {
+          "blank": 375,
+          "blank_pct": 18.528,
+          "unknown": 1116,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Left": {
+          "blank": 1938,
+          "blank_pct": 95.751,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Left": {
+          "blank": 1946,
+          "blank_pct": 96.146,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Left": {
+          "blank": 1856,
+          "blank_pct": 91.7,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear": {
+          "blank": 1925,
+          "blank_pct": 95.109,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Top": {
+          "blank": 2023,
+          "blank_pct": 99.951,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front": {
+          "blank": 1829,
+          "blank_pct": 90.366,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Right": {
+          "blank": 1936,
+          "blank_pct": 95.652,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Right": {
+          "blank": 1959,
+          "blank_pct": 96.789,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Right": {
+          "blank": 1866,
+          "blank_pct": 92.194,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Bottom": {
+          "blank": 2020,
+          "blank_pct": 99.802,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Unknown": {
+          "blank": 892,
+          "blank_pct": 44.071,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-Crash Movement": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1024,
+          "redacted": 0
+        },
+        "Any Air Bags Deployed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 13,
+          "redacted": 0
+        },
+        "Was Any Vehicle Towed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1796,
+          "redacted": 0
+        },
+        "Were All Passengers Belted?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1765,
+          "redacted": 0
+        },
+        "SV Precrash Speed (MPH)": {
+          "blank": 248,
+          "blank_pct": 12.253,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-crash Speed - Unknown": {
+          "blank": 1776,
+          "blank_pct": 87.747,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Left": {
+          "blank": 1892,
+          "blank_pct": 93.478,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Left": {
+          "blank": 1796,
+          "blank_pct": 88.735,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Left": {
+          "blank": 1619,
+          "blank_pct": 79.99,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear": {
+          "blank": 1834,
+          "blank_pct": 90.613,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Top": {
+          "blank": 1984,
+          "blank_pct": 98.024,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front": {
+          "blank": 1494,
+          "blank_pct": 73.814,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Right": {
+          "blank": 1950,
+          "blank_pct": 96.344,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Right": {
+          "blank": 1893,
+          "blank_pct": 93.528,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Right": {
+          "blank": 1503,
+          "blank_pct": 74.259,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Bottom": {
+          "blank": 1961,
+          "blank_pct": 96.887,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Unknown": {
+          "blank": 1014,
+          "blank_pct": 50.099,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - EDR": {
+          "blank": 304,
+          "blank_pct": 15.02,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Police Rpt": {
+          "blank": 1968,
+          "blank_pct": 97.233,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Telematics": {
+          "blank": 233,
+          "blank_pct": 11.512,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Complaints": {
+          "blank": 1927,
+          "blank_pct": 95.208,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Video": {
+          "blank": 970,
+          "blank_pct": 47.925,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Other": {
+          "blank": 203,
+          "blank_pct": 10.03,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - No Data": {
+          "blank": 2023,
+          "blank_pct": 99.951,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Unknown": {
+          "blank": 2013,
+          "blank_pct": 99.457,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency": {
+          "blank": 1932,
+          "blank_pct": 95.455,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency - Unknown": {
+          "blank": 92,
+          "blank_pct": 4.545,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Within ODD?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 66,
+          "redacted": 1781
+        },
+        "Within ODD? - CBI": {
+          "blank": 243,
+          "blank_pct": 12.006,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Narrative": {
+          "blank": 1,
+          "blank_pct": 0.049,
+          "unknown": 0,
+          "redacted": 2009
+        },
+        "Narrative - CBI?": {
+          "blank": 236,
+          "blank_pct": 11.66,
+          "unknown": 0,
+          "redacted": 0
+        }
+      },
+      "parse_seconds": 0.197
+    },
+    {
+      "key": "current_other",
+      "regime": "third_amended_sgo",
+      "bucket": "Other / Unknown",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv",
+      "path": "data\\raw\\pilot\\current\\SGO-2021-01_Incident_Reports_OTHER.csv",
+      "bytes": 26931,
+      "sha256": "d64c1a2037acaa5d8b63152c81e5093e0e02a308d651643865ff703c1ce11733",
+      "rows": 24,
+      "columns": 116,
+      "column_names": [
+        "Report ID",
+        "Report Version",
+        "Reporting Entity",
+        "Report Type",
+        "Report Month",
+        "Report Year",
+        "Report Submission Date",
+        "VIN",
+        "VIN Decoded",
+        "Serial Number",
+        "Make",
+        "Make - Unknown",
+        "Model",
+        "Model - Unknown",
+        "Model Year",
+        "Model Year - Unknown",
+        "Same Vehicle ID",
+        "Driver / Operator Type",
+        "Automation Feature Version",
+        "Automation Feature Version CBI",
+        "Automation System Engaged?",
+        "Engagement Status",
+        "Operating Entity",
+        "Operating Entity - Unknown",
+        "Source - Complaint/Claim",
+        "Source - Telematics",
+        "Source - Law Enforcement",
+        "Source - Field Report",
+        "Source - Testing",
+        "Source - Media",
+        "Source - Internal Process Review",
+        "Source - NHTSA VOQ",
+        "Source - Other - See Narrative",
+        "Source - Other Entity",
+        "Source - State or Other Agency",
+        "Incident Date",
+        "Incident Date - Unknown",
+        "Incident Time (24:00)",
+        "Incident Time - Unknown",
+        "Same Incident ID",
+        "Latitude",
+        "Latitude - Unknown",
+        "Longitude",
+        "Longitude - Unknown",
+        "Address",
+        "Address - Unknown",
+        "City",
+        "City - Unknown",
+        "State",
+        "Zip Code",
+        "Zip Code - Unknown",
+        "Roadway Type",
+        "Roadway-Degraded Surface",
+        "Roadway-Missing/Degraded Marking",
+        "Roadway-No Unusual Conditions",
+        "Roadway-Other-See Narrative",
+        "Roadway-Traffic Incident",
+        "Roadway-Unknown",
+        "Roadway-Wet Surface Condition",
+        "Roadway-Work Zone",
+        "Weather - Clear",
+        "Weather - Snow",
+        "Weather - Cloudy",
+        "Weather - Partly Cloudy",
+        "Weather - Fog/Smoke/Haze",
+        "Weather - Rain",
+        "Weather - Severe Wind",
+        "Weather - Dust Storm",
+        "Weather - Severe Hurricane",
+        "Weather - Structure-Indoor",
+        "Weather - Unk - See Narrative",
+        "Crash With",
+        "Highest Injury Severity Alleged",
+        "CP Pre-Crash Movement",
+        "CP Contact Area - Rear Left",
+        "CP Contact Area - Left",
+        "CP Contact Area - Front Left",
+        "CP Contact Area - Rear",
+        "CP Contact Area - Top",
+        "CP Contact Area - Front",
+        "CP Contact Area - Rear Right",
+        "CP Contact Area - Right",
+        "CP Contact Area - Front Right",
+        "CP Contact Area - Bottom",
+        "CP Contact Area - Unknown",
+        "SV Pre-Crash Movement",
+        "Any Air Bags Deployed?",
+        "Was Any Vehicle Towed?",
+        "Were All Passengers Belted?",
+        "SV Precrash Speed (MPH)",
+        "SV Pre-crash Speed - Unknown",
+        "SV Contact Area - Rear Left",
+        "SV Contact Area - Left",
+        "SV Contact Area - Front Left",
+        "SV Contact Area - Rear",
+        "SV Contact Area - Top",
+        "SV Contact Area - Front",
+        "SV Contact Area - Rear Right",
+        "SV Contact Area - Right",
+        "SV Contact Area - Front Right",
+        "SV Contact Area - Bottom",
+        "SV Contact Area - Unknown",
+        "Data Availability - EDR",
+        "Data Availability - Police Rpt",
+        "Data Availability - Telematics",
+        "Data Availability - Complaints",
+        "Data Availability - Video",
+        "Data Availability - Other",
+        "Data Availability - No Data",
+        "Data Availability - Unknown",
+        "Investigating Agency",
+        "Investigating Agency - Unknown",
+        "Within ODD?",
+        "Within ODD? - CBI",
+        "Narrative",
+        "Narrative - CBI?"
+      ],
+      "date_range": {
+        "date_col": "Incident Date",
+        "min": "2023-10",
+        "max": "2026-06",
+        "valid_values": 24,
+        "invalid_or_blank": 0
+      },
+      "report_id_col": "Report ID",
+      "report_version_col": "Report Version",
+      "same_incident_id_col": "Same Incident ID",
+      "same_vehicle_id_col": "Same Vehicle ID",
+      "exact_duplicate_rows": 0,
+      "report_versions": {
+        "unique_report_ids": 24,
+        "rows_with_duplicate_report_id": 0,
+        "report_ids_with_multiple_versions": 0,
+        "max_report_version": 2,
+        "report_ids_where_row_count_differs_from_max_version": 2
+      },
+      "same_incident": {
+        "nonblank_rows": 24,
+        "unique_nonblank": 24,
+        "ids_with_multiple_rows": 0,
+        "rows_in_multirow_ids": 0
+      },
+      "narrative": {
+        "available_rows": 24,
+        "available_pct": 100.0,
+        "median_chars_nonblank": 57.0,
+        "max_chars": 2667
+      },
+      "missingness": {
+        "Report ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Version": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Reporting Entity": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Month": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Year": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Submission Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN Decoded": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Serial Number": {
+          "blank": 8,
+          "blank_pct": 33.333,
+          "unknown": 0,
+          "redacted": 16
+        },
+        "Make": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Make - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Vehicle ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Driver / Operator Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Automation Feature Version": {
+          "blank": 3,
+          "blank_pct": 12.5,
+          "unknown": 0,
+          "redacted": 19
+        },
+        "Automation Feature Version CBI": {
+          "blank": 2,
+          "blank_pct": 8.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Automation System Engaged?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 24,
+          "redacted": 0
+        },
+        "Engagement Status": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Complaint/Claim": {
+          "blank": 8,
+          "blank_pct": 33.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Telematics": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Law Enforcement": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Field Report": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Testing": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Media": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Internal Process Review": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - NHTSA VOQ": {
+          "blank": 17,
+          "blank_pct": 70.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other - See Narrative": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other Entity": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - State or Other Agency": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time (24:00)": {
+          "blank": 2,
+          "blank_pct": 8.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time - Unknown": {
+          "blank": 22,
+          "blank_pct": 91.667,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Incident ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Latitude": {
+          "blank": 4,
+          "blank_pct": 16.667,
+          "unknown": 0,
+          "redacted": 20
+        },
+        "Latitude - Unknown": {
+          "blank": 20,
+          "blank_pct": 83.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Longitude": {
+          "blank": 4,
+          "blank_pct": 16.667,
+          "unknown": 0,
+          "redacted": 20
+        },
+        "Longitude - Unknown": {
+          "blank": 20,
+          "blank_pct": 83.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Address": {
+          "blank": 2,
+          "blank_pct": 8.333,
+          "unknown": 0,
+          "redacted": 22
+        },
+        "Address - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City": {
+          "blank": 2,
+          "blank_pct": 8.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State": {
+          "blank": 2,
+          "blank_pct": 8.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Zip Code": {
+          "blank": 2,
+          "blank_pct": 8.333,
+          "unknown": 0,
+          "redacted": 22
+        },
+        "Zip Code - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 4,
+          "redacted": 0
+        },
+        "Roadway-Degraded Surface": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Missing/Degraded Marking": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-No Unusual Conditions": {
+          "blank": 12,
+          "blank_pct": 50.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Other-See Narrative": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Traffic Incident": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Unknown": {
+          "blank": 17,
+          "blank_pct": 70.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Wet Surface Condition": {
+          "blank": 20,
+          "blank_pct": 83.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway-Work Zone": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Clear": {
+          "blank": 15,
+          "blank_pct": 62.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Snow": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Cloudy": {
+          "blank": 14,
+          "blank_pct": 58.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Partly Cloudy": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Fog/Smoke/Haze": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Rain": {
+          "blank": 19,
+          "blank_pct": 79.167,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Wind": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Dust Storm": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Hurricane": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Structure-Indoor": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Unk - See Narrative": {
+          "blank": 20,
+          "blank_pct": 83.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Crash With": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 6,
+          "redacted": 0
+        },
+        "Highest Injury Severity Alleged": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 14,
+          "redacted": 0
+        },
+        "CP Pre-Crash Movement": {
+          "blank": 6,
+          "blank_pct": 25.0,
+          "unknown": 9,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Left": {
+          "blank": 21,
+          "blank_pct": 87.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Left": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Left": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear": {
+          "blank": 21,
+          "blank_pct": 87.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Top": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front": {
+          "blank": 21,
+          "blank_pct": 87.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Right": {
+          "blank": 21,
+          "blank_pct": 87.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Right": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Right": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Bottom": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Unknown": {
+          "blank": 17,
+          "blank_pct": 70.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-Crash Movement": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 8,
+          "redacted": 0
+        },
+        "Any Air Bags Deployed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 2,
+          "redacted": 0
+        },
+        "Was Any Vehicle Towed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 14,
+          "redacted": 0
+        },
+        "Were All Passengers Belted?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 21,
+          "redacted": 0
+        },
+        "SV Precrash Speed (MPH)": {
+          "blank": 8,
+          "blank_pct": 33.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-crash Speed - Unknown": {
+          "blank": 16,
+          "blank_pct": 66.667,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Left": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Left": {
+          "blank": 23,
+          "blank_pct": 95.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Left": {
+          "blank": 14,
+          "blank_pct": 58.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Top": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front": {
+          "blank": 17,
+          "blank_pct": 70.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Right": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Right": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Right": {
+          "blank": 13,
+          "blank_pct": 54.167,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Bottom": {
+          "blank": 22,
+          "blank_pct": 91.667,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Unknown": {
+          "blank": 17,
+          "blank_pct": 70.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - EDR": {
+          "blank": 11,
+          "blank_pct": 45.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Police Rpt": {
+          "blank": 20,
+          "blank_pct": 83.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Telematics": {
+          "blank": 9,
+          "blank_pct": 37.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Complaints": {
+          "blank": 6,
+          "blank_pct": 25.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Video": {
+          "blank": 9,
+          "blank_pct": 37.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Other": {
+          "blank": 6,
+          "blank_pct": 25.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - No Data": {
+          "blank": 22,
+          "blank_pct": 91.667,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Unknown": {
+          "blank": 24,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency": {
+          "blank": 21,
+          "blank_pct": 87.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency - Unknown": {
+          "blank": 3,
+          "blank_pct": 12.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Within ODD?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 2,
+          "redacted": 21
+        },
+        "Within ODD? - CBI": {
+          "blank": 3,
+          "blank_pct": 12.5,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Narrative": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 24
+        },
+        "Narrative - CBI?": {
+          "blank": 3,
+          "blank_pct": 12.5,
+          "unknown": 0,
+          "redacted": 0
+        }
+      },
+      "parse_seconds": 0.057
+    },
+    {
+      "key": "archive_ads",
+      "regime": "pre_third_amendment",
+      "bucket": "ADS",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_ADS.csv",
+      "path": "data\\raw\\pilot\\archive\\SGO-2021-01_Incident_Reports_ADS.csv",
+      "bytes": 3943732,
+      "sha256": "cb2b38a21e2ce5c2337dfa0cffe8d6fce5e422cf93fe4c78942eec5cf72f41ba",
+      "rows": 2295,
+      "columns": 137,
+      "column_names": [
+        "Report ID",
+        "Report Version",
+        "Reporting Entity",
+        "Report Type",
+        "Report Month",
+        "Report Year",
+        "Report Submission Date",
+        "VIN",
+        "VIN - Unknown",
+        "Serial Number",
+        "Make",
+        "Model",
+        "Model - Unknown",
+        "Model Year",
+        "Model Year - Unknown",
+        "Same Vehicle ID",
+        "Mileage",
+        "Mileage - Unknown",
+        "Driver / Operator Type",
+        "ADAS/ADS System Version",
+        "ADAS/ADS System Version - Unk",
+        "ADAS/ADS System Version CBI",
+        "ADAS/ADS Hardware Version",
+        "ADAS/ADS Hardware Version - Unk",
+        "ADAS/ADS Hardware Version CBI",
+        "ADAS/ADS Software Version",
+        "ADAS/ADS Software Version - Unk",
+        "ADAS/ADS Software Version CBI",
+        "Other Reporting Entities?",
+        "Other Reporting Entities? - Unk",
+        "Other Reporting Entities? - NA",
+        "Federal Regulatory Exemption?",
+        "Other Federal Reg. Exemption",
+        "Federal Reg. Exemption - Unk",
+        "Federal Reg. Exemption - No",
+        "State or Local Permit?",
+        "State or Local Permit",
+        "ADS Equipped?",
+        "Automation System Engaged?",
+        "Operating Entity",
+        "Operating Entity - Unknown",
+        "Source - Complaint/Claim",
+        "Source - Telematics",
+        "Source - Law Enforcement",
+        "Source - Field Report",
+        "Source - Testing",
+        "Source - Media",
+        "Source - Other",
+        "Source - Other Text",
+        "Incident Date",
+        "Incident Date - Unknown",
+        "Notice Received Date",
+        "Incident Time (24:00)",
+        "Incident Time - Unknown",
+        "Same Incident ID",
+        "Latitude",
+        "Latitude - Unknown",
+        "Longitude",
+        "Longitude - Unknown",
+        "Address",
+        "Address - Unknown",
+        "City",
+        "City - Unknown",
+        "State",
+        "Zip Code",
+        "Zip Code - Unknown",
+        "Roadway Type",
+        "Roadway Surface",
+        "Roadway Description",
+        "Posted Speed Limit (MPH)",
+        "Posted Speed Limit - Unknown",
+        "Lighting",
+        "Weather - Clear",
+        "Weather - Snow",
+        "Weather - Cloudy",
+        "Weather - Fog/Smoke",
+        "Weather - Rain",
+        "Weather - Severe Wind",
+        "Weather - Unknown",
+        "Weather - Other",
+        "Weather - Other Text",
+        "Crash With",
+        "Highest Injury Severity Alleged",
+        "Property Damage?",
+        "CP Pre-Crash Movement",
+        "CP Any Air Bags Deployed?",
+        "CP Was Vehicle Towed?",
+        "CP Contact Area - Rear Left",
+        "CP Contact Area - Left",
+        "CP Contact Area - Front Left",
+        "CP Contact Area - Rear",
+        "CP Contact Area - Top",
+        "CP Contact Area - Front",
+        "CP Contact Area - Rear Right",
+        "CP Contact Area - Right",
+        "CP Contact Area - Front Right",
+        "CP Contact Area - Bottom",
+        "CP Contact Area - Unknown",
+        "SV Pre-Crash Movement",
+        "SV Any Air Bags Deployed?",
+        "SV Was Vehicle Towed?",
+        "SV Were All Passengers Belted?",
+        "SV Precrash Speed (MPH)",
+        "SV Pre-crash Speed - Unknown",
+        "SV Contact Area - Rear Left",
+        "SV Contact Area - Left",
+        "SV Contact Area - Front Left",
+        "SV Contact Area - Rear",
+        "SV Contact Area - Top",
+        "SV Contact Area - Front",
+        "SV Contact Area - Rear Right",
+        "SV Contact Area - Right",
+        "SV Contact Area - Front Right",
+        "SV Contact Area - Bottom",
+        "SV Contact Area - Unknown",
+        "Data Availability - EDR",
+        "Data Availability - Police Rpt",
+        "Data Availability - Telematics",
+        "Data Availability - Complaints",
+        "Data Availability - Video",
+        "Data Availability - Other",
+        "Data Availability - No Data",
+        "Data Availability - Unknown",
+        "Law Enforcement Investigating?",
+        "Investigating Agency",
+        "Investigating Agency - Unknown",
+        "Rep Ent Or Mfr Investigating?",
+        "Investigating Officer Name",
+        "Inv. Officer Name - Unknown",
+        "Investigating Officer Phone",
+        "Inv. Officer Phone - Unknown",
+        "Investigating Officer Email",
+        "Inv. Officer Email - Unknown",
+        "Within ODD?",
+        "Within ODD? - CBI",
+        "Narrative",
+        "Narrative - CBI?"
+      ],
+      "date_range": {
+        "date_col": "Incident Date",
+        "min": "2021-07",
+        "max": "2025-06",
+        "valid_values": 2291,
+        "invalid_or_blank": 4
+      },
+      "report_id_col": "Report ID",
+      "report_version_col": "Report Version",
+      "same_incident_id_col": "Same Incident ID",
+      "same_vehicle_id_col": "Same Vehicle ID",
+      "exact_duplicate_rows": 0,
+      "report_versions": {
+        "unique_report_ids": 1899,
+        "rows_with_duplicate_report_id": 756,
+        "report_ids_with_multiple_versions": 360,
+        "max_report_version": 5,
+        "report_ids_where_row_count_differs_from_max_version": 1
+      },
+      "same_incident": {
+        "nonblank_rows": 2280,
+        "unique_nonblank": 1520,
+        "ids_with_multiple_rows": 525,
+        "rows_in_multirow_ids": 1285
+      },
+      "narrative": {
+        "available_rows": 2293,
+        "available_pct": 99.913,
+        "median_chars_nonblank": 897.0,
+        "max_chars": 3454
+      },
+      "missingness": {
+        "Report ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Version": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Reporting Entity": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Month": {
+          "blank": 1019,
+          "blank_pct": 44.401,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Year": {
+          "blank": 1019,
+          "blank_pct": 44.401,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Submission Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN": {
+          "blank": 14,
+          "blank_pct": 0.61,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN - Unknown": {
+          "blank": 2284,
+          "blank_pct": 99.521,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Serial Number": {
+          "blank": 29,
+          "blank_pct": 1.264,
+          "unknown": 0,
+          "redacted": 42
+        },
+        "Make": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model": {
+          "blank": 4,
+          "blank_pct": 0.174,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model - Unknown": {
+          "blank": 2294,
+          "blank_pct": 99.956,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year": {
+          "blank": 15,
+          "blank_pct": 0.654,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year - Unknown": {
+          "blank": 2283,
+          "blank_pct": 99.477,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Vehicle ID": {
+          "blank": 14,
+          "blank_pct": 0.61,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Mileage": {
+          "blank": 54,
+          "blank_pct": 2.353,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Mileage - Unknown": {
+          "blank": 2244,
+          "blank_pct": 97.778,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Driver / Operator Type": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 2,
+          "redacted": 0
+        },
+        "ADAS/ADS System Version": {
+          "blank": 289,
+          "blank_pct": 12.593,
+          "unknown": 0,
+          "redacted": 380
+        },
+        "ADAS/ADS System Version - Unk": {
+          "blank": 2006,
+          "blank_pct": 87.407,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS System Version CBI": {
+          "blank": 1915,
+          "blank_pct": 83.442,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Hardware Version": {
+          "blank": 852,
+          "blank_pct": 37.124,
+          "unknown": 0,
+          "redacted": 172
+        },
+        "ADAS/ADS Hardware Version - Unk": {
+          "blank": 2153,
+          "blank_pct": 93.813,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Hardware Version CBI": {
+          "blank": 2123,
+          "blank_pct": 92.505,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Software Version": {
+          "blank": 852,
+          "blank_pct": 37.124,
+          "unknown": 0,
+          "redacted": 173
+        },
+        "ADAS/ADS Software Version - Unk": {
+          "blank": 2156,
+          "blank_pct": 93.943,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Software Version CBI": {
+          "blank": 2122,
+          "blank_pct": 92.462,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities?": {
+          "blank": 1833,
+          "blank_pct": 79.869,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities? - Unk": {
+          "blank": 2283,
+          "blank_pct": 99.477,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities? - NA": {
+          "blank": 1154,
+          "blank_pct": 50.283,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Regulatory Exemption?": {
+          "blank": 2269,
+          "blank_pct": 98.867,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Federal Reg. Exemption": {
+          "blank": 2289,
+          "blank_pct": 99.739,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Reg. Exemption - Unk": {
+          "blank": 2281,
+          "blank_pct": 99.39,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Reg. Exemption - No": {
+          "blank": 720,
+          "blank_pct": 31.373,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State or Local Permit?": {
+          "blank": 680,
+          "blank_pct": 29.63,
+          "unknown": 12,
+          "redacted": 0
+        },
+        "State or Local Permit": {
+          "blank": 908,
+          "blank_pct": 39.564,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADS Equipped?": {
+          "blank": 4,
+          "blank_pct": 0.174,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Automation System Engaged?": {
+          "blank": 4,
+          "blank_pct": 0.174,
+          "unknown": 30,
+          "redacted": 0
+        },
+        "Operating Entity": {
+          "blank": 17,
+          "blank_pct": 0.741,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity - Unknown": {
+          "blank": 2295,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Complaint/Claim": {
+          "blank": 2262,
+          "blank_pct": 98.562,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Telematics": {
+          "blank": 451,
+          "blank_pct": 19.651,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Law Enforcement": {
+          "blank": 2286,
+          "blank_pct": 99.608,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Field Report": {
+          "blank": 1579,
+          "blank_pct": 68.802,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Testing": {
+          "blank": 1938,
+          "blank_pct": 84.444,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Media": {
+          "blank": 2293,
+          "blank_pct": 99.913,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other": {
+          "blank": 2258,
+          "blank_pct": 98.388,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other Text": {
+          "blank": 2258,
+          "blank_pct": 98.388,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date": {
+          "blank": 4,
+          "blank_pct": 0.174,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date - Unknown": {
+          "blank": 2294,
+          "blank_pct": 99.956,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Notice Received Date": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time (24:00)": {
+          "blank": 11,
+          "blank_pct": 0.479,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time - Unknown": {
+          "blank": 2287,
+          "blank_pct": 99.651,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Incident ID": {
+          "blank": 15,
+          "blank_pct": 0.654,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Latitude": {
+          "blank": 94,
+          "blank_pct": 4.096,
+          "unknown": 0,
+          "redacted": 2201
+        },
+        "Latitude - Unknown": {
+          "blank": 2204,
+          "blank_pct": 96.035,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Longitude": {
+          "blank": 94,
+          "blank_pct": 4.096,
+          "unknown": 0,
+          "redacted": 2201
+        },
+        "Longitude - Unknown": {
+          "blank": 2204,
+          "blank_pct": 96.035,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Address": {
+          "blank": 6,
+          "blank_pct": 0.261,
+          "unknown": 0,
+          "redacted": 2289
+        },
+        "Address - Unknown": {
+          "blank": 2292,
+          "blank_pct": 99.869,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City": {
+          "blank": 6,
+          "blank_pct": 0.261,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City - Unknown": {
+          "blank": 2292,
+          "blank_pct": 99.869,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Zip Code": {
+          "blank": 40,
+          "blank_pct": 1.743,
+          "unknown": 0,
+          "redacted": 2255
+        },
+        "Zip Code - Unknown": {
+          "blank": 2258,
+          "blank_pct": 98.388,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway Type": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 6,
+          "redacted": 0
+        },
+        "Roadway Surface": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 9,
+          "redacted": 0
+        },
+        "Roadway Description": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 8,
+          "redacted": 0
+        },
+        "Posted Speed Limit (MPH)": {
+          "blank": 40,
+          "blank_pct": 1.743,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Posted Speed Limit - Unknown": {
+          "blank": 2258,
+          "blank_pct": 98.388,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Lighting": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 7,
+          "redacted": 0
+        },
+        "Weather - Clear": {
+          "blank": 450,
+          "blank_pct": 19.608,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Snow": {
+          "blank": 2294,
+          "blank_pct": 99.956,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Cloudy": {
+          "blank": 1953,
+          "blank_pct": 85.098,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Fog/Smoke": {
+          "blank": 2292,
+          "blank_pct": 99.869,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Rain": {
+          "blank": 2218,
+          "blank_pct": 96.645,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Wind": {
+          "blank": 2294,
+          "blank_pct": 99.956,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Unknown": {
+          "blank": 2263,
+          "blank_pct": 98.606,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Other": {
+          "blank": 2289,
+          "blank_pct": 99.739,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Other Text": {
+          "blank": 2289,
+          "blank_pct": 99.739,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Crash With": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 2,
+          "redacted": 0
+        },
+        "Highest Injury Severity Alleged": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 83,
+          "redacted": 0
+        },
+        "Property Damage?": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 37,
+          "redacted": 0
+        },
+        "CP Pre-Crash Movement": {
+          "blank": 76,
+          "blank_pct": 3.312,
+          "unknown": 8,
+          "redacted": 0
+        },
+        "CP Any Air Bags Deployed?": {
+          "blank": 237,
+          "blank_pct": 10.327,
+          "unknown": 123,
+          "redacted": 0
+        },
+        "CP Was Vehicle Towed?": {
+          "blank": 237,
+          "blank_pct": 10.327,
+          "unknown": 146,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Left": {
+          "blank": 2118,
+          "blank_pct": 92.288,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Left": {
+          "blank": 2096,
+          "blank_pct": 91.329,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Left": {
+          "blank": 1845,
+          "blank_pct": 80.392,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear": {
+          "blank": 2165,
+          "blank_pct": 94.336,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Top": {
+          "blank": 2287,
+          "blank_pct": 99.651,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front": {
+          "blank": 1622,
+          "blank_pct": 70.675,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Right": {
+          "blank": 2128,
+          "blank_pct": 92.723,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Right": {
+          "blank": 1996,
+          "blank_pct": 86.972,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Right": {
+          "blank": 1768,
+          "blank_pct": 77.037,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Bottom": {
+          "blank": 2282,
+          "blank_pct": 99.434,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Unknown": {
+          "blank": 2070,
+          "blank_pct": 90.196,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-Crash Movement": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 8,
+          "redacted": 0
+        },
+        "SV Any Air Bags Deployed?": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 4,
+          "redacted": 0
+        },
+        "SV Was Vehicle Towed?": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 3,
+          "redacted": 0
+        },
+        "SV Were All Passengers Belted?": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 11,
+          "redacted": 0
+        },
+        "SV Precrash Speed (MPH)": {
+          "blank": 37,
+          "blank_pct": 1.612,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-crash Speed - Unknown": {
+          "blank": 2261,
+          "blank_pct": 98.519,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Left": {
+          "blank": 1636,
+          "blank_pct": 71.285,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Left": {
+          "blank": 2089,
+          "blank_pct": 91.024,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Left": {
+          "blank": 1980,
+          "blank_pct": 86.275,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear": {
+          "blank": 1717,
+          "blank_pct": 74.815,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Top": {
+          "blank": 2275,
+          "blank_pct": 99.129,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front": {
+          "blank": 2012,
+          "blank_pct": 87.669,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Right": {
+          "blank": 1862,
+          "blank_pct": 81.133,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Right": {
+          "blank": 2131,
+          "blank_pct": 92.854,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Right": {
+          "blank": 1979,
+          "blank_pct": 86.231,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Bottom": {
+          "blank": 2209,
+          "blank_pct": 96.253,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Unknown": {
+          "blank": 2265,
+          "blank_pct": 98.693,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - EDR": {
+          "blank": 1824,
+          "blank_pct": 79.477,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Police Rpt": {
+          "blank": 2186,
+          "blank_pct": 95.251,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Telematics": {
+          "blank": 222,
+          "blank_pct": 9.673,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Complaints": {
+          "blank": 2269,
+          "blank_pct": 98.867,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Video": {
+          "blank": 67,
+          "blank_pct": 2.919,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Other": {
+          "blank": 328,
+          "blank_pct": 14.292,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - No Data": {
+          "blank": 2293,
+          "blank_pct": 99.913,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Unknown": {
+          "blank": 2276,
+          "blank_pct": 99.172,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Law Enforcement Investigating?": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 71,
+          "redacted": 0
+        },
+        "Investigating Agency": {
+          "blank": 1729,
+          "blank_pct": 75.338,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency - Unknown": {
+          "blank": 2228,
+          "blank_pct": 97.081,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Rep Ent Or Mfr Investigating?": {
+          "blank": 3,
+          "blank_pct": 0.131,
+          "unknown": 12,
+          "redacted": 0
+        },
+        "Investigating Officer Name": {
+          "blank": 1810,
+          "blank_pct": 78.867,
+          "unknown": 0,
+          "redacted": 485
+        },
+        "Inv. Officer Name - Unknown": {
+          "blank": 2147,
+          "blank_pct": 93.551,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Officer Phone": {
+          "blank": 2156,
+          "blank_pct": 93.943,
+          "unknown": 0,
+          "redacted": 139
+        },
+        "Inv. Officer Phone - Unknown": {
+          "blank": 1801,
+          "blank_pct": 78.475,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Officer Email": {
+          "blank": 2249,
+          "blank_pct": 97.996,
+          "unknown": 0,
+          "redacted": 46
+        },
+        "Inv. Officer Email - Unknown": {
+          "blank": 1708,
+          "blank_pct": 74.423,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Within ODD?": {
+          "blank": 4,
+          "blank_pct": 0.174,
+          "unknown": 215,
+          "redacted": 285
+        },
+        "Within ODD? - CBI": {
+          "blank": 2010,
+          "blank_pct": 87.582,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Narrative": {
+          "blank": 2,
+          "blank_pct": 0.087,
+          "unknown": 0,
+          "redacted": 2240
+        },
+        "Narrative - CBI?": {
+          "blank": 2009,
+          "blank_pct": 87.538,
+          "unknown": 0,
+          "redacted": 0
+        }
+      },
+      "parse_seconds": 0.272
+    },
+    {
+      "key": "archive_adas",
+      "regime": "pre_third_amendment",
+      "bucket": "Level 2 ADAS",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_ADAS.csv",
+      "path": "data\\raw\\pilot\\archive\\SGO-2021-01_Incident_Reports_ADAS.csv",
+      "bytes": 4092534,
+      "sha256": "99579d4c9add8f2fd0adfcff9199210fee8aaf9cbaf64347fd7adbb4446b6f5e",
+      "rows": 4027,
+      "columns": 137,
+      "column_names": [
+        "Report ID",
+        "Report Version",
+        "Reporting Entity",
+        "Report Type",
+        "Report Month",
+        "Report Year",
+        "Report Submission Date",
+        "VIN",
+        "VIN - Unknown",
+        "Serial Number",
+        "Make",
+        "Model",
+        "Model - Unknown",
+        "Model Year",
+        "Model Year - Unknown",
+        "Same Vehicle ID",
+        "Mileage",
+        "Mileage - Unknown",
+        "Driver / Operator Type",
+        "ADAS/ADS System Version",
+        "ADAS/ADS System Version - Unk",
+        "ADAS/ADS System Version CBI",
+        "ADAS/ADS Hardware Version",
+        "ADAS/ADS Hardware Version - Unk",
+        "ADAS/ADS Hardware Version CBI",
+        "ADAS/ADS Software Version",
+        "ADAS/ADS Software Version - Unk",
+        "ADAS/ADS Software Version CBI",
+        "Other Reporting Entities?",
+        "Other Reporting Entities? - Unk",
+        "Other Reporting Entities? - NA",
+        "Federal Regulatory Exemption?",
+        "Other Federal Reg. Exemption",
+        "Federal Reg. Exemption - Unk",
+        "Federal Reg. Exemption - No",
+        "State or Local Permit?",
+        "State or Local Permit",
+        "ADS Equipped?",
+        "Automation System Engaged?",
+        "Operating Entity",
+        "Operating Entity - Unknown",
+        "Source - Complaint/Claim",
+        "Source - Telematics",
+        "Source - Law Enforcement",
+        "Source - Field Report",
+        "Source - Testing",
+        "Source - Media",
+        "Source - Other",
+        "Source - Other Text",
+        "Incident Date",
+        "Incident Date - Unknown",
+        "Notice Received Date",
+        "Incident Time (24:00)",
+        "Incident Time - Unknown",
+        "Same Incident ID",
+        "Latitude",
+        "Latitude - Unknown",
+        "Longitude",
+        "Longitude - Unknown",
+        "Address",
+        "Address - Unknown",
+        "City",
+        "City - Unknown",
+        "State",
+        "Zip Code",
+        "Zip Code - Unknown",
+        "Roadway Type",
+        "Roadway Surface",
+        "Roadway Description",
+        "Posted Speed Limit (MPH)",
+        "Posted Speed Limit - Unknown",
+        "Lighting",
+        "Weather - Clear",
+        "Weather - Snow",
+        "Weather - Cloudy",
+        "Weather - Fog/Smoke",
+        "Weather - Rain",
+        "Weather - Severe Wind",
+        "Weather - Unknown",
+        "Weather - Other",
+        "Weather - Other Text",
+        "Crash With",
+        "Highest Injury Severity Alleged",
+        "Property Damage?",
+        "CP Pre-Crash Movement",
+        "CP Any Air Bags Deployed?",
+        "CP Was Vehicle Towed?",
+        "CP Contact Area - Rear Left",
+        "CP Contact Area - Left",
+        "CP Contact Area - Front Left",
+        "CP Contact Area - Rear",
+        "CP Contact Area - Top",
+        "CP Contact Area - Front",
+        "CP Contact Area - Rear Right",
+        "CP Contact Area - Right",
+        "CP Contact Area - Front Right",
+        "CP Contact Area - Bottom",
+        "CP Contact Area - Unknown",
+        "SV Pre-Crash Movement",
+        "SV Any Air Bags Deployed?",
+        "SV Was Vehicle Towed?",
+        "SV Were All Passengers Belted?",
+        "SV Precrash Speed (MPH)",
+        "SV Pre-crash Speed - Unknown",
+        "SV Contact Area - Rear Left",
+        "SV Contact Area - Left",
+        "SV Contact Area - Front Left",
+        "SV Contact Area - Rear",
+        "SV Contact Area - Top",
+        "SV Contact Area - Front",
+        "SV Contact Area - Rear Right",
+        "SV Contact Area - Right",
+        "SV Contact Area - Front Right",
+        "SV Contact Area - Bottom",
+        "SV Contact Area - Unknown",
+        "Data Availability - EDR",
+        "Data Availability - Police Rpt",
+        "Data Availability - Telematics",
+        "Data Availability - Complaints",
+        "Data Availability - Video",
+        "Data Availability - Other",
+        "Data Availability - No Data",
+        "Data Availability - Unknown",
+        "Law Enforcement Investigating?",
+        "Investigating Agency",
+        "Investigating Agency - Unknown",
+        "Rep Ent Or Mfr Investigating?",
+        "Investigating Officer Name",
+        "Inv. Officer Name - Unknown",
+        "Investigating Officer Phone",
+        "Inv. Officer Phone - Unknown",
+        "Investigating Officer Email",
+        "Inv. Officer Email - Unknown",
+        "Within ODD?",
+        "Within ODD? - CBI",
+        "Narrative",
+        "Narrative - CBI?"
+      ],
+      "date_range": {
+        "date_col": "Incident Date",
+        "min": "2019-08",
+        "max": "2025-06",
+        "valid_values": 3993,
+        "invalid_or_blank": 34
+      },
+      "report_id_col": "Report ID",
+      "report_version_col": "Report Version",
+      "same_incident_id_col": "Same Incident ID",
+      "same_vehicle_id_col": "Same Vehicle ID",
+      "exact_duplicate_rows": 0,
+      "report_versions": {
+        "unique_report_ids": 2690,
+        "rows_with_duplicate_report_id": 2499,
+        "report_ids_with_multiple_versions": 1162,
+        "max_report_version": 9,
+        "report_ids_where_row_count_differs_from_max_version": 3
+      },
+      "same_incident": {
+        "nonblank_rows": 3982,
+        "unique_nonblank": 2677,
+        "ids_with_multiple_rows": 1145,
+        "rows_in_multirow_ids": 2450
+      },
+      "narrative": {
+        "available_rows": 4027,
+        "available_pct": 100.0,
+        "median_chars_nonblank": 57.0,
+        "max_chars": 3497
+      },
+      "missingness": {
+        "Report ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Version": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Reporting Entity": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Month": {
+          "blank": 3948,
+          "blank_pct": 98.038,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Year": {
+          "blank": 3948,
+          "blank_pct": 98.038,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Submission Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN": {
+          "blank": 14,
+          "blank_pct": 0.348,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN - Unknown": {
+          "blank": 4013,
+          "blank_pct": 99.652,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Serial Number": {
+          "blank": 43,
+          "blank_pct": 1.068,
+          "unknown": 0,
+          "redacted": 83
+        },
+        "Make": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 2,
+          "redacted": 0
+        },
+        "Model": {
+          "blank": 2,
+          "blank_pct": 0.05,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model - Unknown": {
+          "blank": 4025,
+          "blank_pct": 99.95,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year": {
+          "blank": 13,
+          "blank_pct": 0.323,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year - Unknown": {
+          "blank": 4014,
+          "blank_pct": 99.677,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Vehicle ID": {
+          "blank": 14,
+          "blank_pct": 0.348,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Mileage": {
+          "blank": 414,
+          "blank_pct": 10.281,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Mileage - Unknown": {
+          "blank": 3613,
+          "blank_pct": 89.719,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Driver / Operator Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 15,
+          "redacted": 0
+        },
+        "ADAS/ADS System Version": {
+          "blank": 344,
+          "blank_pct": 8.542,
+          "unknown": 0,
+          "redacted": 3337
+        },
+        "ADAS/ADS System Version - Unk": {
+          "blank": 3560,
+          "blank_pct": 88.403,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS System Version CBI": {
+          "blank": 690,
+          "blank_pct": 17.134,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Hardware Version": {
+          "blank": 2263,
+          "blank_pct": 56.196,
+          "unknown": 0,
+          "redacted": 1675
+        },
+        "ADAS/ADS Hardware Version - Unk": {
+          "blank": 3705,
+          "blank_pct": 92.004,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Hardware Version CBI": {
+          "blank": 2352,
+          "blank_pct": 58.406,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Software Version": {
+          "blank": 2259,
+          "blank_pct": 56.096,
+          "unknown": 0,
+          "redacted": 1677
+        },
+        "ADAS/ADS Software Version - Unk": {
+          "blank": 3702,
+          "blank_pct": 91.929,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Software Version CBI": {
+          "blank": 2350,
+          "blank_pct": 58.356,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities?": {
+          "blank": 4016,
+          "blank_pct": 99.727,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities? - Unk": {
+          "blank": 2244,
+          "blank_pct": 55.724,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities? - NA": {
+          "blank": 3788,
+          "blank_pct": 94.065,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Regulatory Exemption?": {
+          "blank": 4027,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Federal Reg. Exemption": {
+          "blank": 4027,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Reg. Exemption - Unk": {
+          "blank": 3937,
+          "blank_pct": 97.765,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Reg. Exemption - No": {
+          "blank": 2087,
+          "blank_pct": 51.825,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State or Local Permit?": {
+          "blank": 1998,
+          "blank_pct": 49.615,
+          "unknown": 81,
+          "redacted": 0
+        },
+        "State or Local Permit": {
+          "blank": 4026,
+          "blank_pct": 99.975,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADS Equipped?": {
+          "blank": 3,
+          "blank_pct": 0.074,
+          "unknown": 3,
+          "redacted": 0
+        },
+        "Automation System Engaged?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 334,
+          "redacted": 0
+        },
+        "Operating Entity": {
+          "blank": 3939,
+          "blank_pct": 97.815,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Operating Entity - Unknown": {
+          "blank": 4009,
+          "blank_pct": 99.553,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Complaint/Claim": {
+          "blank": 3164,
+          "blank_pct": 78.57,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Telematics": {
+          "blank": 1205,
+          "blank_pct": 29.923,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Law Enforcement": {
+          "blank": 3943,
+          "blank_pct": 97.914,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Field Report": {
+          "blank": 3933,
+          "blank_pct": 97.666,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Testing": {
+          "blank": 3980,
+          "blank_pct": 98.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Media": {
+          "blank": 3878,
+          "blank_pct": 96.3,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other": {
+          "blank": 3733,
+          "blank_pct": 92.699,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other Text": {
+          "blank": 3733,
+          "blank_pct": 92.699,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date": {
+          "blank": 34,
+          "blank_pct": 0.844,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date - Unknown": {
+          "blank": 3993,
+          "blank_pct": 99.156,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Notice Received Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time (24:00)": {
+          "blank": 347,
+          "blank_pct": 8.617,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time - Unknown": {
+          "blank": 3679,
+          "blank_pct": 91.358,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Incident ID": {
+          "blank": 45,
+          "blank_pct": 1.117,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Latitude": {
+          "blank": 715,
+          "blank_pct": 17.755,
+          "unknown": 0,
+          "redacted": 3312
+        },
+        "Latitude - Unknown": {
+          "blank": 3312,
+          "blank_pct": 82.245,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Longitude": {
+          "blank": 715,
+          "blank_pct": 17.755,
+          "unknown": 0,
+          "redacted": 3312
+        },
+        "Longitude - Unknown": {
+          "blank": 3312,
+          "blank_pct": 82.245,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Address": {
+          "blank": 368,
+          "blank_pct": 9.138,
+          "unknown": 0,
+          "redacted": 3659
+        },
+        "Address - Unknown": {
+          "blank": 3659,
+          "blank_pct": 90.862,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City": {
+          "blank": 200,
+          "blank_pct": 4.966,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City - Unknown": {
+          "blank": 3827,
+          "blank_pct": 95.034,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 63,
+          "redacted": 0
+        },
+        "Zip Code": {
+          "blank": 602,
+          "blank_pct": 14.949,
+          "unknown": 0,
+          "redacted": 3425
+        },
+        "Zip Code - Unknown": {
+          "blank": 3425,
+          "blank_pct": 85.051,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1360,
+          "redacted": 0
+        },
+        "Roadway Surface": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1934,
+          "redacted": 0
+        },
+        "Roadway Description": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 2210,
+          "redacted": 0
+        },
+        "Posted Speed Limit (MPH)": {
+          "blank": 1556,
+          "blank_pct": 38.639,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Posted Speed Limit - Unknown": {
+          "blank": 2471,
+          "blank_pct": 61.361,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Lighting": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1883,
+          "redacted": 0
+        },
+        "Weather - Clear": {
+          "blank": 2660,
+          "blank_pct": 66.054,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Snow": {
+          "blank": 4009,
+          "blank_pct": 99.553,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Cloudy": {
+          "blank": 3421,
+          "blank_pct": 84.952,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Fog/Smoke": {
+          "blank": 4010,
+          "blank_pct": 99.578,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Rain": {
+          "blank": 3722,
+          "blank_pct": 92.426,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Wind": {
+          "blank": 4027,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Unknown": {
+          "blank": 2130,
+          "blank_pct": 52.893,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Other": {
+          "blank": 3974,
+          "blank_pct": 98.684,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Other Text": {
+          "blank": 3974,
+          "blank_pct": 98.684,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Crash With": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1845,
+          "redacted": 0
+        },
+        "Highest Injury Severity Alleged": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 3134,
+          "redacted": 0
+        },
+        "Property Damage?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 637,
+          "redacted": 0
+        },
+        "CP Pre-Crash Movement": {
+          "blank": 802,
+          "blank_pct": 19.916,
+          "unknown": 2106,
+          "redacted": 0
+        },
+        "CP Any Air Bags Deployed?": {
+          "blank": 912,
+          "blank_pct": 22.647,
+          "unknown": 2802,
+          "redacted": 0
+        },
+        "CP Was Vehicle Towed?": {
+          "blank": 912,
+          "blank_pct": 22.647,
+          "unknown": 2927,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Left": {
+          "blank": 3720,
+          "blank_pct": 92.376,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Left": {
+          "blank": 3839,
+          "blank_pct": 95.332,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Left": {
+          "blank": 3685,
+          "blank_pct": 91.507,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear": {
+          "blank": 3762,
+          "blank_pct": 93.419,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Top": {
+          "blank": 4013,
+          "blank_pct": 99.652,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front": {
+          "blank": 3725,
+          "blank_pct": 92.501,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Right": {
+          "blank": 3761,
+          "blank_pct": 93.395,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Right": {
+          "blank": 3880,
+          "blank_pct": 96.35,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Right": {
+          "blank": 3703,
+          "blank_pct": 91.954,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Bottom": {
+          "blank": 4005,
+          "blank_pct": 99.454,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Unknown": {
+          "blank": 1842,
+          "blank_pct": 45.741,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-Crash Movement": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 1751,
+          "redacted": 0
+        },
+        "SV Any Air Bags Deployed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 203,
+          "redacted": 0
+        },
+        "SV Was Vehicle Towed?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 2866,
+          "redacted": 0
+        },
+        "SV Were All Passengers Belted?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 3497,
+          "redacted": 0
+        },
+        "SV Precrash Speed (MPH)": {
+          "blank": 1361,
+          "blank_pct": 33.797,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-crash Speed - Unknown": {
+          "blank": 2666,
+          "blank_pct": 66.203,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Left": {
+          "blank": 3521,
+          "blank_pct": 87.435,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Left": {
+          "blank": 3479,
+          "blank_pct": 86.392,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Left": {
+          "blank": 2746,
+          "blank_pct": 68.19,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear": {
+          "blank": 3789,
+          "blank_pct": 94.09,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Top": {
+          "blank": 3950,
+          "blank_pct": 98.088,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front": {
+          "blank": 2837,
+          "blank_pct": 70.449,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Right": {
+          "blank": 3705,
+          "blank_pct": 92.004,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Right": {
+          "blank": 3694,
+          "blank_pct": 91.731,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Right": {
+          "blank": 2906,
+          "blank_pct": 72.163,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Bottom": {
+          "blank": 3804,
+          "blank_pct": 94.462,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Unknown": {
+          "blank": 2042,
+          "blank_pct": 50.708,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - EDR": {
+          "blank": 1006,
+          "blank_pct": 24.981,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Police Rpt": {
+          "blank": 3873,
+          "blank_pct": 96.176,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Telematics": {
+          "blank": 1644,
+          "blank_pct": 40.824,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Complaints": {
+          "blank": 3471,
+          "blank_pct": 86.193,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Video": {
+          "blank": 2307,
+          "blank_pct": 57.288,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Other": {
+          "blank": 1768,
+          "blank_pct": 43.904,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - No Data": {
+          "blank": 4001,
+          "blank_pct": 99.354,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Unknown": {
+          "blank": 3861,
+          "blank_pct": 95.878,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Law Enforcement Investigating?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 3595,
+          "redacted": 0
+        },
+        "Investigating Agency": {
+          "blank": 3796,
+          "blank_pct": 94.264,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency - Unknown": {
+          "blank": 449,
+          "blank_pct": 11.15,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Rep Ent Or Mfr Investigating?": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 3318,
+          "redacted": 0
+        },
+        "Investigating Officer Name": {
+          "blank": 3900,
+          "blank_pct": 96.846,
+          "unknown": 0,
+          "redacted": 127
+        },
+        "Inv. Officer Name - Unknown": {
+          "blank": 345,
+          "blank_pct": 8.567,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Officer Phone": {
+          "blank": 3984,
+          "blank_pct": 98.932,
+          "unknown": 0,
+          "redacted": 43
+        },
+        "Inv. Officer Phone - Unknown": {
+          "blank": 261,
+          "blank_pct": 6.481,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Officer Email": {
+          "blank": 3989,
+          "blank_pct": 99.056,
+          "unknown": 0,
+          "redacted": 38
+        },
+        "Inv. Officer Email - Unknown": {
+          "blank": 256,
+          "blank_pct": 6.357,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Within ODD?": {
+          "blank": 67,
+          "blank_pct": 1.664,
+          "unknown": 327,
+          "redacted": 3436
+        },
+        "Within ODD? - CBI": {
+          "blank": 591,
+          "blank_pct": 14.676,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Narrative": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 3838
+        },
+        "Narrative - CBI?": {
+          "blank": 571,
+          "blank_pct": 14.179,
+          "unknown": 0,
+          "redacted": 0
+        }
+      },
+      "parse_seconds": 0.426
+    },
+    {
+      "key": "archive_other",
+      "regime": "pre_third_amendment",
+      "bucket": "Other / Unknown",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_OTHER.csv",
+      "path": "data\\raw\\pilot\\archive\\SGO-2021-01_Incident_Reports_OTHER.csv",
+      "bytes": 1155114,
+      "sha256": "2464171f22671aa52047ed2e32a3442801ac85d4409f692acea3bf8c6c250899",
+      "rows": 3598,
+      "columns": 137,
+      "column_names": [
+        "Report ID",
+        "Report Version",
+        "Reporting Entity",
+        "Report Type",
+        "Report Month",
+        "Report Year",
+        "Report Submission Date",
+        "VIN",
+        "VIN - Unknown",
+        "Serial Number",
+        "Make",
+        "Model",
+        "Model - Unknown",
+        "Model Year",
+        "Model Year - Unknown",
+        "Same Vehicle ID",
+        "Mileage",
+        "Mileage - Unknown",
+        "Driver / Operator Type",
+        "ADAS/ADS System Version",
+        "ADAS/ADS System Version - Unk",
+        "ADAS/ADS System Version CBI",
+        "ADAS/ADS Hardware Version",
+        "ADAS/ADS Hardware Version - Unk",
+        "ADAS/ADS Hardware Version CBI",
+        "ADAS/ADS Software Version",
+        "ADAS/ADS Software Version - Unk",
+        "ADAS/ADS Software Version CBI",
+        "Other Reporting Entities?",
+        "Other Reporting Entities? - Unk",
+        "Other Reporting Entities? - NA",
+        "Federal Regulatory Exemption?",
+        "Other Federal Reg. Exemption",
+        "Federal Reg. Exemption - Unk",
+        "Federal Reg. Exemption - No",
+        "State or Local Permit?",
+        "State or Local Permit",
+        "ADS Equipped?",
+        "Automation System Engaged?",
+        "Operating Entity",
+        "Operating Entity - Unknown",
+        "Source - Complaint/Claim",
+        "Source - Telematics",
+        "Source - Law Enforcement",
+        "Source - Field Report",
+        "Source - Testing",
+        "Source - Media",
+        "Source - Other",
+        "Source - Other Text",
+        "Incident Date",
+        "Incident Date - Unknown",
+        "Notice Received Date",
+        "Incident Time (24:00)",
+        "Incident Time - Unknown",
+        "Same Incident ID",
+        "Latitude",
+        "Latitude - Unknown",
+        "Longitude",
+        "Longitude - Unknown",
+        "Address",
+        "Address - Unknown",
+        "City",
+        "City - Unknown",
+        "State",
+        "Zip Code",
+        "Zip Code - Unknown",
+        "Roadway Type",
+        "Roadway Surface",
+        "Roadway Description",
+        "Posted Speed Limit (MPH)",
+        "Posted Speed Limit - Unknown",
+        "Lighting",
+        "Weather - Clear",
+        "Weather - Snow",
+        "Weather - Cloudy",
+        "Weather - Fog/Smoke",
+        "Weather - Rain",
+        "Weather - Severe Wind",
+        "Weather - Unknown",
+        "Weather - Other",
+        "Weather - Other Text",
+        "Crash With",
+        "Highest Injury Severity Alleged",
+        "Property Damage?",
+        "CP Pre-Crash Movement",
+        "CP Any Air Bags Deployed?",
+        "CP Was Vehicle Towed?",
+        "CP Contact Area - Rear Left",
+        "CP Contact Area - Left",
+        "CP Contact Area - Front Left",
+        "CP Contact Area - Rear",
+        "CP Contact Area - Top",
+        "CP Contact Area - Front",
+        "CP Contact Area - Rear Right",
+        "CP Contact Area - Right",
+        "CP Contact Area - Front Right",
+        "CP Contact Area - Bottom",
+        "CP Contact Area - Unknown",
+        "SV Pre-Crash Movement",
+        "SV Any Air Bags Deployed?",
+        "SV Was Vehicle Towed?",
+        "SV Were All Passengers Belted?",
+        "SV Precrash Speed (MPH)",
+        "SV Pre-crash Speed - Unknown",
+        "SV Contact Area - Rear Left",
+        "SV Contact Area - Left",
+        "SV Contact Area - Front Left",
+        "SV Contact Area - Rear",
+        "SV Contact Area - Top",
+        "SV Contact Area - Front",
+        "SV Contact Area - Rear Right",
+        "SV Contact Area - Right",
+        "SV Contact Area - Front Right",
+        "SV Contact Area - Bottom",
+        "SV Contact Area - Unknown",
+        "Data Availability - EDR",
+        "Data Availability - Police Rpt",
+        "Data Availability - Telematics",
+        "Data Availability - Complaints",
+        "Data Availability - Video",
+        "Data Availability - Other",
+        "Data Availability - No Data",
+        "Data Availability - Unknown",
+        "Law Enforcement Investigating?",
+        "Investigating Agency",
+        "Investigating Agency - Unknown",
+        "Rep Ent Or Mfr Investigating?",
+        "Investigating Officer Name",
+        "Inv. Officer Name - Unknown",
+        "Investigating Officer Phone",
+        "Inv. Officer Phone - Unknown",
+        "Investigating Officer Email",
+        "Inv. Officer Email - Unknown",
+        "Within ODD?",
+        "Within ODD? - CBI",
+        "Narrative",
+        "Narrative - CBI?"
+      ],
+      "date_range": {
+        "date_col": "Incident Date",
+        "min": "1900-01",
+        "max": "2024-01",
+        "valid_values": 74,
+        "invalid_or_blank": 3524
+      },
+      "report_id_col": "Report ID",
+      "report_version_col": "Report Version",
+      "same_incident_id_col": "Same Incident ID",
+      "same_vehicle_id_col": "Same Vehicle ID",
+      "exact_duplicate_rows": 0,
+      "report_versions": {
+        "unique_report_ids": 3571,
+        "rows_with_duplicate_report_id": 54,
+        "report_ids_with_multiple_versions": 27,
+        "max_report_version": 2,
+        "report_ids_where_row_count_differs_from_max_version": 0
+      },
+      "same_incident": {
+        "nonblank_rows": 71,
+        "unique_nonblank": 46,
+        "ids_with_multiple_rows": 25,
+        "rows_in_multirow_ids": 50
+      },
+      "narrative": {
+        "available_rows": 80,
+        "available_pct": 2.223,
+        "median_chars_nonblank": 995.0,
+        "max_chars": 2530
+      },
+      "missingness": {
+        "Report ID": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Version": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Reporting Entity": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Type": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Month": {
+          "blank": 57,
+          "blank_pct": 1.584,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Year": {
+          "blank": 57,
+          "blank_pct": 1.584,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Report Submission Date": {
+          "blank": 0,
+          "blank_pct": 0.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN": {
+          "blank": 3524,
+          "blank_pct": 97.943,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "VIN - Unknown": {
+          "blank": 3592,
+          "blank_pct": 99.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Serial Number": {
+          "blank": 3527,
+          "blank_pct": 98.027,
+          "unknown": 0,
+          "redacted": 2
+        },
+        "Make": {
+          "blank": 3518,
+          "blank_pct": 97.777,
+          "unknown": 5,
+          "redacted": 0
+        },
+        "Model": {
+          "blank": 3523,
+          "blank_pct": 97.916,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model - Unknown": {
+          "blank": 3593,
+          "blank_pct": 99.861,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year": {
+          "blank": 3525,
+          "blank_pct": 97.971,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Model Year - Unknown": {
+          "blank": 3592,
+          "blank_pct": 99.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Vehicle ID": {
+          "blank": 3524,
+          "blank_pct": 97.943,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Mileage": {
+          "blank": 3533,
+          "blank_pct": 98.193,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Mileage - Unknown": {
+          "blank": 3584,
+          "blank_pct": 99.611,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Driver / Operator Type": {
+          "blank": 3519,
+          "blank_pct": 97.804,
+          "unknown": 2,
+          "redacted": 0
+        },
+        "ADAS/ADS System Version": {
+          "blank": 3581,
+          "blank_pct": 99.528,
+          "unknown": 2,
+          "redacted": 3
+        },
+        "ADAS/ADS System Version - Unk": {
+          "blank": 3537,
+          "blank_pct": 98.305,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS System Version CBI": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Hardware Version": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 2
+        },
+        "ADAS/ADS Hardware Version - Unk": {
+          "blank": 3597,
+          "blank_pct": 99.972,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Hardware Version CBI": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Software Version": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 2
+        },
+        "ADAS/ADS Software Version - Unk": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADAS/ADS Software Version CBI": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities?": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities? - Unk": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Reporting Entities? - NA": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Regulatory Exemption?": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Other Federal Reg. Exemption": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Reg. Exemption - Unk": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Federal Reg. Exemption - No": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State or Local Permit?": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 1,
+          "redacted": 0
+        },
+        "State or Local Permit": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "ADS Equipped?": {
+          "blank": 3545,
+          "blank_pct": 98.527,
+          "unknown": 53,
+          "redacted": 0
+        },
+        "Automation System Engaged?": {
+          "blank": 3534,
+          "blank_pct": 98.221,
+          "unknown": 50,
+          "redacted": 0
+        },
+        "Operating Entity": {
+          "blank": 3530,
+          "blank_pct": 98.11,
+          "unknown": 0,
+          "redacted": 2
+        },
+        "Operating Entity - Unknown": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Complaint/Claim": {
+          "blank": 3593,
+          "blank_pct": 99.861,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Telematics": {
+          "blank": 3592,
+          "blank_pct": 99.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Law Enforcement": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Field Report": {
+          "blank": 3545,
+          "blank_pct": 98.527,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Testing": {
+          "blank": 3590,
+          "blank_pct": 99.778,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Media": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other": {
+          "blank": 3587,
+          "blank_pct": 99.694,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Source - Other Text": {
+          "blank": 3587,
+          "blank_pct": 99.694,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date": {
+          "blank": 3524,
+          "blank_pct": 97.943,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Date - Unknown": {
+          "blank": 3593,
+          "blank_pct": 99.861,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Notice Received Date": {
+          "blank": 3519,
+          "blank_pct": 97.804,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time (24:00)": {
+          "blank": 3527,
+          "blank_pct": 98.027,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Incident Time - Unknown": {
+          "blank": 3590,
+          "blank_pct": 99.778,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Same Incident ID": {
+          "blank": 3527,
+          "blank_pct": 98.027,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Latitude": {
+          "blank": 3579,
+          "blank_pct": 99.472,
+          "unknown": 0,
+          "redacted": 19
+        },
+        "Latitude - Unknown": {
+          "blank": 3540,
+          "blank_pct": 98.388,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Longitude": {
+          "blank": 3579,
+          "blank_pct": 99.472,
+          "unknown": 0,
+          "redacted": 19
+        },
+        "Longitude - Unknown": {
+          "blank": 3540,
+          "blank_pct": 98.388,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Address": {
+          "blank": 3526,
+          "blank_pct": 97.999,
+          "unknown": 0,
+          "redacted": 72
+        },
+        "Address - Unknown": {
+          "blank": 3593,
+          "blank_pct": 99.861,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City": {
+          "blank": 3524,
+          "blank_pct": 97.943,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "City - Unknown": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "State": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 3,
+          "redacted": 0
+        },
+        "Zip Code": {
+          "blank": 3536,
+          "blank_pct": 98.277,
+          "unknown": 0,
+          "redacted": 62
+        },
+        "Zip Code - Unknown": {
+          "blank": 3583,
+          "blank_pct": 99.583,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Roadway Type": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 3,
+          "redacted": 0
+        },
+        "Roadway Surface": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 4,
+          "redacted": 0
+        },
+        "Roadway Description": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 8,
+          "redacted": 0
+        },
+        "Posted Speed Limit (MPH)": {
+          "blank": 3534,
+          "blank_pct": 98.221,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Posted Speed Limit - Unknown": {
+          "blank": 3585,
+          "blank_pct": 99.639,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Lighting": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 4,
+          "redacted": 0
+        },
+        "Weather - Clear": {
+          "blank": 3539,
+          "blank_pct": 98.36,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Snow": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Cloudy": {
+          "blank": 3587,
+          "blank_pct": 99.694,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Fog/Smoke": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Rain": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Severe Wind": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Unknown": {
+          "blank": 3591,
+          "blank_pct": 99.805,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Other": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Weather - Other Text": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Crash With": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Highest Injury Severity Alleged": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 14,
+          "redacted": 0
+        },
+        "Property Damage?": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 9,
+          "redacted": 0
+        },
+        "CP Pre-Crash Movement": {
+          "blank": 3526,
+          "blank_pct": 97.999,
+          "unknown": 6,
+          "redacted": 0
+        },
+        "CP Any Air Bags Deployed?": {
+          "blank": 3533,
+          "blank_pct": 98.193,
+          "unknown": 12,
+          "redacted": 0
+        },
+        "CP Was Vehicle Towed?": {
+          "blank": 3533,
+          "blank_pct": 98.193,
+          "unknown": 5,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Left": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Left": {
+          "blank": 3592,
+          "blank_pct": 99.833,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Left": {
+          "blank": 3565,
+          "blank_pct": 99.083,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Top": {
+          "blank": 3597,
+          "blank_pct": 99.972,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front": {
+          "blank": 3569,
+          "blank_pct": 99.194,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Rear Right": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Right": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Front Right": {
+          "blank": 3571,
+          "blank_pct": 99.25,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Bottom": {
+          "blank": 3598,
+          "blank_pct": 100.0,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "CP Contact Area - Unknown": {
+          "blank": 3586,
+          "blank_pct": 99.666,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-Crash Movement": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 2,
+          "redacted": 0
+        },
+        "SV Any Air Bags Deployed?": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 6,
+          "redacted": 0
+        },
+        "SV Was Vehicle Towed?": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 6,
+          "redacted": 0
+        },
+        "SV Were All Passengers Belted?": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 9,
+          "redacted": 0
+        },
+        "SV Precrash Speed (MPH)": {
+          "blank": 3531,
+          "blank_pct": 98.138,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Pre-crash Speed - Unknown": {
+          "blank": 3588,
+          "blank_pct": 99.722,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Left": {
+          "blank": 3571,
+          "blank_pct": 99.25,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Left": {
+          "blank": 3594,
+          "blank_pct": 99.889,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Left": {
+          "blank": 3587,
+          "blank_pct": 99.694,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear": {
+          "blank": 3576,
+          "blank_pct": 99.389,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Top": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front": {
+          "blank": 3587,
+          "blank_pct": 99.694,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Rear Right": {
+          "blank": 3576,
+          "blank_pct": 99.389,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Right": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Front Right": {
+          "blank": 3590,
+          "blank_pct": 99.778,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Bottom": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "SV Contact Area - Unknown": {
+          "blank": 3590,
+          "blank_pct": 99.778,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - EDR": {
+          "blank": 3591,
+          "blank_pct": 99.805,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Police Rpt": {
+          "blank": 3587,
+          "blank_pct": 99.694,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Telematics": {
+          "blank": 3588,
+          "blank_pct": 99.722,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Complaints": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Video": {
+          "blank": 3540,
+          "blank_pct": 98.388,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Other": {
+          "blank": 3543,
+          "blank_pct": 98.471,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - No Data": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Data Availability - Unknown": {
+          "blank": 3591,
+          "blank_pct": 99.805,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Law Enforcement Investigating?": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 16,
+          "redacted": 0
+        },
+        "Investigating Agency": {
+          "blank": 3574,
+          "blank_pct": 99.333,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Agency - Unknown": {
+          "blank": 3585,
+          "blank_pct": 99.639,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Rep Ent Or Mfr Investigating?": {
+          "blank": 3521,
+          "blank_pct": 97.86,
+          "unknown": 11,
+          "redacted": 0
+        },
+        "Investigating Officer Name": {
+          "blank": 3577,
+          "blank_pct": 99.416,
+          "unknown": 0,
+          "redacted": 21
+        },
+        "Inv. Officer Name - Unknown": {
+          "blank": 3582,
+          "blank_pct": 99.555,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Officer Phone": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 2
+        },
+        "Inv. Officer Phone - Unknown": {
+          "blank": 3563,
+          "blank_pct": 99.027,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Investigating Officer Email": {
+          "blank": 3596,
+          "blank_pct": 99.944,
+          "unknown": 0,
+          "redacted": 2
+        },
+        "Inv. Officer Email - Unknown": {
+          "blank": 3563,
+          "blank_pct": 99.027,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Within ODD?": {
+          "blank": 3533,
+          "blank_pct": 98.193,
+          "unknown": 5,
+          "redacted": 3
+        },
+        "Within ODD? - CBI": {
+          "blank": 3595,
+          "blank_pct": 99.917,
+          "unknown": 0,
+          "redacted": 0
+        },
+        "Narrative": {
+          "blank": 3518,
+          "blank_pct": 97.777,
+          "unknown": 0,
+          "redacted": 77
+        },
+        "Narrative - CBI?": {
+          "blank": 3594,
+          "blank_pct": 99.889,
+          "unknown": 0,
+          "redacted": 0
+        }
+      },
+      "parse_seconds": 0.299
+    }
+  ],
+  "schema_diff": {
+    "current_union_columns": 116,
+    "archive_union_columns": 137,
+    "only_current": [
+      "Any Air Bags Deployed?",
+      "Automation Feature Version",
+      "Automation Feature Version CBI",
+      "Engagement Status",
+      "Make - Unknown",
+      "Roadway-Degraded Surface",
+      "Roadway-Missing/Degraded Marking",
+      "Roadway-No Unusual Conditions",
+      "Roadway-Other-See Narrative",
+      "Roadway-Traffic Incident",
+      "Roadway-Unknown",
+      "Roadway-Wet Surface Condition",
+      "Roadway-Work Zone",
+      "Source - Internal Process Review",
+      "Source - NHTSA VOQ",
+      "Source - Other - See Narrative",
+      "Source - Other Entity",
+      "Source - State or Other Agency",
+      "VIN Decoded",
+      "Was Any Vehicle Towed?",
+      "Weather - Dust Storm",
+      "Weather - Fog/Smoke/Haze",
+      "Weather - Partly Cloudy",
+      "Weather - Severe Hurricane",
+      "Weather - Structure-Indoor",
+      "Weather - Unk - See Narrative",
+      "Were All Passengers Belted?"
+    ],
+    "only_archive": [
+      "ADAS/ADS Hardware Version",
+      "ADAS/ADS Hardware Version - Unk",
+      "ADAS/ADS Hardware Version CBI",
+      "ADAS/ADS Software Version",
+      "ADAS/ADS Software Version - Unk",
+      "ADAS/ADS Software Version CBI",
+      "ADAS/ADS System Version",
+      "ADAS/ADS System Version - Unk",
+      "ADAS/ADS System Version CBI",
+      "ADS Equipped?",
+      "CP Any Air Bags Deployed?",
+      "CP Was Vehicle Towed?",
+      "Federal Reg. Exemption - No",
+      "Federal Reg. Exemption - Unk",
+      "Federal Regulatory Exemption?",
+      "Inv. Officer Email - Unknown",
+      "Inv. Officer Name - Unknown",
+      "Inv. Officer Phone - Unknown",
+      "Investigating Officer Email",
+      "Investigating Officer Name",
+      "Investigating Officer Phone",
+      "Law Enforcement Investigating?",
+      "Lighting",
+      "Mileage",
+      "Mileage - Unknown",
+      "Notice Received Date",
+      "Other Federal Reg. Exemption",
+      "Other Reporting Entities?",
+      "Other Reporting Entities? - NA",
+      "Other Reporting Entities? - Unk",
+      "Posted Speed Limit (MPH)",
+      "Posted Speed Limit - Unknown",
+      "Property Damage?",
+      "Rep Ent Or Mfr Investigating?",
+      "Roadway Description",
+      "Roadway Surface",
+      "SV Any Air Bags Deployed?",
+      "SV Was Vehicle Towed?",
+      "SV Were All Passengers Belted?",
+      "Source - Other",
+      "Source - Other Text",
+      "State or Local Permit",
+      "State or Local Permit?",
+      "VIN - Unknown",
+      "Weather - Fog/Smoke",
+      "Weather - Other",
+      "Weather - Other Text",
+      "Weather - Unknown"
+    ],
+    "common": 89
+  },
+  "combined_stats": {
+    "current": {
+      "rows": 3413,
+      "unique_report_ids": 3263,
+      "unique_report_id_version_pairs": 3413,
+      "duplicate_report_id_version_rows": 0,
+      "report_ids_with_multiple_versions": 128,
+      "max_report_version": 5,
+      "report_ids_where_observed_version_count_differs_from_max_version": 38,
+      "latest_report_rows": 3263,
+      "latest_bucket_counts": {
+        "Level 2 ADAS": 1915,
+        "ADS": 1324,
+        "Other / Unknown": 24
+      },
+      "latest_same_incident_ids_with_multiple_report_ids": 5,
+      "latest_rows_in_multi_report_same_incident_ids": 11,
+      "report_ids_where_same_incident_id_changes_across_versions": 7,
+      "report_ids_where_source_bucket_changes_across_versions": 0,
+      "incident_date_min": "2023-01",
+      "incident_date_max": "2026-07",
+      "incident_date_unparseable_or_blank": 1,
+      "submission_date_min": "2025-06",
+      "submission_date_max": "2026-07"
+    },
+    "archive": {
+      "rows": 9920,
+      "unique_report_ids": 8160,
+      "unique_report_id_version_pairs": 9920,
+      "duplicate_report_id_version_rows": 0,
+      "report_ids_with_multiple_versions": 1549,
+      "max_report_version": 9,
+      "report_ids_where_observed_version_count_differs_from_max_version": 4,
+      "latest_report_rows": 8160,
+      "latest_bucket_counts": {
+        "Other / Unknown": 3571,
+        "Level 2 ADAS": 2690,
+        "ADS": 1899
+      },
+      "latest_same_incident_ids_with_multiple_report_ids": 402,
+      "latest_rows_in_multi_report_same_incident_ids": 825,
+      "report_ids_where_same_incident_id_changes_across_versions": 30,
+      "report_ids_where_source_bucket_changes_across_versions": 0,
+      "incident_date_min": "1900-01",
+      "incident_date_max": "2025-06",
+      "incident_date_unparseable_or_blank": 3562,
+      "submission_date_min": "2021-07",
+      "submission_date_max": "2025-06"
+    }
+  },
+  "cross_regime": {
+    "overlapping_report_ids": 38,
+    "examples": [
+      {
+        "report_id": "1243-10840",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "1243-10981",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "1306-10345",
+        "archive_versions": [
+          "1",
+          "2",
+          "3"
+        ],
+        "current_versions": [
+          "4"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10015",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10100",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10103",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10183",
+        "archive_versions": [
+          "1",
+          "2"
+        ],
+        "current_versions": [
+          "3"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10245",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10350",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10357",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10532",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10698",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10735",
+        "archive_versions": [
+          "1",
+          "2"
+        ],
+        "current_versions": [
+          "3"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10930",
+        "archive_versions": [
+          "1",
+          "2"
+        ],
+        "current_versions": [
+          "3"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-10939",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-11042",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Other / Unknown"
+        ]
+      },
+      {
+        "report_id": "13781-6046",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-7474",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-7744",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      },
+      {
+        "report_id": "13781-7835",
+        "archive_versions": [
+          "1"
+        ],
+        "current_versions": [
+          "2"
+        ],
+        "archive_buckets": [
+          "Level 2 ADAS"
+        ],
+        "current_buckets": [
+          "Level 2 ADAS"
+        ]
+      }
+    ]
+  },
+  "totals": {
+    "pilot_files": 8,
+    "pilot_bytes": 14476312,
+    "csv_bytes": 13529114,
+    "rows": 13333,
+    "current_rows": 3413,
+    "archive_rows": 9920
+  },
+  "likely_final_csv_size": {
+    "current_regime_only_bytes_low": 4337734,
+    "current_regime_only_bytes_high": 7374147,
+    "all_regimes_bytes_low": 13529114,
+    "all_regimes_bytes_high": 22999493
+  },
+  "rebuild_complexity": {
+    "source_csv_files": 6,
+    "source_pdf_files": 2,
+    "network_payload_bytes": 14476312,
+    "assessment": "low network/compute cost; primary complexity is semantic harmonization across reporting regimes"
+  }
+}

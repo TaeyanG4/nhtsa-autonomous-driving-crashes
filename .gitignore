@@ -1,0 +1,31 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.pyc
+
+# Raw/source snapshots and local build products are reproducible but not committed.
+data/raw/
+data/derived/
+release/data.csv
+release/dataset-cover-image.png
+release/.kaggle/
+state/downloads/
+state/discovery.json
+state/latest_snapshot.json
+state/parse_report.json
+state/rights_gate.json
+state/normalize_report.json
+state/kaggle_init_probe/
+state/kernel_init_probe/
+state/kaggle_readback/
+state/notebook_readback/
+state/adoption/
+state/notebook_execute_test.ipynb
+state/sgo_page.html
+qa/release_manifest.json
+qa/cover-card-preview.png
+
+# Local credentials / environment.
+.env
+kaggle.json

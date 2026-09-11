@@ -1,0 +1,2244 @@
+{
+  "generated_at": "2026-09-11T02:56:19.302236+00:00",
+  "searches": [
+    "automated driving crash reports",
+    "autonomous driving crashes",
+    "self driving car accidents",
+    "ADAS crashes",
+    "NHTSA",
+    "traffic accidents US",
+    "vehicle crashes US",
+    "traffic fatalities NHTSA",
+    "road accidents"
+  ],
+  "candidate_count": 116,
+  "candidates": [
+    {
+      "ref": "sobhanmoosavi/us-accidents",
+      "title": "US Accidents (2016 - 2023)",
+      "subtitle": "A Countrywide Traffic Accident Dataset (2016 - 2023)",
+      "url": "https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents",
+      "last_updated": "2023-05-28T00:54:47.207Z",
+      "update_age_days": 1202,
+      "size_bytes": 684855912,
+      "downloads": 191057,
+      "votes": 2703,
+      "views": 1152701,
+      "notebooks": 516,
+      "license": "CC BY-NC-SA 4.0",
+      "version": 13,
+      "usability": 1,
+      "queries": [
+        "traffic accidents US",
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "daveianhickey/2000-16-traffic-flow-england-scotland-wales",
+      "title": "1.6 million UK traffic accidents",
+      "subtitle": "Visualise and analyse traffic demographics",
+      "url": "https://www.kaggle.com/datasets/daveianhickey/2000-16-traffic-flow-england-scotland-wales",
+      "last_updated": "2017-09-17T16:55:28.893Z",
+      "update_age_days": 3280,
+      "size_bytes": 138556435,
+      "downloads": 27158,
+      "votes": 474,
+      "views": 224665,
+      "notebooks": 60,
+      "license": "Database: Open Database, Contents: Database Contents",
+      "version": 10,
+      "usability": 0.7941176,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "usdot/nhtsa-traffic-fatalities",
+      "title": "US Traffic Fatality Records",
+      "subtitle": "Fatal car crashes for 2015-2016",
+      "url": "https://www.kaggle.com/datasets/usdot/nhtsa-traffic-fatalities",
+      "last_updated": "2019-03-20T23:21:02.797Z",
+      "update_age_days": 2731,
+      "size_bytes": null,
+      "downloads": null,
+      "votes": 315,
+      "views": 114506,
+      "notebooks": 961,
+      "license": "CC0: Public Domain",
+      "version": 3,
+      "usability": 0.7058824,
+      "queries": [
+        "NHTSA",
+        "vehicle crashes US",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "tsiaras/uk-road-safety-accidents-and-vehicles",
+      "title": "UK Road Safety: Traffic Accidents and Vehicles",
+      "subtitle": "Detailed dataset of road accidents and involved vehicles in the UK (2005-2017)",
+      "url": "https://www.kaggle.com/datasets/tsiaras/uk-road-safety-accidents-and-vehicles",
+      "last_updated": "2019-01-15T12:23:24.833Z",
+      "update_age_days": 2795,
+      "size_bytes": 149163721,
+      "downloads": 19582,
+      "votes": 234,
+      "views": 149571,
+      "notebooks": 26,
+      "license": "Database: Open Database, Contents: Database Contents",
+      "version": 3,
+      "usability": 0.8235294,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "silicon99/dft-accident-data",
+      "title": "UK Car Accidents 2005-2015",
+      "subtitle": "Data from the UK Department for Transport",
+      "url": "https://www.kaggle.com/datasets/silicon99/dft-accident-data",
+      "last_updated": "2017-02-21T13:04:02.833Z",
+      "update_age_days": 3488,
+      "size_bytes": 116925260,
+      "downloads": 22922,
+      "votes": 215,
+      "views": 166735,
+      "notebooks": 48,
+      "license": "CC0: Public Domain",
+      "version": 3,
+      "usability": 0.7941176,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "jessevent/all-kaggle-datasets",
+      "title": "Complete Kaggle Datasets Collection",
+      "subtitle": "A dataset of Kaggle datasets, so you can explore while you explore",
+      "url": "https://www.kaggle.com/datasets/jessevent/all-kaggle-datasets",
+      "last_updated": "2018-01-16T12:32:58.840Z",
+      "update_age_days": 3159,
+      "size_bytes": 398911,
+      "downloads": 3606,
+      "votes": 168,
+      "views": 76189,
+      "notebooks": 8,
+      "license": "Database: Open Database, Contents: © Original Authors",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "oktayrdeki/traffic-accidents",
+      "title": "Traffic Accidents",
+      "subtitle": "Traffic Crashes Dataset",
+      "url": "https://www.kaggle.com/datasets/oktayrdeki/traffic-accidents",
+      "last_updated": "2025-01-20T10:33:44.323Z",
+      "update_age_days": 598,
+      "size_bytes": 4862299,
+      "downloads": 16185,
+      "votes": 159,
+      "views": 73899,
+      "notebooks": 26,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "imtkaggleteam/electric-vehicle-population",
+      "title": "Electric Vehicle Population",
+      "subtitle": "Electric Vehicle Population Size History By County",
+      "url": "https://www.kaggle.com/datasets/imtkaggleteam/electric-vehicle-population",
+      "last_updated": "2023-08-07T14:21:13.613Z",
+      "update_age_days": 1130,
+      "size_bytes": 191529,
+      "downloads": 368,
+      "votes": 121,
+      "views": 2718,
+      "notebooks": null,
+      "license": "Other (specified in description)",
+      "version": 2,
+      "usability": 0.9411765,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "devansodariya/road-accident-united-kingdom-uk-dataset",
+      "title": "Road Accident (United Kingdom (UK)) Dataset",
+      "subtitle": "Road Safety Dataset: UK Accident Dataset with 1.8m Record Including EDA Notebook",
+      "url": "https://www.kaggle.com/datasets/devansodariya/road-accident-united-kingdom-uk-dataset",
+      "last_updated": "2022-05-28T15:30:39.950Z",
+      "update_age_days": 1566,
+      "size_bytes": 59533986,
+      "downloads": 8015,
+      "votes": 119,
+      "views": 40926,
+      "notebooks": 18,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.9705882,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "yogape/logistics-operations-database",
+      "title": "Logistics Operations Database",
+      "subtitle": "3-Year Trucking Operations (2022-2024)",
+      "url": "https://www.kaggle.com/datasets/yogape/logistics-operations-database",
+      "last_updated": "2025-11-23T20:21:26.907Z",
+      "update_age_days": 291,
+      "size_bytes": 15059576,
+      "downloads": 11033,
+      "votes": 118,
+      "views": 38655,
+      "notebooks": 13,
+      "license": "MIT",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "saurabhshahane/road-traffic-accidents",
+      "title": "Road Traffic Accidents",
+      "subtitle": "Road Traffic Accident Dataset of Addis Ababa City",
+      "url": "https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents",
+      "last_updated": "2022-01-26T08:34:10.513Z",
+      "update_age_days": 1688,
+      "size_bytes": 460895,
+      "downloads": 20193,
+      "votes": 105,
+      "views": 108991,
+      "notebooks": 35,
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "version": 3,
+      "usability": 0.9411765,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "jacksondivakarr/car-crash-dataset",
+      "title": "Car Crash Dataset",
+      "subtitle": "A comprehensive dataset documenting various aspects of car crashes",
+      "url": "https://www.kaggle.com/datasets/jacksondivakarr/car-crash-dataset",
+      "last_updated": "2024-01-08T13:44:08.533Z",
+      "update_age_days": 976,
+      "size_bytes": 4147179,
+      "downloads": 8071,
+      "votes": 95,
+      "views": 44930,
+      "notebooks": 19,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "nhtsa/2015-traffic-fatalities",
+      "title": "2015 Traffic  Fatalities",
+      "subtitle": "National Highway Traffic Safety Administration",
+      "url": "https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities",
+      "last_updated": "2019-11-17T22:04:46.893Z",
+      "update_age_days": 2489,
+      "size_bytes": 20730592,
+      "downloads": 7171,
+      "votes": 93,
+      "views": 58988,
+      "notebooks": 175,
+      "license": "Database: Open Database, Contents: Database Contents",
+      "version": 2,
+      "usability": 0.7941176,
+      "queries": [
+        "NHTSA",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "nextmillionaire/car-accident-dataset",
+      "title": "Car Accident Dataset",
+      "subtitle": "Road Accident Records in Kensington and Chelsea (January 2021)",
+      "url": "https://www.kaggle.com/datasets/nextmillionaire/car-accident-dataset",
+      "last_updated": "2024-01-10T23:04:21.073Z",
+      "update_age_days": 974,
+      "size_bytes": 7399700,
+      "downloads": 7604,
+      "votes": 84,
+      "views": 36909,
+      "notebooks": 12,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 0.88235295,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "denkuznetz/traffic-accident-prediction",
+      "title": "Traffic Accident Prediction 💥🚗",
+      "subtitle": "Predict Traffic Accidents: Weather, Road Conditions, and Driver Behavior Data",
+      "url": "https://www.kaggle.com/datasets/denkuznetz/traffic-accident-prediction",
+      "last_updated": "2024-12-11T11:04:47.117Z",
+      "update_age_days": 638,
+      "size_bytes": 10278,
+      "downloads": 9734,
+      "votes": 78,
+      "views": 42988,
+      "notebooks": 26,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "benoit72/uk-accidents-10-years-history-with-many-variables",
+      "title": "UK Accidents 10 years history with many variables",
+      "subtitle": "Accident, Vehicles, Casualties(weather, car model, weather lat/long, age driver)",
+      "url": "https://www.kaggle.com/datasets/benoit72/uk-accidents-10-years-history-with-many-variables",
+      "last_updated": "2018-03-03T23:47:12.727Z",
+      "update_age_days": 3113,
+      "size_bytes": 107672390,
+      "downloads": 7534,
+      "votes": 70,
+      "views": 49297,
+      "notebooks": 35,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.7647059,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "jonbown/us-2020-traffic-accidents",
+      "title": "US Traffic Accidents",
+      "subtitle": "NHTSA CRSS Accident Records 2016-2020",
+      "url": "https://www.kaggle.com/datasets/jonbown/us-2020-traffic-accidents",
+      "last_updated": "2023-02-26T16:53:20.873Z",
+      "update_age_days": 1292,
+      "size_bytes": 82475267,
+      "downloads": 4321,
+      "votes": 69,
+      "views": 24715,
+      "notebooks": 4,
+      "license": "Other (specified in description)",
+      "version": 3,
+      "usability": 1,
+      "queries": [
+        "NHTSA",
+        "traffic accidents US",
+        "vehicle crashes US",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "juhibhojani/road-accidents-data-2022",
+      "title": "Road Accidents Data -2022",
+      "subtitle": "\"Roadway Woes: A Comprehensive Dataset on Road Accidents\"",
+      "url": "https://www.kaggle.com/datasets/juhibhojani/road-accidents-data-2022",
+      "last_updated": "2023-07-29T04:07:13.200Z",
+      "update_age_days": 1139,
+      "size_bytes": 906450,
+      "downloads": 3259,
+      "votes": 66,
+      "views": 15423,
+      "notebooks": 11,
+      "license": "Community Data License Agreement - Sharing - Version 1.0",
+      "version": 1,
+      "usability": 0.88235295,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "thedevastator/tesla-accident-fatalities-analysis-and-statistic",
+      "title": "Tesla Deaths (Updated 2023)",
+      "subtitle": "An In-depth Look into Driver, Occupant, and Pedestrian Deaths",
+      "url": "https://www.kaggle.com/datasets/thedevastator/tesla-accident-fatalities-analysis-and-statistic",
+      "last_updated": "2023-02-01T15:41:47.323Z",
+      "update_age_days": 1317,
+      "size_bytes": 90953,
+      "downloads": 6953,
+      "votes": 65,
+      "views": 26494,
+      "notebooks": 1,
+      "license": "CC0: Public Domain",
+      "version": 3,
+      "usability": 1,
+      "queries": [
+        "self driving car accidents"
+      ]
+    },
+    {
+      "ref": "himelsarder/road-accident-survival-dataset",
+      "title": "Road Accident Survival Dataset",
+      "subtitle": "Analyzing the Impact of Age, Speed, and Safety Measures on Accident Survival",
+      "url": "https://www.kaggle.com/datasets/himelsarder/road-accident-survival-dataset",
+      "last_updated": "2025-01-18T06:00:32.410Z",
+      "update_age_days": 600,
+      "size_bytes": 1222,
+      "downloads": 9810,
+      "votes": 64,
+      "views": 38711,
+      "notebooks": 45,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "sahityasetu/motor-vehicle-collisions-crashes-usa",
+      "title": "Motor Vehicle Collisions - Crashes: USA",
+      "subtitle": "Motor Vehicle Collisions crash table ",
+      "url": "https://www.kaggle.com/datasets/sahityasetu/motor-vehicle-collisions-crashes-usa",
+      "last_updated": "2024-07-10T18:45:35.743Z",
+      "update_age_days": 792,
+      "size_bytes": 86278761,
+      "downloads": 978,
+      "votes": 61,
+      "views": 5720,
+      "notebooks": 4,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 0.9411765,
+      "queries": [
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "shahriarkabir/bangladesh-road-accidents-combined-ngo-data",
+      "title": "Bangladesh Road Accidents: Combined NGO Data",
+      "subtitle": "Annual Records of Road Accidents, Injuries, and Fatalities in Bangladesh.",
+      "url": "https://www.kaggle.com/datasets/shahriarkabir/bangladesh-road-accidents-combined-ngo-data",
+      "last_updated": "2024-03-06T06:56:10.167Z",
+      "update_age_days": 918,
+      "size_bytes": 987,
+      "downloads": 241,
+      "votes": 61,
+      "views": 1642,
+      "notebooks": 1,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "manugupta/road-accidents-in-india",
+      "title": "Road Accidents in India",
+      "subtitle": "from 2001 - 2014 for all indian states and U.T's ",
+      "url": "https://www.kaggle.com/datasets/manugupta/road-accidents-in-india",
+      "last_updated": "2018-04-08T08:18:55.720Z",
+      "update_age_days": 3077,
+      "size_bytes": 23410,
+      "downloads": 4978,
+      "votes": 53,
+      "views": 32251,
+      "notebooks": 4,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.4117647,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "rajdalsaniya/pothole-detection-dataset",
+      "title": "Pothole Detection Dataset",
+      "subtitle": "Detect Pothole On Road",
+      "url": "https://www.kaggle.com/datasets/rajdalsaniya/pothole-detection-dataset",
+      "last_updated": "2022-12-25T07:30:48.220Z",
+      "update_age_days": 1355,
+      "size_bytes": 246937753,
+      "downloads": 4384,
+      "votes": 50,
+      "views": 25557,
+      "notebooks": 17,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.875,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "msjahid/road-accident-statistics-in-bangladesh",
+      "title": "Road Accident Trends in Bangladesh: 1980-2024",
+      "subtitle": "Road Accident Statistics in Bangladesh ",
+      "url": "https://www.kaggle.com/datasets/msjahid/road-accident-statistics-in-bangladesh",
+      "last_updated": "2024-02-21T07:48:14.917Z",
+      "update_age_days": 932,
+      "size_bytes": 669,
+      "downloads": 833,
+      "votes": 49,
+      "views": 4522,
+      "notebooks": 4,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "khushikyad001/india-road-accident-dataset-predictive-analysis",
+      "title": "India Road Accident Dataset Predictive Analysis",
+      "subtitle": "Comprehensive Accident Data for Risk Assessment and Prediction",
+      "url": "https://www.kaggle.com/datasets/khushikyad001/india-road-accident-dataset-predictive-analysis",
+      "last_updated": "2025-03-22T08:03:11.707Z",
+      "update_age_days": 537,
+      "size_bytes": 69834,
+      "downloads": 5253,
+      "votes": 48,
+      "views": 18707,
+      "notebooks": 11,
+      "license": "MIT",
+      "version": 1,
+      "usability": 0.88235295,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "thedevastator/state-ut-wise-road-accidents-due-to-driver-viola",
+      "title": "Road Accidents due to Driver Violations (India)",
+      "subtitle": "Investigating Non-Adherence to Traffic Laws",
+      "url": "https://www.kaggle.com/datasets/thedevastator/state-ut-wise-road-accidents-due-to-driver-viola",
+      "last_updated": "2023-01-06T14:29:20.160Z",
+      "update_age_days": 1343,
+      "size_bytes": 1758,
+      "downloads": 2428,
+      "votes": 48,
+      "views": 12132,
+      "notebooks": 3,
+      "license": "Other (specified in description)",
+      "version": 2,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "s3programmer/road-accident-severity-in-india",
+      "title": "Road Accident Severity in India",
+      "subtitle": "This data set is collected from Indian city police departments for Master's ",
+      "url": "https://www.kaggle.com/datasets/s3programmer/road-accident-severity-in-india",
+      "last_updated": "2023-10-31T05:34:38.930Z",
+      "update_age_days": 1045,
+      "size_bytes": 317927,
+      "downloads": 4180,
+      "votes": 46,
+      "views": 17408,
+      "notebooks": 11,
+      "license": "Database: Open Database, Contents: Database Contents",
+      "version": 1,
+      "usability": 0.9411765,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "rachit239/road-accident-data-2020-india",
+      "title": "Road Accident Data 2020 India",
+      "subtitle": "Data about various causes for road accident in top 50 cities in India in 2020.",
+      "url": "https://www.kaggle.com/datasets/rachit239/road-accident-data-2020-india",
+      "last_updated": "2023-06-06T06:19:53.550Z",
+      "update_age_days": 1192,
+      "size_bytes": 47576,
+      "downloads": 3384,
+      "votes": 46,
+      "views": 13780,
+      "notebooks": 7,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "willianoliveiragibin/key-factors-traffic-accidents",
+      "title": "Key Factors Traffic Accidents",
+      "subtitle": "This dataset captures key factors influencing traffic accidents.",
+      "url": "https://www.kaggle.com/datasets/willianoliveiragibin/key-factors-traffic-accidents",
+      "last_updated": "2025-01-17T21:50:27.730Z",
+      "update_age_days": 601,
+      "size_bytes": 244037,
+      "downloads": 3264,
+      "votes": 46,
+      "views": 14428,
+      "notebooks": 10,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "iamtapendu/bird-strike-by-aircafts-data",
+      "title": "Bird Strikes in Aviation: Aircraft Collisions",
+      "subtitle": "Exploring Aircraft Safety, Damage, and Impact of Bird Collisions",
+      "url": "https://www.kaggle.com/datasets/iamtapendu/bird-strike-by-aircafts-data",
+      "last_updated": "2024-11-15T13:41:24.790Z",
+      "update_age_days": 664,
+      "size_bytes": 1490649,
+      "downloads": 2637,
+      "votes": 46,
+      "views": 14240,
+      "notebooks": 2,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "nezukokamaado/road-accident-casualties-dataset",
+      "title": "Road Accident Casualties Dataset",
+      "subtitle": "A Comprehensive Dataset for Traffic Incident Research",
+      "url": "https://www.kaggle.com/datasets/nezukokamaado/road-accident-casualties-dataset",
+      "last_updated": "2023-12-19T18:48:24.210Z",
+      "update_age_days": 996,
+      "size_bytes": 11500789,
+      "downloads": 2476,
+      "votes": 42,
+      "views": 12151,
+      "notebooks": 11,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "mlippo/car-accidents-in-brazil-2017-2023",
+      "title": "Car Accidents in Brazil (2017-2023)",
+      "subtitle": "400000 registers about traffic accidents that occured in 7 years.",
+      "url": "https://www.kaggle.com/datasets/mlippo/car-accidents-in-brazil-2017-2023",
+      "last_updated": "2024-10-28T23:38:54.273Z",
+      "update_age_days": 682,
+      "size_bytes": 42972697,
+      "downloads": 2607,
+      "votes": 40,
+      "views": 11626,
+      "notebooks": 6,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "atharvasoundankar/road-accidents-dataset",
+      "title": " 🚧 Road Traffic Accident Data – United Kingdom",
+      "subtitle": "🚗 Detailed UK Road Accident Records Across Multiple Districts (Urban & Rural)",
+      "url": "https://www.kaggle.com/datasets/atharvasoundankar/road-accidents-dataset",
+      "last_updated": "2025-07-09T12:12:41.773Z",
+      "update_age_days": 428,
+      "size_bytes": 7562080,
+      "downloads": 2271,
+      "votes": 39,
+      "views": 9547,
+      "notebooks": 19,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "thedevastator/fatal-traffic-accidents-in-arizona-2012-2016",
+      "title": "Traffic Accidents in Arizona",
+      "subtitle": "Demographics, Injury Severity, Location, and Other Factors",
+      "url": "https://www.kaggle.com/datasets/thedevastator/fatal-traffic-accidents-in-arizona-2012-2016",
+      "last_updated": "2023-01-19T12:58:09.573Z",
+      "update_age_days": 1330,
+      "size_bytes": 927604,
+      "downloads": 2019,
+      "votes": 39,
+      "views": 12455,
+      "notebooks": 1,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "abhinavshaw09/road-accidents-data",
+      "title": "Road Accidents Data",
+      "subtitle": "\"Roadway Woes: A Comprehensive Dataset on Road Accidents\"",
+      "url": "https://www.kaggle.com/datasets/abhinavshaw09/road-accidents-data",
+      "last_updated": "2024-03-27T05:13:24.800Z",
+      "update_age_days": 897,
+      "size_bytes": 842515,
+      "downloads": 1676,
+      "votes": 39,
+      "views": 10057,
+      "notebooks": 7,
+      "license": "Community Data License Agreement - Sharing - Version 1.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "anthonytherrien/predicting-road-accident-risk-vault",
+      "title": "Predicting Road Accident Risk | Vault",
+      "subtitle": "This vault collects the best-performing public submissions.",
+      "url": "https://www.kaggle.com/datasets/anthonytherrien/predicting-road-accident-risk-vault",
+      "last_updated": "2025-10-28T15:12:44.757Z",
+      "update_age_days": 317,
+      "size_bytes": 3937836,
+      "downloads": 1528,
+      "votes": 37,
+      "views": 8873,
+      "notebooks": 16,
+      "license": "MIT",
+      "version": 12,
+      "usability": 0.8235294,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "greeshmagirish/road-accidents-in-india-20142017",
+      "title": "Road Accidents in India (2014-2017)",
+      "subtitle": "State Wise Road Accidents Data ",
+      "url": "https://www.kaggle.com/datasets/greeshmagirish/road-accidents-in-india-20142017",
+      "last_updated": "2019-12-03T10:18:19.090Z",
+      "update_age_days": 2473,
+      "size_bytes": 15173,
+      "downloads": 7530,
+      "votes": 36,
+      "views": 34250,
+      "notebooks": 8,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "ianktoo/simulated-roads-accident-data",
+      "title": "Simulated Roads Accident Data",
+      "subtitle": "Synthetic Dataset: Road Accident Risk Factor",
+      "url": "https://www.kaggle.com/datasets/ianktoo/simulated-roads-accident-data",
+      "last_updated": "2025-07-04T04:05:02.663Z",
+      "update_age_days": 433,
+      "size_bytes": 1060544,
+      "downloads": 1845,
+      "votes": 36,
+      "views": 6978,
+      "notebooks": 120,
+      "license": "CC0: Public Domain",
+      "version": 3,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "xavierberge/road-accident-dataset",
+      "title": "Road Accident dataset",
+      "subtitle": "Accidents classified type of injury, vehicle, time, road and type of road",
+      "url": "https://www.kaggle.com/datasets/xavierberge/road-accident-dataset",
+      "last_updated": "2025-02-05T00:32:37.730Z",
+      "update_age_days": 583,
+      "size_bytes": 49528004,
+      "downloads": 4443,
+      "votes": 35,
+      "views": 16188,
+      "notebooks": 7,
+      "license": "CC0: Public Domain",
+      "version": 2,
+      "usability": 0.9411765,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "anokas/2015-us-traffic-fatalities",
+      "title": "2015 US Traffic Fatalities",
+      "subtitle": "Raw Traffic Fatality data for 2015 from the NHTSA",
+      "url": "https://www.kaggle.com/datasets/anokas/2015-us-traffic-fatalities",
+      "last_updated": "2019-11-18T00:53:07.907Z",
+      "update_age_days": 2489,
+      "size_bytes": 1153192,
+      "downloads": 2831,
+      "votes": 35,
+      "views": 29651,
+      "notebooks": 45,
+      "license": "Unknown",
+      "version": 2,
+      "usability": 0.5882353,
+      "queries": [
+        "NHTSA",
+        "traffic accidents US",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "pereprosov/road-accidents-in-the-czech-republic",
+      "title": "Road accidents in the Czech Republic",
+      "subtitle": "Detailed dataset of road accidents in the Czech Republic (2016-2022)",
+      "url": "https://www.kaggle.com/datasets/pereprosov/road-accidents-in-the-czech-republic",
+      "last_updated": "2024-02-01T18:53:38.973Z",
+      "update_age_days": 952,
+      "size_bytes": 44694798,
+      "downloads": 1416,
+      "votes": 35,
+      "views": 6922,
+      "notebooks": 4,
+      "license": "Database: Open Database, Contents: Database Contents",
+      "version": 3,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "fiq423ubf/total-number-of-road-accidents-in-india",
+      "title": "Total Number of Road Accidents in India",
+      "subtitle": "State/UT-wise Total Number of Road Accidents in India from 2016 to 2019",
+      "url": "https://www.kaggle.com/datasets/fiq423ubf/total-number-of-road-accidents-in-india",
+      "last_updated": "2023-08-12T12:02:42.390Z",
+      "update_age_days": 1125,
+      "size_bytes": 4585,
+      "downloads": 2372,
+      "votes": 32,
+      "views": 10371,
+      "notebooks": 2,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "yogidsba/us-highway-railgrade-crossing-accident",
+      "title": "US Highway Rail Road Crossing Accident",
+      "subtitle": "Detailed Information about Rail Road crossing accident in US",
+      "url": "https://www.kaggle.com/datasets/yogidsba/us-highway-railgrade-crossing-accident",
+      "last_updated": "2021-06-09T10:09:15.940Z",
+      "update_age_days": 1919,
+      "size_bytes": 24798354,
+      "downloads": 1687,
+      "votes": 32,
+      "views": 13482,
+      "notebooks": 2,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "mohammadsoleymanpour/electric-vehicle-population-size-history-by-county",
+      "title": "Electric Vehicle ",
+      "subtitle": "Electric Vehicle Population Size History By County",
+      "url": "https://www.kaggle.com/datasets/mohammadsoleymanpour/electric-vehicle-population-size-history-by-county",
+      "last_updated": "2023-12-08T11:52:54.453Z",
+      "update_age_days": 1007,
+      "size_bytes": 246899,
+      "downloads": 72,
+      "votes": 32,
+      "views": 567,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.5294118,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "johnmwega/trends-and-insights-of-global-tourism",
+      "title": "Trends and Insights of Global Tourism",
+      "subtitle": "Trends and Insights of Global Tourism: An overview of air transport data",
+      "url": "https://www.kaggle.com/datasets/johnmwega/trends-and-insights-of-global-tourism",
+      "last_updated": "2023-07-20T20:04:27.780Z",
+      "update_age_days": 1148,
+      "size_bytes": 54685,
+      "downloads": 1397,
+      "votes": 30,
+      "views": 9086,
+      "notebooks": 5,
+      "license": "Community Data License Agreement - Sharing - Version 1.0",
+      "version": 1,
+      "usability": 0.7058824,
+      "queries": [
+        "autonomous driving crashes",
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "data125661/india-road-accident-dataset",
+      "title": "India Road accident Data-set",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/data125661/india-road-accident-dataset",
+      "last_updated": "2023-01-29T07:01:03.433Z",
+      "update_age_days": 1320,
+      "size_bytes": 2902103,
+      "downloads": 4803,
+      "votes": 28,
+      "views": 22020,
+      "notebooks": 3,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.3529412,
+      "queries": [
+        "NHTSA",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "pulkitmehtawork1985/road-accidents-in-india-from-1970-to-2017",
+      "title": "Road Accidents in India from 1970 to 2017",
+      "subtitle": "Road Accidents details in India from 1970 to 2017",
+      "url": "https://www.kaggle.com/datasets/pulkitmehtawork1985/road-accidents-in-india-from-1970-to-2017",
+      "last_updated": "2019-11-07T09:22:19.807Z",
+      "update_age_days": 2499,
+      "size_bytes": 4543,
+      "downloads": 1469,
+      "votes": 28,
+      "views": 9846,
+      "notebooks": 3,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "sergionefedov/global-aviation-industry-2010-2026",
+      "title": "Global Aviation Industry 2010-2026",
+      "subtitle": "30 airlines × 17 years financials, Boeing vs Airbus order book",
+      "url": "https://www.kaggle.com/datasets/sergionefedov/global-aviation-industry-2010-2026",
+      "last_updated": "2026-06-21T17:14:52.357Z",
+      "update_age_days": 81,
+      "size_bytes": 33140,
+      "downloads": 1311,
+      "votes": 27,
+      "views": 4876,
+      "notebooks": 10,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "suryaprabhakaran2005/road-accidents-from-cctv-footages-dataset",
+      "title": "Road Accidents from CCTV Footages Dataset",
+      "subtitle": "Quality Dataset for Accident prediction and 3-level Severity Classification ",
+      "url": "https://www.kaggle.com/datasets/suryaprabhakaran2005/road-accidents-from-cctv-footages-dataset",
+      "last_updated": "2024-01-31T07:39:00.350Z",
+      "update_age_days": 953,
+      "size_bytes": 702732330,
+      "downloads": 2249,
+      "votes": 26,
+      "views": 9994,
+      "notebooks": 9,
+      "license": "MIT",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "mpwolke/cusersmarildownloadsfatalitycsv",
+      "title": "Fatality in Transports",
+      "subtitle": "Fatality Analysis Reporting System - FARS 2019",
+      "url": "https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsfatalitycsv",
+      "last_updated": "2021-06-16T22:03:26.810Z",
+      "update_age_days": 1912,
+      "size_bytes": 2686406,
+      "downloads": 351,
+      "votes": 23,
+      "views": 3270,
+      "notebooks": 1,
+      "license": "U.S. Government Works",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "NHTSA",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "kuantinglai/exwod",
+      "title": "XWOD: Extreme Weather Object Detection",
+      "subtitle": "The largest extreme weather object detection dataset",
+      "url": "https://www.kaggle.com/datasets/kuantinglai/exwod",
+      "last_updated": "2026-08-04T16:23:37.300Z",
+      "update_age_days": 37,
+      "size_bytes": 2599235762,
+      "downloads": 341,
+      "votes": 23,
+      "views": 2991,
+      "notebooks": 6,
+      "license": "CC BY-NC-SA 4.0",
+      "version": 2,
+      "usability": 1,
+      "queries": [
+        "autonomous driving crashes"
+      ]
+    },
+    {
+      "ref": "kanuriviveknag/road-accidents-severity-dataset",
+      "title": "Road Accidents Severity Dataset",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/kanuriviveknag/road-accidents-severity-dataset",
+      "last_updated": "2022-12-06T14:33:48.467Z",
+      "update_age_days": 1374,
+      "size_bytes": 317941,
+      "downloads": 1724,
+      "votes": 22,
+      "views": 7223,
+      "notebooks": 2,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.3529412,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "nhtsa/safety-recalls",
+      "title": "Vehicle and Tire Recalls, 1967-Present",
+      "subtitle": "What manufacturer has recalled the most vehicles in the past fifty years?",
+      "url": "https://www.kaggle.com/datasets/nhtsa/safety-recalls",
+      "last_updated": "2017-02-07T15:05:55.897Z",
+      "update_age_days": 3502,
+      "size_bytes": 1944706,
+      "downloads": 1461,
+      "votes": 18,
+      "views": 16976,
+      "notebooks": 6,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "ggsri123/realtime-traffic-incident-reports",
+      "title": "Real-Time Traffic Incident Reports",
+      "subtitle": "Real-Time Traffic Incident Reports from the City of Austin open data portal",
+      "url": "https://www.kaggle.com/datasets/ggsri123/realtime-traffic-incident-reports",
+      "last_updated": "2021-11-25T15:03:45.170Z",
+      "update_age_days": 1750,
+      "size_bytes": 152445,
+      "downloads": 438,
+      "votes": 18,
+      "views": 4818,
+      "notebooks": 2,
+      "license": "CC0: Public Domain",
+      "version": 2,
+      "usability": 0.7647059,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "yashdixit24/road-accidents-and-conditions",
+      "title": "Road accidents and conditions",
+      "subtitle": "This dataset contains information on road accidents .",
+      "url": "https://www.kaggle.com/datasets/yashdixit24/road-accidents-and-conditions",
+      "last_updated": "2021-06-29T16:49:46.970Z",
+      "update_age_days": 1899,
+      "size_bytes": 145537,
+      "downloads": 1186,
+      "votes": 17,
+      "views": 6481,
+      "notebooks": 3,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.5882353,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "cfurby243/fatalityfacts",
+      "title": "Fatality Facts & Safety While Driving",
+      "subtitle": "A combined dataset of Nass CDS dataframes from 2004 - 2014",
+      "url": "https://www.kaggle.com/datasets/cfurby243/fatalityfacts",
+      "last_updated": "2017-04-29T02:19:28.840Z",
+      "update_age_days": 3422,
+      "size_bytes": 13728161,
+      "downloads": 841,
+      "votes": 17,
+      "views": 8691,
+      "notebooks": null,
+      "license": "CC BY-NC-SA 4.0",
+      "version": 1,
+      "usability": 0.8125,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "laloromero/mexico-road-accidents-during-2019",
+      "title": "Mexico road accidents",
+      "subtitle": "Traffic accidents from 2017 to 2019",
+      "url": "https://www.kaggle.com/datasets/laloromero/mexico-road-accidents-during-2019",
+      "last_updated": "2020-02-06T00:07:00.527Z",
+      "update_age_days": 2409,
+      "size_bytes": 23597736,
+      "downloads": 1114,
+      "votes": 16,
+      "views": 9372,
+      "notebooks": 3,
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "version": 3,
+      "usability": 0.7647059,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "alshival/nhtsa-complaints",
+      "title": "NHTSA Customer Complaints",
+      "subtitle": "Vehicle Customer Complaints filed to the NHTSA (2019 - Present)",
+      "url": "https://www.kaggle.com/datasets/alshival/nhtsa-complaints",
+      "last_updated": "2026-09-11T00:11:44.383Z",
+      "update_age_days": 0,
+      "size_bytes": 80650372,
+      "downloads": 1277,
+      "votes": 15,
+      "views": 4614,
+      "notebooks": 4,
+      "license": "CC0: Public Domain",
+      "version": 2334,
+      "usability": 0.88235295,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "abdulmannann/road-accidents-csv",
+      "title": "Road Accidents CSV and EXCEL",
+      "subtitle": "CSV NUMERICAL DATA SET ",
+      "url": "https://www.kaggle.com/datasets/abdulmannann/road-accidents-csv",
+      "last_updated": "2024-02-18T07:08:06.007Z",
+      "update_age_days": 935,
+      "size_bytes": 36771063,
+      "downloads": 1425,
+      "votes": 13,
+      "views": 6956,
+      "notebooks": 1,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.7058824,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "awsaf49/vip-cup-2020",
+      "title": "VIP CUP 2020",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/awsaf49/vip-cup-2020",
+      "last_updated": "2020-08-02T18:30:26.807Z",
+      "update_age_days": 2230,
+      "size_bytes": 5307889843,
+      "downloads": 323,
+      "votes": 11,
+      "views": 6739,
+      "notebooks": 3,
+      "license": "CC0: Public Domain",
+      "version": 8,
+      "usability": 0.5882353,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "thedevastator/leeds-road-traffic-accidents-2009-2018",
+      "title": "Leeds Road Traffic Accidents",
+      "subtitle": "Number of Vehicles, Casualties and Impact Severity",
+      "url": "https://www.kaggle.com/datasets/thedevastator/leeds-road-traffic-accidents-2009-2018",
+      "last_updated": "2023-01-18T17:38:03.167Z",
+      "update_age_days": 1331,
+      "size_bytes": 540911,
+      "downloads": 624,
+      "votes": 9,
+      "views": 3207,
+      "notebooks": 1,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "traffic accidents US",
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "thedevastator/us-automatic-traffic-recorder-stations-data",
+      "title": "US Automatic Traffic Recorder Stations Data",
+      "subtitle": "Vehicle Traffic Counts and Locations at US ATR Stations",
+      "url": "https://www.kaggle.com/datasets/thedevastator/us-automatic-traffic-recorder-stations-data",
+      "last_updated": "2023-12-21T07:17:36.187Z",
+      "update_age_days": 994,
+      "size_bytes": 342355,
+      "downloads": 314,
+      "votes": 9,
+      "views": 1915,
+      "notebooks": 1,
+      "license": "Data files © Original Authors",
+      "version": 2,
+      "usability": 0.9411765,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "sujaykapadnis/recalls-data",
+      "title": "Recalls Data from US Department of Transportation",
+      "subtitle": "Recall information related to specific NHTSA campaigns",
+      "url": "https://www.kaggle.com/datasets/sujaykapadnis/recalls-data",
+      "last_updated": "2023-02-09T17:04:15.440Z",
+      "update_age_days": 1309,
+      "size_bytes": 4616970,
+      "downloads": 147,
+      "votes": 8,
+      "views": 938,
+      "notebooks": null,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.9411765,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "saadsikander/motor-vehicle-occupant-death-rate",
+      "title": "Motor Vehicle Occupant Death Rate.",
+      "subtitle": "Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014 of a Country.",
+      "url": "https://www.kaggle.com/datasets/saadsikander/motor-vehicle-occupant-death-rate",
+      "last_updated": "2021-09-20T11:27:26.003Z",
+      "update_age_days": 1816,
+      "size_bytes": 2752,
+      "downloads": 106,
+      "votes": 8,
+      "views": 2509,
+      "notebooks": null,
+      "license": "Data files © Original Authors",
+      "version": 1,
+      "usability": 0.64705884,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "sergionefedov/global-aviation-safety-1970-2024-25k-incidents",
+      "title": "Global Aviation Safety 1970-2024 25K incidents",
+      "subtitle": "5K incidents · 200 airlines · 79 aircraft types · ICAO calibrated · CFIT · LOC-I",
+      "url": "https://www.kaggle.com/datasets/sergionefedov/global-aviation-safety-1970-2024-25k-incidents",
+      "last_updated": "2026-04-09T18:24:09.903Z",
+      "update_age_days": 154,
+      "size_bytes": 1175806,
+      "downloads": 248,
+      "votes": 7,
+      "views": 1647,
+      "notebooks": 3,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "nichaoku/gbaccident0516",
+      "title": "Great Britain Road Accidents 2005_2016",
+      "subtitle": "Published by Department for Transport. Licensed under Open Government Licence ",
+      "url": "https://www.kaggle.com/datasets/nichaoku/gbaccident0516",
+      "last_updated": "2017-11-07T14:41:20.083Z",
+      "update_age_days": 3229,
+      "size_bytes": 127637561,
+      "downloads": 659,
+      "votes": 6,
+      "views": 7481,
+      "notebooks": 3,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "sobhanmons/analysis-of-us-accidents",
+      "title": "Analysis of US accidents",
+      "subtitle": "A Countrywide Traffic Accident Dataset (2016 - 2019)",
+      "url": "https://www.kaggle.com/datasets/sobhanmons/analysis-of-us-accidents",
+      "last_updated": "2022-01-13T15:19:44.777Z",
+      "update_age_days": 1701,
+      "size_bytes": 189092490,
+      "downloads": 383,
+      "votes": 6,
+      "views": 3871,
+      "notebooks": 2,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.5882353,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "darkmatternet/automated-driving-crash-reports",
+      "title": "Automated Driving Crash Reports",
+      "subtitle": "NHTSA ADS and Level 2 ADAS incidents with report-version history",
+      "url": "https://www.kaggle.com/datasets/darkmatternet/automated-driving-crash-reports",
+      "last_updated": "2026-08-16T20:44:17.800Z",
+      "update_age_days": 25,
+      "size_bytes": 4166160,
+      "downloads": 89,
+      "votes": 6,
+      "views": 295,
+      "notebooks": null,
+      "license": "Other (specified in description)",
+      "version": 2,
+      "usability": 0.9411765,
+      "queries": [
+        "automated driving crash reports",
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "darkmatternet/us-fatal-crash-risk-factors-2024",
+      "title": "US Fatal Crash Risk Factors 2024",
+      "subtitle": "NHTSA FARS crashes with eight transparent risk-factor flags",
+      "url": "https://www.kaggle.com/datasets/darkmatternet/us-fatal-crash-risk-factors-2024",
+      "last_updated": "2026-08-17T05:40:59.843Z",
+      "update_age_days": 24,
+      "size_bytes": 36938691,
+      "downloads": 34,
+      "votes": 6,
+      "views": 171,
+      "notebooks": null,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.9411765,
+      "queries": [
+        "NHTSA",
+        "vehicle crashes US",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "mlgodsiddharth/usa-accidents-dataset49-states-subset-of",
+      "title": "US Accidents Dataset (2016 - 2023) (49 states)",
+      "subtitle": "Subset of - https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents",
+      "url": "https://www.kaggle.com/datasets/mlgodsiddharth/usa-accidents-dataset49-states-subset-of",
+      "last_updated": "2024-08-16T19:41:03.753Z",
+      "update_age_days": 755,
+      "size_bytes": 206667276,
+      "downloads": 621,
+      "votes": 4,
+      "views": 2940,
+      "notebooks": 1,
+      "license": "CC BY-NC-SA 4.0",
+      "version": 1,
+      "usability": 0.64705884,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "rishantenis/motor-vehicle-collisions-crashesusa",
+      "title": "Motor Vehicle Collisions - Crashes(USA)",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/rishantenis/motor-vehicle-collisions-crashesusa",
+      "last_updated": "2024-08-29T17:23:28.703Z",
+      "update_age_days": 742,
+      "size_bytes": 86278757,
+      "downloads": 94,
+      "votes": 4,
+      "views": 463,
+      "notebooks": null,
+      "license": "MIT",
+      "version": 1,
+      "usability": 0.5882353,
+      "queries": [
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "james14850/kiel-road-accidents",
+      "title": "kiel-road-accidents",
+      "subtitle": "Historical Road Accident Data iin Kiel",
+      "url": "https://www.kaggle.com/datasets/james14850/kiel-road-accidents",
+      "last_updated": "2024-02-09T20:48:12.860Z",
+      "update_age_days": 944,
+      "size_bytes": 1124239,
+      "downloads": 40,
+      "votes": 4,
+      "views": 332,
+      "notebooks": 1,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "road accidents"
+      ]
+    },
+    {
+      "ref": "pateluttam/usaccidents",
+      "title": "us_accidents_small_dataset",
+      "subtitle": "us_accidents_small_dataset",
+      "url": "https://www.kaggle.com/datasets/pateluttam/usaccidents",
+      "last_updated": "2021-07-24T15:30:12.763Z",
+      "update_age_days": 1874,
+      "size_bytes": 4475928,
+      "downloads": 284,
+      "votes": 3,
+      "views": 2176,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.3529412,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "mexwell/influences-on-accident-fatalities",
+      "title": "🚑 Influences on accident fatalities",
+      "subtitle": "Airbag and other influences on accident fatalities",
+      "url": "https://www.kaggle.com/datasets/mexwell/influences-on-accident-fatalities",
+      "last_updated": "2024-06-10T09:48:36.930Z",
+      "update_age_days": 822,
+      "size_bytes": 404556,
+      "downloads": 140,
+      "votes": 3,
+      "views": 1108,
+      "notebooks": null,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.9411765,
+      "queries": [
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "sarathsabarish/chicago-walkability-and-pedestrian-safety-data",
+      "title": "Chicago Walkability & Pedestrian Safety Data",
+      "subtitle": "6,571 Chicago neighborhoods: walkability joined to pedestrian crash data",
+      "url": "https://www.kaggle.com/datasets/sarathsabarish/chicago-walkability-and-pedestrian-safety-data",
+      "last_updated": "2026-07-13T10:44:28.617Z",
+      "update_age_days": 59,
+      "size_bytes": 542039,
+      "downloads": 31,
+      "votes": 3,
+      "views": 308,
+      "notebooks": 1,
+      "license": "CC BY-SA 4.0",
+      "version": 5,
+      "usability": 0.8235294,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "abbas829/vehicle-failure-mileage-distribution-and-nhtsa",
+      "title": "Vehicle Failure Mileage Distribution & NHTSA",
+      "subtitle": "Mileage at failure, component categories, and defect tracking from 20+ years",
+      "url": "https://www.kaggle.com/datasets/abbas829/vehicle-failure-mileage-distribution-and-nhtsa",
+      "last_updated": "2026-06-06T02:05:18.390Z",
+      "update_age_days": 97,
+      "size_bytes": 220000,
+      "downloads": 30,
+      "votes": 3,
+      "views": 246,
+      "notebooks": 1,
+      "license": "CC BY-SA 4.0",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "vikramraju17/bengaluru-city-road-traffic-accidents-19902006",
+      "title": "Bengaluru City Road Traffic Accidents (1990-2006)",
+      "subtitle": "Road Traffic Accidents",
+      "url": "https://www.kaggle.com/datasets/vikramraju17/bengaluru-city-road-traffic-accidents-19902006",
+      "last_updated": "2020-02-25T09:37:29.373Z",
+      "update_age_days": 2389,
+      "size_bytes": 46080,
+      "downloads": 366,
+      "votes": 2,
+      "views": 3837,
+      "notebooks": 2,
+      "license": "Unknown",
+      "version": 2,
+      "usability": 0.64705884,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "lordvoldemortt/fatal-motor-vehicle-crashes-2022-nhsta",
+      "title": "Fatal Motor Vehicle Crashes 2022 - NHSTA",
+      "subtitle": "Extensive data on all fatal motor vehicle crashes in the US in 2022",
+      "url": "https://www.kaggle.com/datasets/lordvoldemortt/fatal-motor-vehicle-crashes-2022-nhsta",
+      "last_updated": "2024-07-08T03:14:10.260Z",
+      "update_age_days": 794,
+      "size_bytes": 37027768,
+      "downloads": 316,
+      "votes": 2,
+      "views": 643,
+      "notebooks": 1,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "NHTSA",
+        "vehicle crashes US",
+        "traffic fatalities NHTSA"
+      ]
+    },
+    {
+      "ref": "venkashank/nhtsa-complaints-tesla",
+      "title": "Public NHTSA Complaints about Tesla ",
+      "subtitle": "Scraped NHTSA Public Complaint Database for Tesla",
+      "url": "https://www.kaggle.com/datasets/venkashank/nhtsa-complaints-tesla",
+      "last_updated": "2022-06-05T00:54:49.427Z",
+      "update_age_days": 1559,
+      "size_bytes": 1244126,
+      "downloads": 73,
+      "votes": 2,
+      "views": 809,
+      "notebooks": null,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.64705884,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "ajithbharadwaj/motor-vehicle-collisions-crashes",
+      "title": "Motor Vehicle Collisions Crashes",
+      "subtitle": "From the US government database",
+      "url": "https://www.kaggle.com/datasets/ajithbharadwaj/motor-vehicle-collisions-crashes",
+      "last_updated": "2022-05-18T04:31:21.403Z",
+      "update_age_days": 1576,
+      "size_bytes": 36100840,
+      "downloads": 51,
+      "votes": 2,
+      "views": 329,
+      "notebooks": null,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.47058824,
+      "queries": [
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "unidpro/car-accident-video",
+      "title": "Car Accident Video Dataset - 5 000 Videos",
+      "subtitle": "Video contains: 3 seconds before the accident, the accident itself, and 3 second",
+      "url": "https://www.kaggle.com/datasets/unidpro/car-accident-video",
+      "last_updated": "2026-03-30T07:47:59.123Z",
+      "update_age_days": 164,
+      "size_bytes": 3776943,
+      "downloads": 277,
+      "votes": 1,
+      "views": 1500,
+      "notebooks": 8,
+      "license": "Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)",
+      "version": 1,
+      "usability": 0.875,
+      "queries": [
+        "traffic accidents US",
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "duongqphuc/ai-homework-1",
+      "title": "AI-homework 1",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/duongqphuc/ai-homework-1",
+      "last_updated": "2023-02-16T15:34:24.290Z",
+      "update_age_days": 1302,
+      "size_bytes": 17093,
+      "downloads": 226,
+      "votes": 1,
+      "views": 2272,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.3125,
+      "queries": [
+        "self driving car accidents"
+      ]
+    },
+    {
+      "ref": "jessicay1122/us-traffic-accidents-in-2019",
+      "title": "US Fatal Traffic Accidents",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/jessicay1122/us-traffic-accidents-in-2019",
+      "last_updated": "2022-04-27T23:50:53.403Z",
+      "update_age_days": 1597,
+      "size_bytes": 44910078,
+      "downloads": 184,
+      "votes": 1,
+      "views": 1200,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 13,
+      "usability": 0.47058824,
+      "queries": [
+        "NHTSA",
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "ourwit/bird-strikes-in-aviation-aircraft-collisions",
+      "title": "Bird Strikes in Aviation: Aircraft Collisions",
+      "subtitle": "Investigating Aircraft Safety, Damage, and the Effects of Bird Strikes",
+      "url": "https://www.kaggle.com/datasets/ourwit/bird-strikes-in-aviation-aircraft-collisions",
+      "last_updated": "2025-02-22T18:42:29.830Z",
+      "update_age_days": 565,
+      "size_bytes": 1495221,
+      "downloads": 128,
+      "votes": 1,
+      "views": 986,
+      "notebooks": null,
+      "license": "MIT",
+      "version": 1,
+      "usability": 0.64705884,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "ricardobj/recalls-data-from-department-of-transportation",
+      "title": "Cars Recalls Data from Transportation Department",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/ricardobj/recalls-data-from-department-of-transportation",
+      "last_updated": "2025-04-08T14:30:03.723Z",
+      "update_age_days": 520,
+      "size_bytes": 5089268,
+      "downloads": 58,
+      "votes": 1,
+      "views": 579,
+      "notebooks": null,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.5882353,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "rehemana/geojson",
+      "title": "geojson",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/rehemana/geojson",
+      "last_updated": "2020-01-23T20:34:03.953Z",
+      "update_age_days": 2422,
+      "size_bytes": 19273,
+      "downloads": 49,
+      "votes": 1,
+      "views": 1001,
+      "notebooks": 2,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.375,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "nawazh/us-accidents-2020-2023",
+      "title": "US Accidents (2020 - 2023)",
+      "subtitle": "A Countrywide Traffic Accident Dataset (2020 - 2023)",
+      "url": "https://www.kaggle.com/datasets/nawazh/us-accidents-2020-2023",
+      "last_updated": "2026-05-05T16:45:20.690Z",
+      "update_age_days": 128,
+      "size_bytes": 387828051,
+      "downloads": 42,
+      "votes": 1,
+      "views": 216,
+      "notebooks": null,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 0.5294118,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "niccosimonetti/us-motor-death-rates-20122014",
+      "title": "US Motor Death Rates 2012–2014",
+      "subtitle": "Beginning geospatial analysis dataset of Motor Vehicle Deaths in the US",
+      "url": "https://www.kaggle.com/datasets/niccosimonetti/us-motor-death-rates-20122014",
+      "last_updated": "2025-06-22T21:46:02.423Z",
+      "update_age_days": 445,
+      "size_bytes": 2764,
+      "downloads": 37,
+      "votes": 1,
+      "views": 165,
+      "notebooks": 1,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 1,
+      "queries": [
+        "NHTSA",
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "amansingh2903/us-road-accidents-20162021-cleaned-dataset",
+      "title": "US Road Accidents (2016–2021) ",
+      "subtitle": "Preprocessed US traffic accident data for analysis & machine learning (2016–20)",
+      "url": "https://www.kaggle.com/datasets/amansingh2903/us-road-accidents-20162021-cleaned-dataset",
+      "last_updated": "2026-02-10T05:33:31.433Z",
+      "update_age_days": 212,
+      "size_bytes": 94145,
+      "downloads": 28,
+      "votes": 1,
+      "views": 443,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 3,
+      "usability": 0.4117647,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "ahtiticheamine/recalldb-product-recalls-sample",
+      "title": "RecallDB - U.S. Product Recall Sample Dataset",
+      "subtitle": "Official U.S. recalls with provenance across CPSC, FDA, FSIS, NHTSA and USCG",
+      "url": "https://www.kaggle.com/datasets/ahtiticheamine/recalldb-product-recalls-sample",
+      "last_updated": "2026-07-15T15:57:49.993Z",
+      "update_age_days": 57,
+      "size_bytes": 67876,
+      "downloads": 24,
+      "votes": 1,
+      "views": 66,
+      "notebooks": 1,
+      "license": "CC0: Public Domain",
+      "version": 2,
+      "usability": 1,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "johnhuangh/us-traffic",
+      "title": "us_traffic ",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/johnhuangh/us-traffic",
+      "last_updated": "2020-10-01T12:19:54.657Z",
+      "update_age_days": 2170,
+      "size_bytes": 14382,
+      "downloads": 15,
+      "votes": 1,
+      "views": 1181,
+      "notebooks": 1,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.125,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "mustafa63/usa-accidents",
+      "title": "USA Accidents",
+      "subtitle": "USA ACCIDENTS 10000 RECORDS",
+      "url": "https://www.kaggle.com/datasets/mustafa63/usa-accidents",
+      "last_updated": "2026-07-08T15:46:36.250Z",
+      "update_age_days": 64,
+      "size_bytes": 653544,
+      "downloads": 12,
+      "votes": 1,
+      "views": 107,
+      "notebooks": null,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.64705884,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "markadriver/us-vehicle-failure-mileage-distribution-problems",
+      "title": "US Vehicle Failure-Mileage Distribution Problems",
+      "subtitle": "The mileage at which owners actually report each failure — quartiles by Vehicle",
+      "url": "https://www.kaggle.com/datasets/markadriver/us-vehicle-failure-mileage-distribution-problems",
+      "last_updated": "2026-06-04T17:17:25.037Z",
+      "update_age_days": 98,
+      "size_bytes": 220000,
+      "downloads": 9,
+      "votes": 1,
+      "views": 108,
+      "notebooks": 1,
+      "license": "CC BY-SA 4.0",
+      "version": 1,
+      "usability": 0.64705884,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "walgamajayasekara/usa-fatality-crash-data-from-2015-2022",
+      "title": "Fatal Crash Data Across U.S. States (2015–2022)",
+      "subtitle": "Comprehensive crash statistics sourced from the NHTSA",
+      "url": "https://www.kaggle.com/datasets/walgamajayasekara/usa-fatality-crash-data-from-2015-2022",
+      "last_updated": "2024-12-03T16:43:07.407Z",
+      "update_age_days": 646,
+      "size_bytes": 3932001,
+      "downloads": 101,
+      "votes": null,
+      "views": 914,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "ryanaug/us-traffic-fatality-records",
+      "title": "US Traffic Fatality Records",
+      "subtitle": "NHTSA FARS data on fatal traffic events in the US 2011 to 2022",
+      "url": "https://www.kaggle.com/datasets/ryanaug/us-traffic-fatality-records",
+      "last_updated": "2026-03-08T18:38:05.160Z",
+      "update_age_days": 186,
+      "size_bytes": 253453880,
+      "downloads": 89,
+      "votes": null,
+      "views": 810,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 5,
+      "usability": 0.47058824,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "napolendevesa/fatality-analysis-reporting-us-1975-2021",
+      "title": "Fatality Analysis Reporting US ",
+      "subtitle": "Analytical User’s Manual, 1975-2021",
+      "url": "https://www.kaggle.com/datasets/napolendevesa/fatality-analysis-reporting-us-1975-2021",
+      "last_updated": "2024-01-12T19:26:45.760Z",
+      "update_age_days": 972,
+      "size_bytes": 7606597,
+      "downloads": 63,
+      "votes": null,
+      "views": 442,
+      "notebooks": 1,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.8235294,
+      "queries": [
+        "NHTSA",
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "amosshehzad/car-crashes",
+      "title": "Car Crashes",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/amosshehzad/car-crashes",
+      "last_updated": "2025-05-02T18:06:54.347Z",
+      "update_age_days": 496,
+      "size_bytes": 1659,
+      "downloads": 62,
+      "votes": null,
+      "views": 629,
+      "notebooks": null,
+      "license": "MIT",
+      "version": 1,
+      "usability": 0.5294118,
+      "queries": [
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "stephaniewinston/traffic-accident-scenario",
+      "title": "Traffic accident scenario",
+      "subtitle": "Simplified data from US Dept. of Transportation",
+      "url": "https://www.kaggle.com/datasets/stephaniewinston/traffic-accident-scenario",
+      "last_updated": "2024-11-19T06:41:14.423Z",
+      "update_age_days": 660,
+      "size_bytes": 584566,
+      "downloads": 55,
+      "votes": null,
+      "views": 450,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.5294118,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "sarathsabarish/us50-pedestrian-fatality-corridors",
+      "title": "US Pedestrian Fatality Corridors (2022-2024)",
+      "subtitle": "The deadliest named street in each of the 50 largest US cities, from NHTSA FARS",
+      "url": "https://www.kaggle.com/datasets/sarathsabarish/us50-pedestrian-fatality-corridors",
+      "last_updated": "2026-07-19T18:04:55.473Z",
+      "update_age_days": 53,
+      "size_bytes": 56474,
+      "downloads": 52,
+      "votes": null,
+      "views": 66,
+      "notebooks": null,
+      "license": "CC BY-SA 4.0",
+      "version": 5,
+      "usability": 0.9411765,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "jeevaniitp17/nhtsa-recalls",
+      "title": "Automotive Recalls Dataset - NHTSA",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/jeevaniitp17/nhtsa-recalls",
+      "last_updated": "2024-12-17T22:19:42.123Z",
+      "update_age_days": 632,
+      "size_bytes": 14358839,
+      "downloads": 51,
+      "votes": null,
+      "views": 349,
+      "notebooks": null,
+      "license": "Unknown",
+      "version": 1,
+      "usability": 0.25,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "autonomousvehicle/dataset-for-comparing-mdps-cart-and-mlps",
+      "title": "BDs behavior selection in self-driving cars",
+      "subtitle": "Datasets for comparing MDPs CART and MLPs",
+      "url": "https://www.kaggle.com/datasets/autonomousvehicle/dataset-for-comparing-mdps-cart-and-mlps",
+      "last_updated": "2026-02-26T14:50:53.960Z",
+      "update_age_days": 196,
+      "size_bytes": 1648192,
+      "downloads": 49,
+      "votes": null,
+      "views": 429,
+      "notebooks": null,
+      "license": "Database: Open Database, Contents: © Original Authors",
+      "version": 4,
+      "usability": 0.7647059,
+      "queries": [
+        "autonomous driving crashes"
+      ]
+    },
+    {
+      "ref": "ajjjuupd/us-accedent-updated",
+      "title": "US_Accedent_updated",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/ajjjuupd/us-accedent-updated",
+      "last_updated": "2024-07-05T15:08:01.297Z",
+      "update_age_days": 797,
+      "size_bytes": 282091257,
+      "downloads": 46,
+      "votes": null,
+      "views": 356,
+      "notebooks": null,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 0.5882353,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "dybuao/accidents-in-us",
+      "title": "Accidents in US",
+      "subtitle": "A Nationwide Dataset of Traffic Accidents in the United States from 2016 to 2023",
+      "url": "https://www.kaggle.com/datasets/dybuao/accidents-in-us",
+      "last_updated": "2026-04-12T16:54:24.770Z",
+      "update_age_days": 151,
+      "size_bytes": 373288078,
+      "downloads": 39,
+      "votes": null,
+      "views": 662,
+      "notebooks": null,
+      "license": "Apache 2.0",
+      "version": 2,
+      "usability": 0.9411765,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "masrursabab/us-accidents-cleaned",
+      "title": "US_Accidents_Cleaned",
+      "subtitle": "A Countrywide Traffic Accident Dataset (2016 - 2023) by Sobhan Moosavi",
+      "url": "https://www.kaggle.com/datasets/masrursabab/us-accidents-cleaned",
+      "last_updated": "2025-09-25T11:24:53.193Z",
+      "update_age_days": 350,
+      "size_bytes": 572604794,
+      "downloads": 25,
+      "votes": null,
+      "views": 352,
+      "notebooks": 4,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 0.5294118,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "nickwyman/car-information-dataset",
+      "title": "Car Information Dataset",
+      "subtitle": "Data on vehicles - 1975 to 2023 compiled from NHTSA reports and US DOT datasets.",
+      "url": "https://www.kaggle.com/datasets/nickwyman/car-information-dataset",
+      "last_updated": "2025-12-07T00:04:30.793Z",
+      "update_age_days": 278,
+      "size_bytes": 5822,
+      "downloads": 25,
+      "votes": null,
+      "views": 182,
+      "notebooks": null,
+      "license": "Apache 2.0",
+      "version": 1,
+      "usability": 0.47058824,
+      "queries": [
+        "NHTSA",
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "sarathsabarish/walkable-america-us-neighborhoods",
+      "title": "Walkable America: US Walkability & Affordability",
+      "subtitle": "6,000 US neighborhoods: EPA walkability joined to pedestrian crash data",
+      "url": "https://www.kaggle.com/datasets/sarathsabarish/walkable-america-us-neighborhoods",
+      "last_updated": "2026-07-13T10:38:36.657Z",
+      "update_age_days": 59,
+      "size_bytes": 718524,
+      "downloads": 20,
+      "votes": null,
+      "views": 166,
+      "notebooks": 2,
+      "license": "CC BY-SA 4.0",
+      "version": 13,
+      "usability": 1,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "kindlykiddo/kids-product-recalls",
+      "title": "Kids' Product Recalls: CPSC, NHTSA and FDA",
+      "subtitle": "Weekly child-product recall records with hazards, remedies and official links",
+      "url": "https://www.kaggle.com/datasets/kindlykiddo/kids-product-recalls",
+      "last_updated": "2026-09-08T17:55:44.263Z",
+      "update_age_days": 2,
+      "size_bytes": 62561,
+      "downloads": 19,
+      "votes": null,
+      "views": 15,
+      "notebooks": null,
+      "license": "CC0: Public Domain",
+      "version": 2,
+      "usability": 0.5882353,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "amirjdai/electric-vehicle-population",
+      "title": "Electric Vehicle Population",
+      "subtitle": "Electric Vehicle Population Size History By County",
+      "url": "https://www.kaggle.com/datasets/amirjdai/electric-vehicle-population",
+      "last_updated": "2025-10-22T11:32:21.200Z",
+      "update_age_days": 323,
+      "size_bytes": 191529,
+      "downloads": 14,
+      "votes": null,
+      "views": 242,
+      "notebooks": null,
+      "license": "Other (specified in description)",
+      "version": 1,
+      "usability": 0.64705884,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "marvinbregiosa/us-truck-fatalities-fars-2018-2024",
+      "title": "US Truck-Involved Fatal Crashes (FARS) 2018-2024",
+      "subtitle": "Fatal truck-involved crashes in the US, 2018-2024 (FARS-derived)",
+      "url": "https://www.kaggle.com/datasets/marvinbregiosa/us-truck-fatalities-fars-2018-2024",
+      "last_updated": "2026-06-01T10:30:39.973Z",
+      "update_age_days": 101,
+      "size_bytes": 583805,
+      "downloads": 13,
+      "votes": null,
+      "views": 122,
+      "notebooks": null,
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "version": 2,
+      "usability": 0.5882353,
+      "queries": [
+        "vehicle crashes US"
+      ]
+    },
+    {
+      "ref": "seiduabdulai/us-traffic-accidents-analysis-by-saeed-abdulai",
+      "title": "US Traffic Accidents Analysis by Saeed Abdulai",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/seiduabdulai/us-traffic-accidents-analysis-by-saeed-abdulai",
+      "last_updated": "2026-07-30T09:26:17.793Z",
+      "update_age_days": 42,
+      "size_bytes": 64481455,
+      "downloads": 13,
+      "votes": null,
+      "views": 4,
+      "notebooks": null,
+      "license": "MIT",
+      "version": 1,
+      "usability": 0.3529412,
+      "queries": [
+        "traffic accidents US"
+      ]
+    },
+    {
+      "ref": "jessicagiovagnola/nhtsa-pccp-dataset",
+      "title": "NHTSA-PCCP Dataset",
+      "subtitle": "Labeled Post-Crash Vehicle Component Images in Post-Crash Scenarios",
+      "url": "https://www.kaggle.com/datasets/jessicagiovagnola/nhtsa-pccp-dataset",
+      "last_updated": "2025-11-21T09:13:44.677Z",
+      "update_age_days": 293,
+      "size_bytes": 5256760806,
+      "downloads": 7,
+      "votes": null,
+      "views": 323,
+      "notebooks": null,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.625,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "mdzamialzunaedfarabe/nhtsa-2023-accident-data",
+      "title": "NHTSA 2023 accident data",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/mdzamialzunaedfarabe/nhtsa-2023-accident-data",
+      "last_updated": "2025-10-04T07:22:21.623Z",
+      "update_age_days": 341,
+      "size_bytes": 2748418,
+      "downloads": 7,
+      "votes": null,
+      "views": 67,
+      "notebooks": null,
+      "license": "MIT",
+      "version": 1,
+      "usability": 0.23529412,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "einherjer/nhtsa-manufacturer-communications-aka-tsbs",
+      "title": "Technical Service Bulletins from NHTSA",
+      "subtitle": "Fix your vehicle the right way!",
+      "url": "https://www.kaggle.com/datasets/einherjer/nhtsa-manufacturer-communications-aka-tsbs",
+      "last_updated": "2026-04-01T12:36:50.913Z",
+      "update_age_days": 162,
+      "size_bytes": 110766401,
+      "downloads": 4,
+      "votes": null,
+      "views": 46,
+      "notebooks": null,
+      "license": "Apache 2.0",
+      "version": 2,
+      "usability": 0.4117647,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "blakefeiza/mm-2023w04-nhtsa-automobile-recalls",
+      "title": "MM 2023/W04: NHTSA Automobile Recalls",
+      "subtitle": "",
+      "url": "https://www.kaggle.com/datasets/blakefeiza/mm-2023w04-nhtsa-automobile-recalls",
+      "last_updated": "2026-05-16T14:09:47.673Z",
+      "update_age_days": 117,
+      "size_bytes": 4609964,
+      "downloads": 2,
+      "votes": null,
+      "views": 30,
+      "notebooks": null,
+      "license": "CC0: Public Domain",
+      "version": 1,
+      "usability": 0.23529412,
+      "queries": [
+        "NHTSA"
+      ]
+    },
+    {
+      "ref": "ryanheger/child-car-seat-specifications",
+      "title": "Child Car Seat Specifications (2026)",
+      "subtitle": "25 models — NHTSA ratings, recalls, weight/height limits, verified width",
+      "url": "https://www.kaggle.com/datasets/ryanheger/child-car-seat-specifications",
+      "last_updated": "2026-08-16T08:11:06.550Z",
+      "update_age_days": 25,
+      "size_bytes": 1502,
+      "downloads": 2,
+      "votes": null,
+      "views": 20,
+      "notebooks": null,
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "version": 1,
+      "usability": 0.47058824,
+      "queries": [
+        "NHTSA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "source_page": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+  "observed_at": "2026-09-11T11:43:00+09:00",
+  "discovery_method": "live NHTSA page inspection; static download URLs verified with HTTP HEAD from the project host",
+  "page_observed_data_through": "2026-07-15",
+  "regime_boundary": "2025-06-16",
+  "sources": [
+    {
+      "key": "current_ads",
+      "regime": "third_amended_sgo",
+      "bucket": "ADS",
+      "kind": "csv",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv"
+    },
+    {
+      "key": "current_adas",
+      "regime": "third_amended_sgo",
+      "bucket": "Level 2 ADAS",
+      "kind": "csv",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv"
+    },
+    {
+      "key": "current_other",
+      "regime": "third_amended_sgo",
+      "bucket": "Other / Unknown",
+      "kind": "csv",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv"
+    },
+    {
+      "key": "archive_ads",
+      "regime": "pre_third_amendment",
+      "bucket": "ADS",
+      "kind": "csv",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_ADS.csv"
+    },
+    {
+      "key": "archive_adas",
+      "regime": "pre_third_amendment",
+      "bucket": "Level 2 ADAS",
+      "kind": "csv",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_ADAS.csv"
+    },
+    {
+      "key": "archive_other",
+      "regime": "pre_third_amendment",
+      "bucket": "Other / Unknown",
+      "kind": "csv",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Incident_Reports_OTHER.csv"
+    },
+    {
+      "key": "current_dictionary",
+      "regime": "third_amended_sgo",
+      "kind": "pdf",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf"
+    },
+    {
+      "key": "archive_dictionary",
+      "regime": "pre_third_amendment",
+      "kind": "pdf",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/Archive-2021-2025/SGO-2021-01_Data_Element_Definitions.pdf"
+    },
+    {
+      "key": "third_amended_order",
+      "regime": "third_amended_sgo",
+      "kind": "pdf",
+      "url": "https://www.nhtsa.gov/sites/nhtsa.gov/files/2025-04/third-amended-SGO-2021-01_2025.pdf"
+    }
+  ]
+}

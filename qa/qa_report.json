@@ -1,0 +1,535 @@
+{
+  "pass": true,
+  "source_rows": 3413,
+  "source_unique_report_ids": 3263,
+  "output_rows": 3263,
+  "output_columns": 123,
+  "source_bucket_rows": {
+    "Level 2 ADAS": 2024,
+    "ADS": 1365,
+    "Other / Unknown": 24
+  },
+  "output_bucket_rows": {
+    "Level 2 ADAS": 1915,
+    "ADS": 1324,
+    "Other / Unknown": 24
+  },
+  "duplicate_report_id_version_rows": 0,
+  "duplicate_output_report_ids": 0,
+  "latest_version_mismatches": 0,
+  "max_report_version": 5,
+  "report_ids_with_multiple_versions_in_current_snapshot": 128,
+  "report_ids_with_same_incident_id_change_across_versions": 7,
+  "same_incident_ids_linking_multiple_output_report_ids": 5,
+  "output_rows_in_multi_report_same_incident_ids": 11,
+  "incident_month_min": "2023-01",
+  "incident_month_max": "2026-07",
+  "incident_month_blank_or_unparseable": 1,
+  "report_submission_month_min": "2025-06",
+  "report_submission_month_max": "2026-07",
+  "narrative_nonblank_rows": 3262,
+  "narrative_nonblank_pct": 99.969,
+  "redaction_marker_rows": 3263,
+  "missingness": {
+    "report_id": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "report_version": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "reporting_entity": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "report_type": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "report_month": {
+      "blank": 2638,
+      "blank_pct": 80.846
+    },
+    "report_year": {
+      "blank": 2638,
+      "blank_pct": 80.846
+    },
+    "report_submission_date": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "vin": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "vin_decoded": {
+      "blank": 1,
+      "blank_pct": 0.031
+    },
+    "serial_number": {
+      "blank": 764,
+      "blank_pct": 23.414
+    },
+    "make": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "make_unknown": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "model": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "model_unknown": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "model_year": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "model_year_unknown": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "same_vehicle_id": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "driver_operator_type": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "automation_feature_version": {
+      "blank": 68,
+      "blank_pct": 2.084
+    },
+    "automation_feature_version_cbi": {
+      "blank": 1476,
+      "blank_pct": 45.234
+    },
+    "automation_system_engaged": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "engagement_status": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "operating_entity": {
+      "blank": 1907,
+      "blank_pct": 58.443
+    },
+    "operating_entity_unknown": {
+      "blank": 3259,
+      "blank_pct": 99.877
+    },
+    "source_complaint_claim": {
+      "blank": 3147,
+      "blank_pct": 96.445
+    },
+    "source_telematics": {
+      "blank": 385,
+      "blank_pct": 11.799
+    },
+    "source_law_enforcement": {
+      "blank": 3252,
+      "blank_pct": 99.663
+    },
+    "source_field_report": {
+      "blank": 3038,
+      "blank_pct": 93.105
+    },
+    "source_testing": {
+      "blank": 3181,
+      "blank_pct": 97.487
+    },
+    "source_media": {
+      "blank": 3233,
+      "blank_pct": 99.081
+    },
+    "source_internal_process_review": {
+      "blank": 3244,
+      "blank_pct": 99.418
+    },
+    "source_nhtsa_voq": {
+      "blank": 3247,
+      "blank_pct": 99.51
+    },
+    "source_other_see_narrative": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "source_other_entity": {
+      "blank": 3182,
+      "blank_pct": 97.518
+    },
+    "source_state_or_other_agency": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "incident_date": {
+      "blank": 1,
+      "blank_pct": 0.031
+    },
+    "incident_date_unknown": {
+      "blank": 3262,
+      "blank_pct": 99.969
+    },
+    "incident_time_24_00": {
+      "blank": 12,
+      "blank_pct": 0.368
+    },
+    "incident_time_unknown": {
+      "blank": 3251,
+      "blank_pct": 99.632
+    },
+    "same_incident_id": {
+      "blank": 1,
+      "blank_pct": 0.031
+    },
+    "latitude": {
+      "blank": 100,
+      "blank_pct": 3.065
+    },
+    "latitude_unknown": {
+      "blank": 3165,
+      "blank_pct": 96.997
+    },
+    "longitude": {
+      "blank": 100,
+      "blank_pct": 3.065
+    },
+    "longitude_unknown": {
+      "blank": 3165,
+      "blank_pct": 96.997
+    },
+    "address": {
+      "blank": 479,
+      "blank_pct": 14.68
+    },
+    "address_unknown": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "city": {
+      "blank": 84,
+      "blank_pct": 2.574
+    },
+    "city_unknown": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "state": {
+      "blank": 33,
+      "blank_pct": 1.011
+    },
+    "zip_code": {
+      "blank": 474,
+      "blank_pct": 14.527
+    },
+    "zip_code_unknown": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "roadway_type": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "roadway_degraded_surface": {
+      "blank": 3253,
+      "blank_pct": 99.694
+    },
+    "roadway_missing_degraded_marking": {
+      "blank": 3261,
+      "blank_pct": 99.939
+    },
+    "roadway_no_unusual_conditions": {
+      "blank": 1338,
+      "blank_pct": 41.005
+    },
+    "roadway_other_see_narrative": {
+      "blank": 3200,
+      "blank_pct": 98.069
+    },
+    "roadway_traffic_incident": {
+      "blank": 3214,
+      "blank_pct": 98.498
+    },
+    "roadway_unknown": {
+      "blank": 2244,
+      "blank_pct": 68.771
+    },
+    "roadway_wet_surface_condition": {
+      "blank": 3077,
+      "blank_pct": 94.3
+    },
+    "roadway_work_zone": {
+      "blank": 3223,
+      "blank_pct": 98.774
+    },
+    "weather_clear": {
+      "blank": 1642,
+      "blank_pct": 50.322
+    },
+    "weather_snow": {
+      "blank": 3259,
+      "blank_pct": 99.877
+    },
+    "weather_cloudy": {
+      "blank": 2606,
+      "blank_pct": 79.865
+    },
+    "weather_partly_cloudy": {
+      "blank": 3114,
+      "blank_pct": 95.434
+    },
+    "weather_fog_smoke_haze": {
+      "blank": 3256,
+      "blank_pct": 99.785
+    },
+    "weather_rain": {
+      "blank": 3062,
+      "blank_pct": 93.84
+    },
+    "weather_severe_wind": {
+      "blank": 3261,
+      "blank_pct": 99.939
+    },
+    "weather_dust_storm": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "weather_severe_hurricane": {
+      "blank": 3263,
+      "blank_pct": 100.0
+    },
+    "weather_structure_indoor": {
+      "blank": 3261,
+      "blank_pct": 99.939
+    },
+    "weather_unk_see_narrative": {
+      "blank": 2517,
+      "blank_pct": 77.138
+    },
+    "crash_with": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "highest_injury_severity_alleged": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "cp_pre_crash_movement": {
+      "blank": 405,
+      "blank_pct": 12.412
+    },
+    "cp_contact_area_rear_left": {
+      "blank": 3128,
+      "blank_pct": 95.863
+    },
+    "cp_contact_area_left": {
+      "blank": 3079,
+      "blank_pct": 94.361
+    },
+    "cp_contact_area_front_left": {
+      "blank": 2916,
+      "blank_pct": 89.366
+    },
+    "cp_contact_area_rear": {
+      "blank": 3102,
+      "blank_pct": 95.066
+    },
+    "cp_contact_area_top": {
+      "blank": 3261,
+      "blank_pct": 99.939
+    },
+    "cp_contact_area_front": {
+      "blank": 2919,
+      "blank_pct": 89.458
+    },
+    "cp_contact_area_rear_right": {
+      "blank": 3064,
+      "blank_pct": 93.901
+    },
+    "cp_contact_area_right": {
+      "blank": 3035,
+      "blank_pct": 93.013
+    },
+    "cp_contact_area_front_right": {
+      "blank": 2741,
+      "blank_pct": 84.002
+    },
+    "cp_contact_area_bottom": {
+      "blank": 3260,
+      "blank_pct": 99.908
+    },
+    "cp_contact_area_unknown": {
+      "blank": 2079,
+      "blank_pct": 63.714
+    },
+    "sv_pre_crash_movement": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "any_air_bags_deployed": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "was_any_vehicle_towed": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "were_all_passengers_belted": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "sv_precrash_speed_mph": {
+      "blank": 233,
+      "blank_pct": 7.141
+    },
+    "sv_pre_crash_speed_unknown": {
+      "blank": 3030,
+      "blank_pct": 92.859
+    },
+    "sv_contact_area_rear_left": {
+      "blank": 3021,
+      "blank_pct": 92.584
+    },
+    "sv_contact_area_left": {
+      "blank": 2927,
+      "blank_pct": 89.703
+    },
+    "sv_contact_area_front_left": {
+      "blank": 2768,
+      "blank_pct": 84.83
+    },
+    "sv_contact_area_rear": {
+      "blank": 2782,
+      "blank_pct": 85.259
+    },
+    "sv_contact_area_top": {
+      "blank": 3226,
+      "blank_pct": 98.866
+    },
+    "sv_contact_area_front": {
+      "blank": 2616,
+      "blank_pct": 80.172
+    },
+    "sv_contact_area_rear_right": {
+      "blank": 2879,
+      "blank_pct": 88.232
+    },
+    "sv_contact_area_right": {
+      "blank": 3047,
+      "blank_pct": 93.38
+    },
+    "sv_contact_area_front_right": {
+      "blank": 2627,
+      "blank_pct": 80.509
+    },
+    "sv_contact_area_bottom": {
+      "blank": 3143,
+      "blank_pct": 96.322
+    },
+    "sv_contact_area_unknown": {
+      "blank": 2270,
+      "blank_pct": 69.568
+    },
+    "data_availability_edr": {
+      "blank": 1556,
+      "blank_pct": 47.686
+    },
+    "data_availability_police_rpt": {
+      "blank": 3184,
+      "blank_pct": 97.579
+    },
+    "data_availability_telematics": {
+      "blank": 256,
+      "blank_pct": 7.846
+    },
+    "data_availability_complaints": {
+      "blank": 3172,
+      "blank_pct": 97.211
+    },
+    "data_availability_video": {
+      "blank": 899,
+      "blank_pct": 27.551
+    },
+    "data_availability_other": {
+      "blank": 1448,
+      "blank_pct": 44.376
+    },
+    "data_availability_no_data": {
+      "blank": 3259,
+      "blank_pct": 99.877
+    },
+    "data_availability_unknown": {
+      "blank": 3257,
+      "blank_pct": 99.816
+    },
+    "investigating_agency": {
+      "blank": 1873,
+      "blank_pct": 57.401
+    },
+    "investigating_agency_unknown": {
+      "blank": 1390,
+      "blank_pct": 42.599
+    },
+    "within_odd": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "within_odd_cbi": {
+      "blank": 1497,
+      "blank_pct": 45.878
+    },
+    "narrative": {
+      "blank": 1,
+      "blank_pct": 0.031
+    },
+    "narrative_cbi": {
+      "blank": 1496,
+      "blank_pct": 45.847
+    },
+    "source_bucket": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "source_regime": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "source_file": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "source_url": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "incident_month": {
+      "blank": 1,
+      "blank_pct": 0.031
+    },
+    "report_submission_month": {
+      "blank": 0,
+      "blank_pct": 0.0
+    },
+    "versions_observed_in_current_snapshot": {
+      "blank": 0,
+      "blank_pct": 0.0
+    }
+  },
+  "anomalies_preserved": [
+    "Rows in the Other / Unknown bucket are retained rather than forced into ADS or Level 2 ADAS.",
+    "Multiple Report IDs sharing a Same Incident ID are retained as separate rows.",
+    "Same Incident ID can change across report versions; the selected latest report value is preserved.",
+    "Incident month can predate the June 16, 2025 regime boundary because later report updates can describe older incidents."
+  ],
+  "release_bytes": 4734159,
+  "release_sha256": "9effcecb70f1e9922e26d83f7749fd984af87dee01479df54a283dc85867b66e"
+}
