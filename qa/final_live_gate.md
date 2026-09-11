@@ -25,23 +25,25 @@
 
 Live 2:1 cover and live 1:1 card crop were downloaded from Kaggle and visually checked. The NHTSA SGO / ADS + Level 2 ADAS / vehicle-and-sensor focal content remains legible and centered in both crops.
 
-## Data Explorer metadata limitation
+## Data Explorer metadata completion
 
-Repository target coverage is one file description and 123 column descriptions. Before writing, the public Data Explorer schema was read back and verified at 123 columns with exact order. Live base type / extended type / order were captured. An official Kaggle SDK metadata-only write sent `data.csv` with the exact live byte count and all 123 column names/descriptions while intentionally omitting column `type` so Kaggle's inferred types would not be overwritten.
+Repository target coverage is one file description and 123 column descriptions. Before writing, the public Data Explorer schema was read back and verified at 123 columns with exact order. Live base type / extended type / order were captured. CLI/SDK metadata writes did not persist this structured Data Explorer metadata, and the hosted MCP wrapper could not safely bind the nested metadata payload.
 
-Post-write public Data Explorer readback shows:
+The final supported escalation used an explicitly authorized same-origin Kaggle browser action. The script used the Kaggle page's already-authenticated Data Explorer SDK client, performed a one-column `report_id` smoke write/readback first, and only then wrote the `data.csv` description plus all 123 column descriptions while preserving the live type and extended-type values. No browser cookies, OAuth tokens, authorization headers, or KGAT values were extracted or replayed.
 
-- present file descriptions: `0 / 1`
-- exact file descriptions: `0 / 1`
-- present column descriptions: `0 / 123`
-- exact column descriptions: `0 / 123`
+Immediate same-origin Data Explorer readback after the batch shows:
+
+- present file descriptions: `1 / 1`
+- exact file descriptions: `1 / 1`
+- present column descriptions: `123 / 123`
+- exact column descriptions: `123 / 123`
 - schema/type/order preserved: `true`
 
-Kaggle CLI 2.2.4 and the current SDK accept the structured metadata write, but the public Data Explorer read model does not persist/expose the descriptions. Do not repeat identical CLI/SDK metadata writes merely to force Usability. The next supported escalation is an authenticated official Kaggle MCP client/token path; do not copy CLI bearer tokens, browser cookies, or credentials between clients.
+Kaggle CLI 2.2.4 and the current SDK accepted the structured metadata write but did not persist the Data Explorer descriptions in this release. Do not repeat those writes for this backend/client state. The successful path was the version-specific same-origin Data Explorer SDK update described above.
 
 ## Current platform quality metric
 
-Latest official CLI metadata readback during this gate reported `usabilityRating = 0.7058823529411765`. This is below the desired 10/10 baseline and is attributable to the unresolved Data Explorer description persistence gate. All content, file, notebook, cover, source, and repository gates can be completed independently without creating a new dataset version.
+After the same-origin Data Explorer metadata update, Kaggle displayed **Usability 10 / 10**. The browser-side completion readback also returned the target file description and all 123 target column descriptions exactly. No new dataset content version was created.
 
 ## End-of-session handoff
 
@@ -61,8 +63,8 @@ Latest official CLI metadata readback during this gate reported `usabilityRating
 - Live/local SHA-256: exact match.
 - Showcase notebook: `taeyangg4/what-do-reported-self-driving-crashes-look-like`, status `COMPLETE`.
 - Launch baseline observed on 2026-09-11: `5` views, `3` downloads, `1` notebook; vote count was not returned by the current readback and is intentionally not guessed.
-- Usability: `0.7058823529411765` (`7.06 / 10`).
-- Data Explorer description coverage: file `0/1`, columns `0/123` present/exact after the supported CLI/SDK attempts.
+- Usability: `10 / 10`.
+- Data Explorer description coverage: file `1/1` present/exact, columns `123/123` present/exact.
 
 ### Release invariants
 
@@ -80,26 +82,28 @@ Latest official CLI metadata readback during this gate reported `usabilityRating
 - Official Kaggle CLI for dataset create/status/files/metadata/download and notebook push/status/pull.
 - Official Kaggle SDK for a controlled metadata-only write while preserving live file bytes and inferred schema.
 - Public Kaggle Data Explorer readback for verifying 123-column order and inferred type/extended-type preservation.
+- Authenticated same-origin Kaggle Data Explorer SDK update: one-column smoke write/readback, then one file description plus 123 exact column descriptions, with type/extended-type preserved.
 - Live artifact download verified exact content hash equality.
 
 ### What failed / do not repeat unchanged
 
-- Repeating CLI/SDK Data Explorer description writes does not make file/column descriptions appear in the current live read model; post-write coverage remained `0/1` and `0/123`.
+- Repeating CLI/SDK Data Explorer description writes did not make file/column descriptions appear in the live read model for this release; do not repeat that path unchanged.
+- Hosted Kaggle MCP authentication succeeded, but the current `update_dataset_metadata` wrapper did not safely bind the required nested list payload for this task; do not retry the same wrapper payload unchanged.
 - Generic `mcp-remote` OAuth on this Windows host generated a callback URI with an IP/port that Kaggle rejected against its strict redirect allowlist. Do not retry that unchanged.
 - Do not create a new dataset content version merely to force metadata/Usability refresh.
 
 ### Authentication constraints
 
 - Keep using official Kaggle CLI credential storage for CLI/SDK operations.
-- For a future MCP escalation, use a current Kaggle-supported authenticated MCP client or Kaggle-generated MCP token through user-managed secret injection.
-- Never copy CLI bearer tokens, browser cookies, OAuth access/refresh tokens, or authorization headers between clients.
+- The successful browser fallback relied only on the user's already-authenticated `kaggle.com` page and did not expose or transfer credentials.
+- Never copy CLI bearer tokens, browser cookies, OAuth access/refresh tokens, KGAT values, or authorization headers between clients.
 
 ### Portfolio sync
 
 - Public portfolio: `https://github.com/TaeyanG4/kaggle-dataset-portfolio`
-- Synced commit: `75ea6b580d40a99b1d4bf01efd082e11903aa3e1`
-- Portfolio records the live launch baseline, Usability 7.06, showcase notebook, unresolved Data Explorer blocker, and the ~1-week adoption checkpoint as the next action.
+- Synced commit: `827c06191ce9b6d5c364e30a81af73dabe2b9909`
+- Portfolio records Usability 10.0, Data Explorer descriptions complete, the showcase notebook, and the ~1-week adoption checkpoint as the next action.
 
 ### Next action
 
-At the ~1-week checkpoint, refresh views/downloads/votes and external/notebook reuse before changing positioning or publishing another content version. Escalate the Data Explorer description blocker only through a current officially supported authenticated Kaggle MCP path.
+At the ~1-week checkpoint, refresh views/downloads/votes and external/notebook reuse before changing positioning or publishing another content version. The Usability/Data Explorer quality gate is complete; do not spend additional release cycles on metadata unless a future Kaggle version or backend change regresses it.
