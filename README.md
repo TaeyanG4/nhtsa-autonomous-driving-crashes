@@ -8,6 +8,9 @@ Reproducible Kaggle release of the **current third-amended NHTSA Standing Genera
 
 - Kaggle dataset: https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes
 - Showcase notebook: https://www.kaggle.com/code/taeyangg4/what-do-reported-self-driving-crashes-look-like
+- Kaggle version / status: `1 / Ready`
+- Kaggle Usability: `10.0 / 10`
+- Data Explorer metadata: `data.csv` description `1/1` exact; column descriptions `123/123` exact
 
 The Kaggle notebook card uses the shorter title **“What Do Reported Self-Driving Crashes Look Like?”** to satisfy Kaggle's title-length constraint. The notebook's H1 preserves the intended long-form title **“What Do Reported Autonomous-Driving Crashes Look Like?”**.
 

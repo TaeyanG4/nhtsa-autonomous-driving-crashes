@@ -8,6 +8,9 @@ ADS、Level 2 ADAS、Other/Unknown の報告を対象とする、**現在の第3
 
 - Kaggle データセット: https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes
 - ショーケースノートブック: https://www.kaggle.com/code/taeyangg4/what-do-reported-self-driving-crashes-look-like
+- Kaggle version / status: `1 / Ready`
+- Kaggle Usability: `10.0 / 10`
+- Data Explorer metadata: `data.csv` description `1/1` exact、column descriptions `123/123` exact
 
 Kaggle のノートブックカードではタイトル長の制約に合わせて **“What Do Reported Self-Driving Crashes Look Like?”** を使用しています。ノートブック本文の H1 には、意図した長いタイトル **“What Do Reported Autonomous-Driving Crashes Look Like?”** をそのまま保持しています。
 

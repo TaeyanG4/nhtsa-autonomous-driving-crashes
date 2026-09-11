@@ -8,6 +8,9 @@ ADS, Level 2 ADAS 및 Other/Unknown 보고서를 대상으로 하는 **현재의
 
 - Kaggle 데이터셋: https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes
 - 쇼케이스 노트북: https://www.kaggle.com/code/taeyangg4/what-do-reported-self-driving-crashes-look-like
+- Kaggle 버전 / 상태: `1 / Ready`
+- Kaggle Usability: `10.0 / 10`
+- Data Explorer 메타데이터: `data.csv` 설명 `1/1` exact, 컬럼 설명 `123/123` exact
 
 Kaggle 노트북 카드에는 플랫폼 제목 길이 제한을 맞추기 위해 더 짧은 **“What Do Reported Self-Driving Crashes Look Like?”**를 사용합니다. 노트북 본문의 H1에는 의도한 긴 제목 **“What Do Reported Autonomous-Driving Crashes Look Like?”**를 그대로 유지합니다.
 

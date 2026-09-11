@@ -8,6 +8,9 @@
 
 - Kaggle 数据集: https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes
 - 展示 Notebook: https://www.kaggle.com/code/taeyangg4/what-do-reported-self-driving-crashes-look-like
+- Kaggle version / status: `1 / Ready`
+- Kaggle Usability: `10.0 / 10`
+- Data Explorer metadata: `data.csv` description `1/1` exact，column descriptions `123/123` exact
 
 为满足 Kaggle 的标题长度限制，Notebook 卡片使用较短标题 **“What Do Reported Self-Driving Crashes Look Like?”**。Notebook 正文 H1 仍保留预期的完整标题 **“What Do Reported Autonomous-Driving Crashes Look Like?”**。
 
