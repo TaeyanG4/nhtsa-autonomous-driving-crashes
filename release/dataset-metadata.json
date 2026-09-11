@@ -16,625 +16,1002 @@
         "fields": [
           {
             "name": "report_id",
-            "description": "NHTSA-generated identifier that stays with an incident report across later report versions.",
-            "type": "id"
+            "description": "NHTSA-generated identifier that stays with an incident report across later report versions."
           },
           {
             "name": "report_version",
-            "description": "Sequential NHTSA report version; the release keeps the highest available version for each Report ID.",
-            "type": "integer"
+            "description": "Sequential NHTSA report version; the release keeps the highest available version for each Report ID."
           },
           {
             "name": "reporting_entity",
-            "description": "Entity that filed the incident report under the NHTSA Standing General Order.",
-            "type": "string"
+            "description": "Entity that filed the incident report under the NHTSA Standing General Order."
           },
           {
             "name": "report_type",
-            "description": "Incident report type selected by the reporting entity under the third-amended SGO (for example 5-Day, Monthly, or Update).",
-            "type": "string"
+            "description": "Incident report type selected by the reporting entity under the third-amended SGO (for example 5-Day, Monthly, or Update)."
           },
           {
             "name": "report_month",
-            "description": "Source-faithful NHTSA SGO field 'Report Month' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "integer"
+            "description": "Source-faithful NHTSA SGO field 'Report Month' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "report_year",
-            "description": "Source-faithful NHTSA SGO field 'Report Year' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "integer"
+            "description": "Source-faithful NHTSA SGO field 'Report Year' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "report_submission_date",
-            "description": "Month and year when the incident report was first submitted; this is not a revision timestamp.",
-            "type": "string"
+            "description": "Month and year when the incident report was first submitted; this is not a revision timestamp."
           },
           {
             "name": "vin",
-            "description": "Public VIN portion as released by NHTSA; the last six VIN characters are withheld for privacy.",
-            "type": "string"
+            "description": "Public VIN portion as released by NHTSA; the last six VIN characters are withheld for privacy."
           },
           {
             "name": "vin_decoded",
-            "description": "Source-faithful NHTSA SGO field 'VIN Decoded' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'VIN Decoded' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "serial_number",
-            "description": "Source-faithful NHTSA SGO field 'Serial Number' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Serial Number' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "make",
-            "description": "Source-faithful NHTSA SGO field 'Make' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Make' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "make_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Make - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Make - Unknown' in the selected latest report version."
           },
           {
             "name": "model",
-            "description": "Source-faithful NHTSA SGO field 'Model' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Model' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "model_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Model - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Model - Unknown' in the selected latest report version."
           },
           {
             "name": "model_year",
-            "description": "Source-faithful NHTSA SGO field 'Model Year' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "integer"
+            "description": "Source-faithful NHTSA SGO field 'Model Year' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "model_year_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Model Year - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Model Year - Unknown' in the selected latest report version."
           },
           {
             "name": "same_vehicle_id",
-            "description": "NHTSA-generated linkage identifier intended to show when multiple reported incidents involve the same subject vehicle.",
-            "type": "string"
+            "description": "NHTSA-generated linkage identifier intended to show when multiple reported incidents involve the same subject vehicle."
           },
           {
             "name": "driver_operator_type",
-            "description": "Source-faithful NHTSA SGO field 'Driver / Operator Type' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Driver / Operator Type' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "automation_feature_version",
-            "description": "Source-faithful NHTSA SGO field 'Automation Feature Version' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Automation Feature Version' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "automation_feature_version_cbi",
-            "description": "Indicator associated with a confidential-business-information claim for 'Automation Feature Version CBI' as published by NHTSA.",
-            "type": "string"
+            "description": "Indicator associated with a confidential-business-information claim for 'Automation Feature Version CBI' as published by NHTSA."
           },
           {
             "name": "automation_system_engaged",
-            "description": "Reporting entity's classification of the automation system engaged at the time of the crash: ADS, ADAS, or Unknown/see narrative.",
-            "type": "string"
+            "description": "Reporting entity's classification of the automation system engaged at the time of the crash: ADS, ADAS, or Unknown/see narrative."
           },
           {
             "name": "engagement_status",
-            "description": "Reported highest-level automation-system engagement status during the period from 30 seconds before crash onset through crash conclusion.",
-            "type": "string"
+            "description": "Reported highest-level automation-system engagement status during the period from 30 seconds before crash onset through crash conclusion."
           },
           {
             "name": "operating_entity",
-            "description": "Source-faithful NHTSA SGO field 'Operating Entity' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Operating Entity' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "operating_entity_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Operating Entity - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Operating Entity - Unknown' in the selected latest report version."
           },
           {
             "name": "source_complaint_claim",
-            "description": "Indicator/value for the reported notice-source field 'Source - Complaint/Claim' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Complaint/Claim' in the selected latest report version."
           },
           {
             "name": "source_telematics",
-            "description": "Indicator/value for the reported notice-source field 'Source - Telematics' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Telematics' in the selected latest report version."
           },
           {
             "name": "source_law_enforcement",
-            "description": "Indicator/value for the reported notice-source field 'Source - Law Enforcement' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Law Enforcement' in the selected latest report version."
           },
           {
             "name": "source_field_report",
-            "description": "Indicator/value for the reported notice-source field 'Source - Field Report' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Field Report' in the selected latest report version."
           },
           {
             "name": "source_testing",
-            "description": "Indicator/value for the reported notice-source field 'Source - Testing' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Testing' in the selected latest report version."
           },
           {
             "name": "source_media",
-            "description": "Indicator/value for the reported notice-source field 'Source - Media' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Media' in the selected latest report version."
           },
           {
             "name": "source_internal_process_review",
-            "description": "Indicator/value for the reported notice-source field 'Source - Internal Process Review' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Internal Process Review' in the selected latest report version."
           },
           {
             "name": "source_nhtsa_voq",
-            "description": "Indicator/value for the reported notice-source field 'Source - NHTSA VOQ' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - NHTSA VOQ' in the selected latest report version."
           },
           {
             "name": "source_other_see_narrative",
-            "description": "Indicator/value for the reported notice-source field 'Source - Other - See Narrative' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Other - See Narrative' in the selected latest report version."
           },
           {
             "name": "source_other_entity",
-            "description": "Indicator/value for the reported notice-source field 'Source - Other Entity' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - Other Entity' in the selected latest report version."
           },
           {
             "name": "source_state_or_other_agency",
-            "description": "Indicator/value for the reported notice-source field 'Source - State or Other Agency' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the reported notice-source field 'Source - State or Other Agency' in the selected latest report version."
           },
           {
             "name": "incident_date",
-            "description": "Incident month and year as published by NHTSA; day-level dates are not public in this release.",
-            "type": "string"
+            "description": "Incident month and year as published by NHTSA; day-level dates are not public in this release."
           },
           {
             "name": "incident_date_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Incident Date - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Incident Date - Unknown' in the selected latest report version."
           },
           {
             "name": "incident_time_24_00",
-            "description": "Source-faithful NHTSA SGO field 'Incident Time (24:00)' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Incident Time (24:00)' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "incident_time_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Incident Time - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Incident Time - Unknown' in the selected latest report version."
           },
           {
             "name": "same_incident_id",
-            "description": "NHTSA-generated linkage identifier intended to show when multiple reports refer to the same incident; it is preserved but not used to merge rows.",
-            "type": "string"
+            "description": "NHTSA-generated linkage identifier intended to show when multiple reports refer to the same incident; it is preserved but not used to merge rows."
           },
           {
             "name": "latitude",
-            "description": "Source-faithful NHTSA SGO field 'Latitude' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "latitude"
+            "description": "Source-faithful NHTSA SGO field 'Latitude' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "latitude_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Latitude - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Latitude - Unknown' in the selected latest report version."
           },
           {
             "name": "longitude",
-            "description": "Source-faithful NHTSA SGO field 'Longitude' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "longitude"
+            "description": "Source-faithful NHTSA SGO field 'Longitude' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "longitude_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Longitude - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Longitude - Unknown' in the selected latest report version."
           },
           {
             "name": "address",
-            "description": "Source-faithful NHTSA SGO field 'Address' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "address"
+            "description": "Source-faithful NHTSA SGO field 'Address' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "address_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Address - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Address - Unknown' in the selected latest report version."
           },
           {
             "name": "city",
-            "description": "Source-faithful NHTSA SGO field 'City' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "city"
+            "description": "Source-faithful NHTSA SGO field 'City' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "city_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'City - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'City - Unknown' in the selected latest report version."
           },
           {
             "name": "state",
-            "description": "Source-faithful NHTSA SGO field 'State' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "province"
+            "description": "Source-faithful NHTSA SGO field 'State' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "zip_code",
-            "description": "Source-faithful NHTSA SGO field 'Zip Code' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "postalcode"
+            "description": "Source-faithful NHTSA SGO field 'Zip Code' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "zip_code_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Zip Code - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Zip Code - Unknown' in the selected latest report version."
           },
           {
             "name": "roadway_type",
-            "description": "Source-faithful NHTSA SGO field 'Roadway Type' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Roadway Type' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "roadway_degraded_surface",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Degraded Surface' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Degraded Surface' in the selected latest report version."
           },
           {
             "name": "roadway_missing_degraded_marking",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Missing/Degraded Marking' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Missing/Degraded Marking' in the selected latest report version."
           },
           {
             "name": "roadway_no_unusual_conditions",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-No Unusual Conditions' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-No Unusual Conditions' in the selected latest report version."
           },
           {
             "name": "roadway_other_see_narrative",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Other-See Narrative' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Other-See Narrative' in the selected latest report version."
           },
           {
             "name": "roadway_traffic_incident",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Traffic Incident' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Traffic Incident' in the selected latest report version."
           },
           {
             "name": "roadway_unknown",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Unknown' in the selected latest report version."
           },
           {
             "name": "roadway_wet_surface_condition",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Wet Surface Condition' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Wet Surface Condition' in the selected latest report version."
           },
           {
             "name": "roadway_work_zone",
-            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Work Zone' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Work Zone' in the selected latest report version."
           },
           {
             "name": "weather_clear",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Clear' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Clear' in the selected latest report version."
           },
           {
             "name": "weather_snow",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Snow' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Snow' in the selected latest report version."
           },
           {
             "name": "weather_cloudy",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Cloudy' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Cloudy' in the selected latest report version."
           },
           {
             "name": "weather_partly_cloudy",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Partly Cloudy' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Partly Cloudy' in the selected latest report version."
           },
           {
             "name": "weather_fog_smoke_haze",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Fog/Smoke/Haze' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Fog/Smoke/Haze' in the selected latest report version."
           },
           {
             "name": "weather_rain",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Rain' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Rain' in the selected latest report version."
           },
           {
             "name": "weather_severe_wind",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Severe Wind' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Severe Wind' in the selected latest report version."
           },
           {
             "name": "weather_dust_storm",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Dust Storm' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Dust Storm' in the selected latest report version."
           },
           {
             "name": "weather_severe_hurricane",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Severe Hurricane' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Severe Hurricane' in the selected latest report version."
           },
           {
             "name": "weather_structure_indoor",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Structure-Indoor' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Structure-Indoor' in the selected latest report version."
           },
           {
             "name": "weather_unk_see_narrative",
-            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Unk - See Narrative' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Unk - See Narrative' in the selected latest report version."
           },
           {
             "name": "crash_with",
-            "description": "Reported object or road user with which the crash occurred.",
-            "type": "string"
+            "description": "Reported object or road user with which the crash occurred."
           },
           {
             "name": "highest_injury_severity_alleged",
-            "description": "Highest injury severity alleged/reported for the incident in the NHTSA SGO form.",
-            "type": "string"
+            "description": "Highest injury severity alleged/reported for the incident in the NHTSA SGO form."
           },
           {
             "name": "cp_pre_crash_movement",
-            "description": "Source-faithful NHTSA SGO field 'CP Pre-Crash Movement' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'CP Pre-Crash Movement' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "cp_contact_area_rear_left",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear Left' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear Left' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_left",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Left' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Left' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_front_left",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front Left' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front Left' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_rear",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_top",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Top' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Top' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_front",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_rear_right",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear Right' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear Right' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_right",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Right' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Right' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_front_right",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front Right' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front Right' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_bottom",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Bottom' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Bottom' in the selected latest report version."
           },
           {
             "name": "cp_contact_area_unknown",
-            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Unknown' in the selected latest report version."
           },
           {
             "name": "sv_pre_crash_movement",
-            "description": "Source-faithful NHTSA SGO field 'SV Pre-Crash Movement' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'SV Pre-Crash Movement' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "any_air_bags_deployed",
-            "description": "Source-faithful NHTSA SGO field 'Any Air Bags Deployed?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Any Air Bags Deployed?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "was_any_vehicle_towed",
-            "description": "Source-faithful NHTSA SGO field 'Was Any Vehicle Towed?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Was Any Vehicle Towed?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "were_all_passengers_belted",
-            "description": "Source-faithful NHTSA SGO field 'Were All Passengers Belted?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Were All Passengers Belted?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "sv_precrash_speed_mph",
-            "description": "Source-faithful NHTSA SGO field 'SV Precrash Speed (MPH)' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "numeric"
+            "description": "Source-faithful NHTSA SGO field 'SV Precrash Speed (MPH)' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "sv_pre_crash_speed_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'SV Pre-crash Speed - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'SV Pre-crash Speed - Unknown' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_rear_left",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear Left' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear Left' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_left",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Left' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Left' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_front_left",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front Left' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front Left' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_rear",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_top",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Top' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Top' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_front",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_rear_right",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear Right' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear Right' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_right",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Right' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Right' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_front_right",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front Right' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front Right' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_bottom",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Bottom' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Bottom' in the selected latest report version."
           },
           {
             "name": "sv_contact_area_unknown",
-            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Unknown' in the selected latest report version."
           },
           {
             "name": "data_availability_edr",
-            "description": "Indicator/value showing whether 'Data Availability - EDR' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - EDR' data was reported available for the incident."
           },
           {
             "name": "data_availability_police_rpt",
-            "description": "Indicator/value showing whether 'Data Availability - Police Rpt' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - Police Rpt' data was reported available for the incident."
           },
           {
             "name": "data_availability_telematics",
-            "description": "Indicator/value showing whether 'Data Availability - Telematics' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - Telematics' data was reported available for the incident."
           },
           {
             "name": "data_availability_complaints",
-            "description": "Indicator/value showing whether 'Data Availability - Complaints' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - Complaints' data was reported available for the incident."
           },
           {
             "name": "data_availability_video",
-            "description": "Indicator/value showing whether 'Data Availability - Video' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - Video' data was reported available for the incident."
           },
           {
             "name": "data_availability_other",
-            "description": "Indicator/value showing whether 'Data Availability - Other' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - Other' data was reported available for the incident."
           },
           {
             "name": "data_availability_no_data",
-            "description": "Indicator/value showing whether 'Data Availability - No Data' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - No Data' data was reported available for the incident."
           },
           {
             "name": "data_availability_unknown",
-            "description": "Indicator/value showing whether 'Data Availability - Unknown' data was reported available for the incident.",
-            "type": "string"
+            "description": "Indicator/value showing whether 'Data Availability - Unknown' data was reported available for the incident."
           },
           {
             "name": "investigating_agency",
-            "description": "Source-faithful NHTSA SGO field 'Investigating Agency' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Investigating Agency' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "investigating_agency_unknown",
-            "description": "NHTSA SGO unknown/unavailable indicator for 'Investigating Agency - Unknown' in the selected latest report version.",
-            "type": "string"
+            "description": "NHTSA SGO unknown/unavailable indicator for 'Investigating Agency - Unknown' in the selected latest report version."
           },
           {
             "name": "within_odd",
-            "description": "Source-faithful NHTSA SGO field 'Within ODD?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics.",
-            "type": "string"
+            "description": "Source-faithful NHTSA SGO field 'Within ODD?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
           },
           {
             "name": "within_odd_cbi",
-            "description": "Indicator associated with a confidential-business-information claim for 'Within ODD? - CBI' as published by NHTSA.",
-            "type": "string"
+            "description": "Indicator associated with a confidential-business-information claim for 'Within ODD? - CBI' as published by NHTSA."
           },
           {
             "name": "narrative",
-            "description": "Public incident narrative as released by NHTSA; PII/CBI redactions are preserved exactly as published.",
-            "type": "string"
+            "description": "Public incident narrative as released by NHTSA; PII/CBI redactions are preserved exactly as published."
           },
           {
             "name": "narrative_cbi",
-            "description": "Indicator associated with a confidential-business-information claim for 'Narrative - CBI?' as published by NHTSA.",
-            "type": "string"
+            "description": "Indicator associated with a confidential-business-information claim for 'Narrative - CBI?' as published by NHTSA."
           },
           {
             "name": "source_bucket",
-            "description": "Which current NHTSA source file contained the selected latest report: ADS, Level 2 ADAS, or Other / Unknown.",
-            "type": "string"
+            "description": "Which current NHTSA source file contained the selected latest report: ADS, Level 2 ADAS, or Other / Unknown."
           },
           {
             "name": "source_regime",
-            "description": "Reporting regime for this release row: third-amended SGO effective June 16, 2025.",
-            "type": "string"
+            "description": "Reporting regime for this release row: third-amended SGO effective June 16, 2025."
           },
           {
             "name": "source_file",
-            "description": "Official NHTSA CSV filename from which the selected latest report version was read.",
-            "type": "string"
+            "description": "Official NHTSA CSV filename from which the selected latest report version was read."
           },
           {
             "name": "source_url",
-            "description": "Official NHTSA download URL for the source CSV containing the selected latest report version.",
-            "type": "url"
+            "description": "Official NHTSA download URL for the source CSV containing the selected latest report version."
           },
           {
             "name": "incident_month",
-            "description": "Convenience ISO YYYY-MM value derived from the published Incident Date; blank when the source date is unknown/unparseable.",
-            "type": "string"
+            "description": "Convenience ISO YYYY-MM value derived from the published Incident Date; blank when the source date is unknown/unparseable."
           },
           {
             "name": "report_submission_month",
-            "description": "Convenience ISO YYYY-MM value derived from Report Submission Date.",
-            "type": "string"
+            "description": "Convenience ISO YYYY-MM value derived from Report Submission Date."
           },
           {
             "name": "versions_observed_in_current_snapshot",
-            "description": "Number of report-version rows for this Report ID present in the current third-amended source snapshot; earlier versions can exist only in the archive.",
-            "type": "integer"
+            "description": "Number of report-version rows for this Report ID present in the current third-amended source snapshot; earlier versions can exist only in the archive."
           }
         ]
       }
     }
   ],
+  "data": [
+    {
+      "name": "data.csv",
+      "description": "Canonical current-regime NHTSA SGO table: one row per Report ID using the highest available Report Version. Includes ADS, Level 2 ADAS, Other/Unknown, public narratives, and explicit source provenance. Counts are reports, not exposure-normalized crash rates.",
+      "totalBytes": 4734159,
+      "columns": [
+        {
+          "name": "report_id",
+          "description": "NHTSA-generated identifier that stays with an incident report across later report versions."
+        },
+        {
+          "name": "report_version",
+          "description": "Sequential NHTSA report version; the release keeps the highest available version for each Report ID."
+        },
+        {
+          "name": "reporting_entity",
+          "description": "Entity that filed the incident report under the NHTSA Standing General Order."
+        },
+        {
+          "name": "report_type",
+          "description": "Incident report type selected by the reporting entity under the third-amended SGO (for example 5-Day, Monthly, or Update)."
+        },
+        {
+          "name": "report_month",
+          "description": "Source-faithful NHTSA SGO field 'Report Month' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "report_year",
+          "description": "Source-faithful NHTSA SGO field 'Report Year' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "report_submission_date",
+          "description": "Month and year when the incident report was first submitted; this is not a revision timestamp."
+        },
+        {
+          "name": "vin",
+          "description": "Public VIN portion as released by NHTSA; the last six VIN characters are withheld for privacy."
+        },
+        {
+          "name": "vin_decoded",
+          "description": "Source-faithful NHTSA SGO field 'VIN Decoded' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "serial_number",
+          "description": "Source-faithful NHTSA SGO field 'Serial Number' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "make",
+          "description": "Source-faithful NHTSA SGO field 'Make' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "make_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Make - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "model",
+          "description": "Source-faithful NHTSA SGO field 'Model' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "model_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Model - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "model_year",
+          "description": "Source-faithful NHTSA SGO field 'Model Year' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "model_year_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Model Year - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "same_vehicle_id",
+          "description": "NHTSA-generated linkage identifier intended to show when multiple reported incidents involve the same subject vehicle."
+        },
+        {
+          "name": "driver_operator_type",
+          "description": "Source-faithful NHTSA SGO field 'Driver / Operator Type' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "automation_feature_version",
+          "description": "Source-faithful NHTSA SGO field 'Automation Feature Version' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "automation_feature_version_cbi",
+          "description": "Indicator associated with a confidential-business-information claim for 'Automation Feature Version CBI' as published by NHTSA."
+        },
+        {
+          "name": "automation_system_engaged",
+          "description": "Reporting entity's classification of the automation system engaged at the time of the crash: ADS, ADAS, or Unknown/see narrative."
+        },
+        {
+          "name": "engagement_status",
+          "description": "Reported highest-level automation-system engagement status during the period from 30 seconds before crash onset through crash conclusion."
+        },
+        {
+          "name": "operating_entity",
+          "description": "Source-faithful NHTSA SGO field 'Operating Entity' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "operating_entity_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Operating Entity - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "source_complaint_claim",
+          "description": "Indicator/value for the reported notice-source field 'Source - Complaint/Claim' in the selected latest report version."
+        },
+        {
+          "name": "source_telematics",
+          "description": "Indicator/value for the reported notice-source field 'Source - Telematics' in the selected latest report version."
+        },
+        {
+          "name": "source_law_enforcement",
+          "description": "Indicator/value for the reported notice-source field 'Source - Law Enforcement' in the selected latest report version."
+        },
+        {
+          "name": "source_field_report",
+          "description": "Indicator/value for the reported notice-source field 'Source - Field Report' in the selected latest report version."
+        },
+        {
+          "name": "source_testing",
+          "description": "Indicator/value for the reported notice-source field 'Source - Testing' in the selected latest report version."
+        },
+        {
+          "name": "source_media",
+          "description": "Indicator/value for the reported notice-source field 'Source - Media' in the selected latest report version."
+        },
+        {
+          "name": "source_internal_process_review",
+          "description": "Indicator/value for the reported notice-source field 'Source - Internal Process Review' in the selected latest report version."
+        },
+        {
+          "name": "source_nhtsa_voq",
+          "description": "Indicator/value for the reported notice-source field 'Source - NHTSA VOQ' in the selected latest report version."
+        },
+        {
+          "name": "source_other_see_narrative",
+          "description": "Indicator/value for the reported notice-source field 'Source - Other - See Narrative' in the selected latest report version."
+        },
+        {
+          "name": "source_other_entity",
+          "description": "Indicator/value for the reported notice-source field 'Source - Other Entity' in the selected latest report version."
+        },
+        {
+          "name": "source_state_or_other_agency",
+          "description": "Indicator/value for the reported notice-source field 'Source - State or Other Agency' in the selected latest report version."
+        },
+        {
+          "name": "incident_date",
+          "description": "Incident month and year as published by NHTSA; day-level dates are not public in this release."
+        },
+        {
+          "name": "incident_date_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Incident Date - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "incident_time_24_00",
+          "description": "Source-faithful NHTSA SGO field 'Incident Time (24:00)' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "incident_time_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Incident Time - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "same_incident_id",
+          "description": "NHTSA-generated linkage identifier intended to show when multiple reports refer to the same incident; it is preserved but not used to merge rows."
+        },
+        {
+          "name": "latitude",
+          "description": "Source-faithful NHTSA SGO field 'Latitude' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "latitude_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Latitude - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "longitude",
+          "description": "Source-faithful NHTSA SGO field 'Longitude' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "longitude_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Longitude - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "address",
+          "description": "Source-faithful NHTSA SGO field 'Address' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "address_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Address - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "city",
+          "description": "Source-faithful NHTSA SGO field 'City' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "city_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'City - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "state",
+          "description": "Source-faithful NHTSA SGO field 'State' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "zip_code",
+          "description": "Source-faithful NHTSA SGO field 'Zip Code' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "zip_code_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Zip Code - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "roadway_type",
+          "description": "Source-faithful NHTSA SGO field 'Roadway Type' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "roadway_degraded_surface",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Degraded Surface' in the selected latest report version."
+        },
+        {
+          "name": "roadway_missing_degraded_marking",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Missing/Degraded Marking' in the selected latest report version."
+        },
+        {
+          "name": "roadway_no_unusual_conditions",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-No Unusual Conditions' in the selected latest report version."
+        },
+        {
+          "name": "roadway_other_see_narrative",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Other-See Narrative' in the selected latest report version."
+        },
+        {
+          "name": "roadway_traffic_incident",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Traffic Incident' in the selected latest report version."
+        },
+        {
+          "name": "roadway_unknown",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Unknown' in the selected latest report version."
+        },
+        {
+          "name": "roadway_wet_surface_condition",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Wet Surface Condition' in the selected latest report version."
+        },
+        {
+          "name": "roadway_work_zone",
+          "description": "Indicator/value for the NHTSA SGO roadway-condition field 'Roadway-Work Zone' in the selected latest report version."
+        },
+        {
+          "name": "weather_clear",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Clear' in the selected latest report version."
+        },
+        {
+          "name": "weather_snow",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Snow' in the selected latest report version."
+        },
+        {
+          "name": "weather_cloudy",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Cloudy' in the selected latest report version."
+        },
+        {
+          "name": "weather_partly_cloudy",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Partly Cloudy' in the selected latest report version."
+        },
+        {
+          "name": "weather_fog_smoke_haze",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Fog/Smoke/Haze' in the selected latest report version."
+        },
+        {
+          "name": "weather_rain",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Rain' in the selected latest report version."
+        },
+        {
+          "name": "weather_severe_wind",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Severe Wind' in the selected latest report version."
+        },
+        {
+          "name": "weather_dust_storm",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Dust Storm' in the selected latest report version."
+        },
+        {
+          "name": "weather_severe_hurricane",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Severe Hurricane' in the selected latest report version."
+        },
+        {
+          "name": "weather_structure_indoor",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Structure-Indoor' in the selected latest report version."
+        },
+        {
+          "name": "weather_unk_see_narrative",
+          "description": "Indicator/value for the NHTSA SGO weather field 'Weather - Unk - See Narrative' in the selected latest report version."
+        },
+        {
+          "name": "crash_with",
+          "description": "Reported object or road user with which the crash occurred."
+        },
+        {
+          "name": "highest_injury_severity_alleged",
+          "description": "Highest injury severity alleged/reported for the incident in the NHTSA SGO form."
+        },
+        {
+          "name": "cp_pre_crash_movement",
+          "description": "Source-faithful NHTSA SGO field 'CP Pre-Crash Movement' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "cp_contact_area_rear_left",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear Left' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_left",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Left' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_front_left",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front Left' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_rear",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_top",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Top' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_front",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_rear_right",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Rear Right' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_right",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Right' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_front_right",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Front Right' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_bottom",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Bottom' in the selected latest report version."
+        },
+        {
+          "name": "cp_contact_area_unknown",
+          "description": "Indicator/value for reported vehicle contact area 'CP Contact Area - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "sv_pre_crash_movement",
+          "description": "Source-faithful NHTSA SGO field 'SV Pre-Crash Movement' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "any_air_bags_deployed",
+          "description": "Source-faithful NHTSA SGO field 'Any Air Bags Deployed?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "was_any_vehicle_towed",
+          "description": "Source-faithful NHTSA SGO field 'Was Any Vehicle Towed?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "were_all_passengers_belted",
+          "description": "Source-faithful NHTSA SGO field 'Were All Passengers Belted?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "sv_precrash_speed_mph",
+          "description": "Source-faithful NHTSA SGO field 'SV Precrash Speed (MPH)' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "sv_pre_crash_speed_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'SV Pre-crash Speed - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_rear_left",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear Left' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_left",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Left' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_front_left",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front Left' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_rear",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_top",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Top' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_front",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_rear_right",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Rear Right' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_right",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Right' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_front_right",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Front Right' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_bottom",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Bottom' in the selected latest report version."
+        },
+        {
+          "name": "sv_contact_area_unknown",
+          "description": "Indicator/value for reported vehicle contact area 'SV Contact Area - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "data_availability_edr",
+          "description": "Indicator/value showing whether 'Data Availability - EDR' data was reported available for the incident."
+        },
+        {
+          "name": "data_availability_police_rpt",
+          "description": "Indicator/value showing whether 'Data Availability - Police Rpt' data was reported available for the incident."
+        },
+        {
+          "name": "data_availability_telematics",
+          "description": "Indicator/value showing whether 'Data Availability - Telematics' data was reported available for the incident."
+        },
+        {
+          "name": "data_availability_complaints",
+          "description": "Indicator/value showing whether 'Data Availability - Complaints' data was reported available for the incident."
+        },
+        {
+          "name": "data_availability_video",
+          "description": "Indicator/value showing whether 'Data Availability - Video' data was reported available for the incident."
+        },
+        {
+          "name": "data_availability_other",
+          "description": "Indicator/value showing whether 'Data Availability - Other' data was reported available for the incident."
+        },
+        {
+          "name": "data_availability_no_data",
+          "description": "Indicator/value showing whether 'Data Availability - No Data' data was reported available for the incident."
+        },
+        {
+          "name": "data_availability_unknown",
+          "description": "Indicator/value showing whether 'Data Availability - Unknown' data was reported available for the incident."
+        },
+        {
+          "name": "investigating_agency",
+          "description": "Source-faithful NHTSA SGO field 'Investigating Agency' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "investigating_agency_unknown",
+          "description": "NHTSA SGO unknown/unavailable indicator for 'Investigating Agency - Unknown' in the selected latest report version."
+        },
+        {
+          "name": "within_odd",
+          "description": "Source-faithful NHTSA SGO field 'Within ODD?' from the selected latest report version; see the official current Data Element Definitions & Log for full semantics."
+        },
+        {
+          "name": "within_odd_cbi",
+          "description": "Indicator associated with a confidential-business-information claim for 'Within ODD? - CBI' as published by NHTSA."
+        },
+        {
+          "name": "narrative",
+          "description": "Public incident narrative as released by NHTSA; PII/CBI redactions are preserved exactly as published."
+        },
+        {
+          "name": "narrative_cbi",
+          "description": "Indicator associated with a confidential-business-information claim for 'Narrative - CBI?' as published by NHTSA."
+        },
+        {
+          "name": "source_bucket",
+          "description": "Which current NHTSA source file contained the selected latest report: ADS, Level 2 ADAS, or Other / Unknown."
+        },
+        {
+          "name": "source_regime",
+          "description": "Reporting regime for this release row: third-amended SGO effective June 16, 2025."
+        },
+        {
+          "name": "source_file",
+          "description": "Official NHTSA CSV filename from which the selected latest report version was read."
+        },
+        {
+          "name": "source_url",
+          "description": "Official NHTSA download URL for the source CSV containing the selected latest report version."
+        },
+        {
+          "name": "incident_month",
+          "description": "Convenience ISO YYYY-MM value derived from the published Incident Date; blank when the source date is unknown/unparseable."
+        },
+        {
+          "name": "report_submission_month",
+          "description": "Convenience ISO YYYY-MM value derived from Report Submission Date."
+        },
+        {
+          "name": "versions_observed_in_current_snapshot",
+          "description": "Number of report-version rows for this Report ID present in the current third-amended source snapshot; earlier versions can exist only in the archive."
+        }
+      ]
+    }
+  ],
   "keywords": [
-    "automotive",
     "transportation",
     "exploratory data analysis",
     "data visualization"

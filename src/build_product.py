@@ -12,7 +12,8 @@ RELEASE = ROOT / "release"
 NOTEBOOKS = ROOT / "notebooks"
 MAPPING = ROOT / "qa" / "column_mapping.json"
 DATASET_ID = "taeyangg4/nhtsa-autonomous-driving-crashes"
-NOTEBOOK_ID = "taeyangg4/what-do-reported-autonomous-driving-crashes-look-like"
+NOTEBOOK_ID = "taeyangg4/what-do-reported-self-driving-crashes-look-like"
+NOTEBOOK_TITLE = "What Do Reported Self-Driving Crashes Look Like?"
 
 
 def write_json_no_bom(path: Path, obj: object) -> None:
@@ -20,39 +21,23 @@ def write_json_no_bom(path: Path, obj: object) -> None:
     path.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
 
 
-def kaggle_type(name: str) -> str:
-    explicit = {
-        "report_id": "id",
-        "report_version": "integer",
-        "report_month": "integer",
-        "report_year": "integer",
-        "model_year": "integer",
-        "latitude": "latitude",
-        "longitude": "longitude",
-        "address": "address",
-        "city": "city",
-        "state": "province",
-        "zip_code": "postalcode",
-        "sv_precrash_speed_mph": "numeric",
-        "source_url": "url",
-        "versions_observed_in_current_snapshot": "integer",
-    }
-    return explicit.get(name, "string")
-
-
 def build_dataset_metadata() -> Path:
     mapping = json.loads(MAPPING.read_text(encoding="utf-8"))
-    data = pd.read_csv(RELEASE / "data.csv", nrows=0, encoding="utf-8")
+    data_path = RELEASE / "data.csv"
+    data = pd.read_csv(data_path, nrows=0, encoding="utf-8")
     fields = []
     by_name = {item["release_name"]: item for item in mapping}
     if list(data.columns) != [item["release_name"] for item in mapping]:
         raise RuntimeError("column mapping is not in exact release column order")
     for name in data.columns:
+        # On an existing Kaggle dataset, omitting `type` preserves Kaggle's
+        # live inferred type while still letting the CLI match descriptions by
+        # exact field order. This avoids clobbering live types during a
+        # metadata-only refresh.
         fields.append(
             {
                 "name": name,
                 "description": by_name[name]["description"],
-                "type": kaggle_type(name),
             }
         )
 
@@ -105,8 +90,26 @@ Reproducible build code, source snapshots/checksums, schema decisions, and detai
                 "schema": {"fields": fields},
             }
         ],
+        # `resources` is the documented Data Package representation used by
+        # dataset creation/versioning. Kaggle CLI 2.2.4 converts `resources`
+        # to its metadata-update `data` representation but drops totalBytes.
+        # Keeping an explicit `data` entry with the exact live/local byte size
+        # lets metadata-only updates match the existing file without creating
+        # a new dataset version. Column `type` is intentionally omitted so the
+        # server's inferred Data Explorer types are preserved.
+        "data": [
+            {
+                "name": "data.csv",
+                "description": (
+                    "Canonical current-regime NHTSA SGO table: one row per Report ID using the highest available "
+                    "Report Version. Includes ADS, Level 2 ADAS, Other/Unknown, public narratives, and explicit source provenance. "
+                    "Counts are reports, not exposure-normalized crash rates."
+                ),
+                "totalBytes": data_path.stat().st_size,
+                "columns": fields,
+            }
+        ],
         "keywords": [
-            "automotive",
             "transportation",
             "exploratory data analysis",
             "data visualization",
@@ -156,6 +159,9 @@ candidates = [
     Path('../release/data.csv'),
 ]
 DATA_PATH = next((p for p in candidates if p.exists()), None)
+if DATA_PATH is None and Path('/kaggle/input').exists():
+    mounted = sorted(Path('/kaggle/input').rglob('data.csv'))
+    DATA_PATH = mounted[0] if mounted else None
 if DATA_PATH is None:
     raise FileNotFoundError('Could not find data.csv')
 
@@ -350,7 +356,10 @@ Use these data to describe **reported crash records and their characteristics**,
 
     kernel_meta = {
         "id": NOTEBOOK_ID,
-        "title": "What Do Reported Autonomous-Driving Crashes Look Like?",
+        # Kaggle kernel titles/slugs are length-constrained. Keep the requested
+        # long-form title as the notebook H1 while using this concise public
+        # card title so the CLI/server can persist the kernel.
+        "title": NOTEBOOK_TITLE,
         "code_file": nb_path.name,
         "language": "python",
         "kernel_type": "notebook",

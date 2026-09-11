@@ -1,42 +1,49 @@
-# Autonomous Driving Crash Reports — NHTSA
+# 自動運転クラッシュ報告 — NHTSA
 
-[English](README.md) | [한국어](README.ko.md) | **日本語** | [简体中文](README.zh-CN.md)
+[English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
 
-ADS、Level 2 ADAS、Other/Unknown report を対象とした **current third-amended NHTSA Standing General Order (SGO) crash-reporting regime** を、Kaggle 向けに再現可能な形で構築するプロジェクトです。
+ADS、Level 2 ADAS、Other/Unknown の報告を対象とする、**現在の第3次改訂 NHTSA Standing General Order（SGO）クラッシュ報告制度**を再現可能な形で Kaggle に公開するプロジェクトです。
 
-## Release 設計
+## ライブリリース
 
-公開 Kaggle product は意図的に単純化し、`data.csv` 1 ファイルのみを提供します。各行は 1 つの NHTSA `Report ID` で、current NHTSA source files に存在する最大の数値 `Report Version` を採用します。current source の 116 fields を snake_case のまま保持し、provenance / convenience 用の透明な 7 columns を追加します。
+- Kaggle データセット: https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes
+- ショーケースノートブック: https://www.kaggle.com/code/taeyangg4/what-do-reported-self-driving-crashes-look-like
 
-V1 は 2021年〜2025年6月 archive を current schema に無理に統合しません。Pilot では current 116 columns、archive 137 columns、共通名は 89 のみで、複数の重要な concept/grain 差も確認されました。Historical harmonization は、明確な user benefit と defensible mapping が得られるまで延期します。
+Kaggle のノートブックカードではタイトル長の制約に合わせて **“What Do Reported Self-Driving Crashes Look Like?”** を使用しています。ノートブック本文の H1 には、意図した長いタイトル **“What Do Reported Autonomous-Driving Crashes Look Like?”** をそのまま保持しています。
 
-## 現在の実測 Release
+## リリース設計
 
-- Source snapshot ID: `20260827`
-- Current source version rows: 3,413
-- Canonical latest Report IDs: 3,263
-- Columns: 123
-- 選択行の incident month coverage: 2023-01 〜 2026-07
-- current-regime report submission coverage: 2025-06 〜 2026-07
-- Duplicate `(Report ID, Report Version)` source pairs: 0
-- Latest-version selection mismatches: 0
-- Public narratives present: 3,262 / 3,263 rows
+公開 Kaggle 製品は意図的に単純化し、`data.csv` 1ファイルのみです。各行は NHTSA の `Report ID` 1件で、現在の NHTSA ソースファイルで利用可能な最大の数値 `Report Version` を採用します。現在の116個のソースフィールドをすべて snake_case で保持し、来歴・利便性のための7列を追加しています。
 
-後から提出された current-regime report version が古い incident を記述する場合があるため、incident date は 2025-06-16 より前になることがあります。Schema/reporting regime は incident date ではなく `source_regime` で識別します。
+V1 は 2021年から2025年6月までのアーカイブを現在スキーマへ無理に統合しません。パイロットでは現在スキーマ116列、アーカイブ137列で、共通名は89列のみ、複数の重要な概念・粒度変更が確認されました。履歴統合は、明確な利用価値と防御可能なマッピングが得られるまで延期します。
+
+## 現在の測定済みリリース
+
+- ソーススナップショット ID: `20260827`
+- 現在ソースのバージョン行数: 3,413
+- 正規化された最新 Report ID: 3,263
+- 列数: 123
+- 選択行の incident month 範囲: 2023-01 ～ 2026-07
+- 現行制度の report submission 範囲: 2025-06 ～ 2026-07
+- 重複 `(Report ID, Report Version)` ソースペア: 0
+- 最新バージョン選択の不一致: 0
+- 公開 narrative あり: 3,262 / 3,263 行
+
+事故日が2025年6月16日より前になる場合があります。現行制度下で提出された後続・最新バージョンが古い事故を記述できるためです。スキーマ／報告制度は事故日ではなく `source_regime` で判定してください。
 
 ## 重要な解釈上の制限
 
-Reporting entity や vehicle make の raw count は **crash rate ではなく safety ranking でもありません**。Reporting entity ごとに telemetry、crash awareness、fleet size、mileage/exposure、operating domain、reporting obligation が異なります。ADS と Level 2 ADAS でも reportability criteria が異なります。1 件の real-world crash に複数 reports が存在する場合があり、本プロジェクトは NHTSA の `Same Incident ID` を保持しますが、その field だけを使って report を自動統合しません。
+報告主体や車両メーカーごとの単純件数は **クラッシュ率ではなく、安全性ランキングでもありません**。報告主体ごとにテレメトリ、事故把握能力、車両数、走行距離／曝露、運行領域、報告義務が異なります。ADS と Level 2 ADAS では報告基準も異なります。1件の実事故から複数の報告が生じる場合があるため、本プロジェクトは NHTSA の `Same Incident ID` を保持しますが、この値だけで報告を暗黙に統合しません。
 
-## Source と rights
+## ソースと権利
 
-Source of truth は NHTSA Standing General Order on Crash Reporting です。Pipeline は NHTSA 公式 public CSV release のみを取り込み、同機関による PII/CBI redaction を保持します。一部の submitted narrative/content は reporting entity 由来のため、全 field に blanket public-domain claim を行わず、Kaggle license は保守的に `Other` としています。
+基準ソースは NHTSA Standing General Order on Crash Reporting です。パイプラインは NHTSA の公式公開 CSV のみを取り込み、当局が適用した PII/CBI の非公開・墨消しを保持します。一部の narrative／内容は報告主体に由来するため、Kaggle のライセンスは保守的に `Other` とし、すべてのフィールドが包括的にパブリックドメインであるとは主張しません。
 
-詳細な rights/provenance gate は `research/source_rights.md`、regime decision は `research/pilot_decision.md` を参照してください。
+詳細な権利・来歴ゲートは `research/source_rights.md`、制度判断は `research/pilot_decision.md` を参照してください。
 
-## Rebuild
+## 再ビルド
 
-Windows では Python 3.12+ と UTF-8 I/O を使用します。
+Windows 上の Python 3.12+ と UTF-8 I/O を使用します。
 
 ```powershell
 $env:PYTHONUTF8='1'
@@ -48,23 +55,23 @@ python -m pytest -q
 python -m ruff check .
 ```
 
-各 stage は restartable で、個別に永続化されます。
+各ステージは再開可能で、状態は別々に保存されます。
 
 ```text
 discover -> snapshot -> parse -> rights gate -> normalize -> QA -> manifest
 ```
 
-Raw source snapshot は `data/raw/`、normalized intermediate は `data/derived/`、公開 data artifact は `release/data.csv`、詳細 research/QA/provenance は `research/`、`qa/`、`state/` に保存します。
+生ソーススナップショットは `data/raw/`、正規化中間データは `data/derived/`、公開データ成果物は `release/data.csv`、詳細な調査・QA・来歴は `research/`、`qa/`、`state/` にあります。
 
-## Research と QA
+## 調査と QA
 
-- `research/market_validation.md` — analog datasets, adoption evidence, pre-pilot scorecard
-- `research/source_rights.md` — official-source discovery, regime semantics, redistribution basis
-- `research/pilot_decision.md` — measured pilot, schema differences, re-score, V1 scope decision
-- `qa/qa_report.json` — source-to-output reconciliation, versions, IDs, dates, missingness, narratives, anomalies
-- `qa/column_mapping.json` — exact source-to-release column mapping と descriptions
-- `qa/release_manifest.json` — generated release/source checksums と Git SHA。commit せず release ごとに再生成
+- `research/market_validation.md` — 類似データセット、採用根拠、パイロット前スコアカード
+- `research/source_rights.md` — 公式ソース探索、制度の意味、再配布根拠
+- `research/pilot_decision.md` — 測定パイロット、スキーマ差、再評価、V1 範囲決定
+- `qa/qa_report.json` — ソース対出力の照合、バージョン、ID、日付、欠損、narrative、異常
+- `qa/column_mapping.json` — 正確なソース→リリース列マッピングと説明
+- `qa/release_manifest.json` — 生成済みリリース／ソースチェックサムと Git SHA（コミットせず、リリースごとに再生成）
 
-## Showcase notebook
+## ショーケースノートブック
 
-`notebooks/what-do-reported-autonomous-driving-crashes-look-like.ipynb` は公開 Kaggle notebook です。time trends、ADS/Level 2 categories、report/vehicle distributions、road/weather/crash characteristics、severity、narrative-text exploration を示しつつ、report count と safety rate を明確に区別します。
+`notebooks/what-do-reported-autonomous-driving-crashes-look-like.ipynb` は公開 Kaggle ノートブックです。時系列傾向、ADS/Level 2 カテゴリ、報告／車両分布、道路・天候・衝突特性、傷害重症度、narrative テキスト探索を示し、報告件数と安全率を区別する注意を繰り返し明記しています。

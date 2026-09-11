@@ -23,6 +23,18 @@ state/notebook_readback/
 state/adoption/
 state/notebook_execute_test.ipynb
 state/sgo_page.html
+state/kaggle_page.html
+state/*_readback/
+state/live_file_verify/
+state/legacy_*.json
+state/post_description_files.json
+state/mcp_*.txt
+state/mcp_oauth/
+state/databundle_*.json
+state/dataset_basics.json
+state/kaggle_app.js*
+state/post_sdk_file.json
+state/public_dataset_page.html
 qa/release_manifest.json
 qa/cover-card-preview.png
 

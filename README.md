@@ -1,8 +1,15 @@
 # Autonomous Driving Crash Reports — NHTSA
 
-**English** | [한국어](README.ko.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
 
 Reproducible Kaggle release of the **current third-amended NHTSA Standing General Order (SGO) crash-reporting regime** for ADS, Level 2 ADAS, and Other/Unknown reports.
+
+## Live release
+
+- Kaggle dataset: https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes
+- Showcase notebook: https://www.kaggle.com/code/taeyangg4/what-do-reported-self-driving-crashes-look-like
+
+The Kaggle notebook card uses the shorter title **“What Do Reported Self-Driving Crashes Look Like?”** to satisfy Kaggle's title-length constraint. The notebook's H1 preserves the intended long-form title **“What Do Reported Autonomous-Driving Crashes Look Like?”**.
 
 ## Release design
 
