@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-11T03:43:55.635554+00:00",
+  "snapshot_id": "20260827",
+  "rows": 3413,
+  "unique_report_ids": 3263,
+  "source_columns": 116,
+  "row_counts": {
+    "current_ads": 1365,
+    "current_adas": 2024,
+    "current_other": 24
+  },
+  "encodings": {
+    "current_ads": "utf-8-sig",
+    "current_adas": "utf-8-sig",
+    "current_other": "utf-8-sig"
+  },
+  "parsed_path": "data\\derived\\current_all_versions.csv",
+  "parsed_sha256": "5bfaa8b2c46b88c493b42babc99f24f45f8422766075ad7d9b7b581f8ad089af",
+  "duplicate_report_id_version_rows": 0
+}

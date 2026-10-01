@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-09-11T03:43:55.694698+00:00",
+  "pass": true,
+  "basis": "Only the official NHTSA SGO public CSVs are used. NHTSA states the public release excludes/marks PII and CBI; the pipeline preserves those redactions and does not enrich from private/unredacted sources.",
+  "kaggle_license": "other",
+  "source_hosts_ok": true,
+  "apparent_vin_values_over_11_chars": 0,
+  "source_page": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting"
+}

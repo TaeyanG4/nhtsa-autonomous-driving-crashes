@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-09-11T03:43:56.120486+00:00",
+  "rows": 3263,
+  "columns": 123,
+  "canonical_path": "data\\derived\\canonical_latest.csv",
+  "release_path": "release\\data.csv",
+  "release_bytes": 4734159,
+  "release_sha256": "9effcecb70f1e9922e26d83f7749fd984af87dee01479df54a283dc85867b66e"
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-09-11T03:43:55.484700+00:00",
+  "source_page": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+  "catalog_observed_at": "2026-09-11T11:43:00+09:00",
+  "page_observed_data_through": "2026-07-15",
+  "note": "The NHTSA HTML page is protected by an anti-bot layer from this Windows host. The source catalog was refreshed from the live page in-session; this stage verifies every official static source URL before use.",
+  "checks": [
+    {
+      "key": "current_ads",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv",
+      "ok": true,
+      "status": 200,
+      "content_type": "text/csv",
+      "content_length": null,
+      "last_modified": "Thu, 27 Aug 2026 15:47:04 GMT",
+      "etag": "\"3606a3dde4b7ef32b64643111d652558\"",
+      "seconds": 0.135
+    },
+    {
+      "key": "current_adas",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv",
+      "ok": true,
+      "status": 200,
+      "content_type": "text/csv",
+      "content_length": null,
+      "last_modified": "Mon, 17 Aug 2026 12:34:08 GMT",
+      "etag": "\"ca98ae3ab237e73787e3e2dd59d10447\"",
+      "seconds": 0.023
+    },
+    {
+      "key": "current_other",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv",
+      "ok": true,
+      "status": 200,
+      "content_type": "text/csv",
+      "content_length": null,
+      "last_modified": "Mon, 17 Aug 2026 12:34:09 GMT",
+      "etag": "\"d8237fbb2fb9cad8aa697351bfbb96c1\"",
+      "seconds": 0.035
+    },
+    {
+      "key": "current_dictionary",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/pdf",
+      "content_length": "528465",
+      "last_modified": "Thu, 27 Aug 2026 15:47:41 GMT",
+      "etag": "\"e09ccb453d01cd4c87bd38a81a14ffcb\"",
+      "seconds": 0.035
+    }
+  ]
+}

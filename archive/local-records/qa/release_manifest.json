@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-11T05:04:14.584503+00:00",
+  "git_sha": "d31100c2bcdbd138de7be028f09ec0b7097e6096",
+  "source_page": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+  "source_regime": "third_amended_sgo_effective_2025-06-16",
+  "snapshot_id": "20260827",
+  "source_files": [
+    {
+      "key": "current_ads",
+      "bucket": "ADS",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv",
+      "path": "data\\raw\\snapshots\\20260827\\SGO-2021-01_Incident_Reports_ADS.csv",
+      "downloaded": false,
+      "bytes": 2373483,
+      "sha256": "4ed828b28104b54307a38baf786df7bc6313c768694a31ee4bbe022fb369fe21"
+    },
+    {
+      "key": "current_adas",
+      "bucket": "Level 2 ADAS",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv",
+      "path": "data\\raw\\snapshots\\20260827\\SGO-2021-01_Incident_Reports_ADAS.csv",
+      "downloaded": false,
+      "bytes": 1937320,
+      "sha256": "936d551fa80ee2d83dbe7205b27f262250deab0e1467bba05b00d4315bd48f16"
+    },
+    {
+      "key": "current_other",
+      "bucket": "Other / Unknown",
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv",
+      "path": "data\\raw\\snapshots\\20260827\\SGO-2021-01_Incident_Reports_OTHER.csv",
+      "downloaded": false,
+      "bytes": 26931,
+      "sha256": "d64c1a2037acaa5d8b63152c81e5093e0e02a308d651643865ff703c1ce11733"
+    },
+    {
+      "key": "current_dictionary",
+      "bucket": null,
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf",
+      "path": "data\\raw\\snapshots\\20260827\\SGO-2021-01_Data_Element_Definitions.pdf",
+      "downloaded": false,
+      "bytes": 528465,
+      "sha256": "2a2373cfc69e11965a51fcfefcc28a3ffb0020804238958711548f1009557d98"
+    }
+  ],
+  "release": {
+    "path": "release\\data.csv",
+    "rows": 3263,
+    "columns": 123,
+    "bytes": 4734159,
+    "sha256": "9effcecb70f1e9922e26d83f7749fd984af87dee01479df54a283dc85867b66e",
+    "grain": "one row per NHTSA Report ID, latest available Report Version in the current third-amended files"
+  },
+  "rights_gate": {
+    "generated_at": "2026-09-11T03:43:55.694698+00:00",
+    "pass": true,
+    "basis": "Only the official NHTSA SGO public CSVs are used. NHTSA states the public release excludes/marks PII and CBI; the pipeline preserves those redactions and does not enrich from private/unredacted sources.",
+    "kaggle_license": "other",
+    "source_hosts_ok": true,
+    "apparent_vin_values_over_11_chars": 0,
+    "source_page": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting"
+  },
+  "qa_pass": true
+}
